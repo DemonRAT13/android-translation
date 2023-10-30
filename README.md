@@ -5,7 +5,7 @@ Translation files for the eFur Android app
 The source (English) file is located at [app/src/main/res/values/strings.xml](app/src/main/res/values/strings.xml).
 
 ### Translate into a new language
-Create a folder in `app/src/main/res/` named called `values-XX`, where `XX` is the two-letter ISO 639-1 country code for the target language. E.g. for French the folder would be named `values-fr`.
+Create a folder in `app/src/main/res/` named `values-XX`, where `XX` is the two-letter ISO 639-1 country code for the target language. E.g. for French the folder would be named `values-fr`.
 Inside this folder create a file `strings.xml` with the following content:
 
 ```
