@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+<?xml version='1.0' encoding='utf-8'?>
+<resources xmlns:ns0="http://schemas.android.com/tools" ns0:ignore="MissingTranslation">
     <string name="nav_switch_sfw_mode">SFW-режим</string>
     <string name="action_log_out">Выйти</string>
     <string name="action_log_in">Войти</string>
@@ -106,7 +106,7 @@
     <string name="upload_chooser_title">Создать пост</string>
     <string name="upload_chooser_edit_title">Редактировать пост</string>
     <string name="upload_chooser_crop_image">Обрезать изображение</string>
-    <string name="upload_picker_quota_text_loading">Получение квоты&#8230;</string>
+    <string name="upload_picker_quota_text_loading">Получение квоты…</string>
     <string name="upload_picker_quota_text">Квота: %1$d — сброс через %2$d мин</string>
     <string name="upload_chooser_quota_title">Оставшаяся квота</string>
     <string name="upload_chooser_quota_restock">Ваша квота пополняется через %1$d минут</string>
@@ -115,14 +115,13 @@
     <string name="upload_chooser_invalid_file">Недопустимый файл!</string>
     <string name="upload_chooser_video_copy_failed">Не удалось прочитать видео: %1$s</string>
     <string name="upload_chooser_video_compress_failed">Не удалось сжать видео: %1$s</string>
-    <string name="upload_video_too_large">Это видео слишком большое (%1$s МБ)! Поддерживается максимум 20 МБ</string>
     <string name="upload_content_desc">Изображение или GIF для загрузки</string>
     <string name="upload_file_error">Что-то пошло не так с выбранным файлом</string>
-    <string name="upload_progress_0">Сжатие&#8230;</string>
-    <string name="upload_progress_1">Подготовка&#8230;</string>
-    <string name="upload_progress_2">Загрузка&#8230;</string>
-    <string name="upload_progress_3">Создание&#8230;</string>
-    <string name="upload_progress_edit">Сохранение&#8230;</string>
+    <string name="upload_progress_0">Сжатие…</string>
+    <string name="upload_progress_1">Подготовка…</string>
+    <string name="upload_progress_2">Загрузка…</string>
+    <string name="upload_progress_3">Создание…</string>
+    <string name="upload_progress_edit">Сохранение…</string>
     <string name="upload_quota_too_low">У вас не осталось квоты на загрузку, пожалуйста, подождите %1$d минут!</string>
     <string name="upload_image">Изображение</string>
     <string name="upload_gif">GIF</string>
@@ -142,7 +141,7 @@
     <string name="upload_settings_post_title">Заголовок поста</string>
     <string name="upload_settings_post_description">Описание поста</string>
     <string name="upload_settings_artist_name">Автор оригинала/художник</string>
-    <string name="upload_settings_source">Ссылка на источник (https://&#8230;)</string>
+    <string name="upload_settings_source">Ссылка на источник (https://…)</string>
     <string name="upload_settings_rating_title">Рейтинг поста:</string>
     <string name="upload_settings_rating_safe">Безопасное</string>
     <string name="upload_settings_rating_suggestive">Непристойное</string>
@@ -176,7 +175,7 @@
     <string name="upload_settings_poll_question_hint">Задайте вопрос</string>
     <string name="upload_settings_poll_answers">Варианты ответа</string>
     <string name="upload_settings_poll_option">Вариант</string>
-    <string name="upload_settings_poll_option_add">Добавить вариант&#8230;</string>
+    <string name="upload_settings_poll_option_add">Добавить вариант…</string>
     <string name="upload_settings_poll_settings">Настройки</string>
     <string name="upload_settings_poll_settings_type">Несколько ответов</string>
     <string name="upload_settings_comic_switch">Этот пост является частью комикса</string>
@@ -242,7 +241,7 @@
     <string name="discover_users">Пользователи</string>
     <string name="discover_users_browse">Просмотр пользователей</string>
     <string name="discover_users_search">Поиск по имени пользователя</string>
-    <string name="discover_users_search_searching">Поиск&#8230;</string>
+    <string name="discover_users_search_searching">Поиск…</string>
     <string name="discover_users_search_not_found">Пользователь \"%1$s\" не найден</string>
     <string name="discover_users_search_hint">Введите имя пользователя (нечувствительно к регистру)</string>
     <string name="discover_tags">Теги</string>
@@ -332,7 +331,7 @@
     <string name="mod_logs">Журнал модерации</string>
     <string name="mod_logs_user">Журнал модерации для %1$s</string>
     <string name="download">Скачать</string>
-    <string name="share">Поделиться&#8230;</string>
+    <string name="share">Поделиться…</string>
     <string name="arrow_right">-&gt;</string>
     <string name="message">Сообщение</string>
     <string name="edit">Редактировать</string>
@@ -546,11 +545,11 @@
     <string name="notification_type_new_below">Новое</string>
     <string name="post_comment_hint">Написать комментарий</string>
     <string name="post_comment_thread_hint">Написать ответ</string>
-    <string name="post_comment_empty">Здесь пусто&#8230;\n\n
+    <string name="post_comment_empty">Здесь пусто…\n\n
 Оставьте комментарий и сделайте кого-нибудь счастливей!</string>
     <string name="comment_time_posted">%1$s %2$s</string>
     <string name="comment_time_edited">%1$s %2$s (отредактировано %3$s %4$s назад)</string>
-    <string name="comment_separator">&#126;</string>
+    <string name="comment_separator">~</string>
     <string name="comment_deleted_placeholder">Этот комментарий был удален</string>
     <string name="comment_deleted_placeholder_by_author">Этот комментарий был удален автором</string>
     <string name="comment_deleted_placeholder_by_post_owner">Этот комментарий был удален автором сообщения</string>
@@ -593,10 +592,10 @@
     <string name="report">Жалоба</string>
     <string name="hide">Скрыть</string>
     <string name="report_sent">Жалоба отправлена</string>
-    <string name="report_sending">Жалоба&#8230;</string>
+    <string name="report_sending">Жалоба…</string>
     <string name="report_failed">Не удалось отправить жалобу: %1$s</string>
-    <string name="edit_edit">Редактировать&#8230;</string>
-    <string name="edit_mod">Модерация&#8230;</string>
+    <string name="edit_edit">Редактировать…</string>
+    <string name="edit_mod">Модерация…</string>
     <string name="edit_rating">Изменить рейтинг</string>
     <string name="edit_artist">Изменить художника</string>
     <string name="edit_source">Изменить источник</string>
@@ -693,7 +692,7 @@
     <string name="post_info_view_comic">Посмотреть комикс</string>
     <string name="post_info_suggestive">Помечен как НЕПРИСТОЙНОЕ</string>
     <string name="post_info_explicit">Помечено как ОТКРОВЕННОЕ</string>
-    <string name="post_info_hidden">&#128737; Скрыто из \"Новое\"</string>
+    <string name="post_info_hidden">🛡 Скрыто из \"Новое\"</string>
     <string name="post_info_artist">Художник: %1$s</string>
     <string name="post_info_source">Источник: %1$s</string>
     <string name="post_info_file_size">Размер файла: %1$s</string>
@@ -783,7 +782,7 @@
     <string name="edit_profile_link_fa_hint">Имя пользователя FurAffinity</string>
     <string name="edit_profile_link_da_hint">Имя пользователя DeviantArt</string>
     <string name="edit_profile_about_hint">Обо мне</string>
-    <string name="edit_profile_username_info">Другие пользователи могут упоминать вас с помощью @ваше_имя_пользователя.\nДопустимые символы: a-z A-Z _-. и 0&#8211;9</string>
+    <string name="edit_profile_username_info">Другие пользователи могут упоминать вас с помощью @ваше_имя_пользователя.\nДопустимые символы: a-z A-Z _-. и 0–9</string>
     <string name="edit_profile_username_invalid">Ваше имя пользователя содержит недопустимые символы</string>
     <string name="edit_profile_edit_failed">Не удалось обновить профиль</string>
     <string name="edit_profile_edit_username_taken">Ошибка: имя пользователя уже занято!</string>
@@ -820,7 +819,7 @@
     <string name="edit_profile_age_15_younger">15 лет или младше</string>
     <string name="edit_profile_age_16_to_17">от 16 до 17 лет</string>
     <string name="edit_profile_age_18_above">18 лет и старше</string>
-    <string name="uploading_dots">Загрузка&#8230;</string>
+    <string name="uploading_dots">Загрузка…</string>
     <string name="edit_profile_uploading_error">Ошибка: %1$s</string>
     <string name="edit_profile_edited_profile">Профиль обновлен!</string>
     <string name="edit_profile_edit_ad">Редактировать профиль для взрослых (AD/NSFW)</string>
@@ -828,7 +827,7 @@
     <string name="edit_profile_image_remove_error">Не удалось удалить: %1$s</string>
     <string name="toggle_after_dark">Переключить профиль для взрослых (AD/NSFW)</string>
     <string name="video_error">Ошибка воспроизведения: %1$s</string>
-    <string name="downloading">Скачивание&#8230;</string>
+    <string name="downloading">Скачивание…</string>
     <string name="download_error_storage_permission_required">Требуется разрешение на хранение!</string>
     <string name="settings_consent_title">Соглашения</string>
     <string name="settings_language_title">Локализация</string>
@@ -897,7 +896,7 @@
     <string name="delete_account_posts_success">Удалено постов: %1$d</string>
     <string name="delete_account_messages_success">Удалено сообщений: %1$d</string>
     <string name="delete_account_account_success">Ваш аккаунт удален</string>
-    <string name="delete_account_deleting">Удаление&#8230;</string>
+    <string name="delete_account_deleting">Удаление…</string>
     <string name="delete_account_deleted">Все удалено</string>
     <string name="delete_account_final_confirmation_title">Продолжить?</string>
     <string name="delete_account_final_confirmation_message">Вы уверены? Ваш аккаунт будет удален навсегда.</string>
@@ -945,4 +944,124 @@
     <string name="cleanup_old_like_notifications">Удалить старые уведомления лайков</string>
     <string name="cleanup_error">Ошибка: %1$s</string>
     <string name="modmail_empty_text">У вас еще нет Modmail!</string>
+<string name="action_start_chat">Начать чат</string>
+    <string name="action_create_1_1_chat">Начните чат 1: 1</string>
+    <string name="action_create_group_chat">Начать групповой чат</string>
+    <string name="action_clear_history">Чистая история</string>
+    <string name="action_delete_chat">Удалить чат</string>
+    <string name="action_leave_chat">Оставить чат</string>
+
+    <string name="launcher_save_token_error">Не удалось сэкономить токен: %1$s</string>
+
+    <string name="upload_settings_disable_comments">Отключить комментарии</string>
+    <string name="upload_settings_disable_comments_hint">Комментирование будет отключено для этого поста</string>
+    <string name="discover_users_start_chat_with">Выберите пользователя, чтобы общаться с</string>
+    <string name="discover_users_invite">Выберите пользователя, чтобы пригласить</string>
+    <string name="discover_users_send_gift_to">Выберите пользователя, чтобы подарить</string>
+    <string name="messages">Сообщения (старые)</string>
+    <string name="chats">Чаты</string>
+    <string name="unknown_account">Неизвестный</string>
+    <string name="and">и</string>
+    <string name="info">Информация</string>
+
+    <string name="message_last_seen_online">В сети</string>
+    <string name="message_send_media">Отправить СМИ</string>
+    <string name="chats_no_messages">Пока нет сообщений</string>
+    <string name="chats_unread_many">%1$d+</string>
+    <string name="chats_no_chats">Как только вы присоединитесь к чату, он появится здесь. \ N \ nstart в чате в правом верхнем углу!</string>
+
+    <string name="chat_toolbar_loading">Загрузка чата…</string>
+    <string name="chat_group_member_count">%1$d Член</string>
+    <string name="chat_group_members_count">%1$d участники</string>
+    <string name="chat_group_members_count_online">%1$d участники, %2$d онлайн</string>
+    <string name="chat_currently_writing_one">%1$s пишет…</string>
+    <string name="chat_currently_writing_two">%1$s и %2$s пишут…</string>
+    <string name="chat_currently_writing_three">%1$s, %2$s и %3$s пишут…</string>
+    <string name="chat_currently_writing_four_or_more">%1$s, %2$s и %3$d Другие пишут…</string>
+    <string name="chat_deleted">Удаленный чат</string>
+    <string name="chat_deleted_dialog_title">Чат удален</string>
+    <string name="chat_deleted_dialog_message">Этот чат был удален.</string>
+    <string name="chat_create_1_1_hint">Запустите чат с другим пользователем. \ Nenter их имя пользователя ниже или перейдите в их профиль и используйте кнопку «Сообщение», чтобы запустить чат</string>
+    <string name="chat_self_chat">%1$s (сэкономленные сообщения)</string>
+    <string name="chat_create_group_dialog_title">Создать групповой чат</string>
+    <string name="chat_create_group_dialog_input_hint">Название группы (можно изменить позже)</string>
+    <string name="chat_create_group_creating">Создание группы…</string>
+    <string name="chat_create_group_created">Группа создана!</string>
+
+    <string name="chat_control_message_3">%1$s присоединился</string>
+    <string name="chat_control_message_4">%1$s осталось</string>
+    <string name="chat_control_message_5">%1$s Kicked %2$s</string>
+    <string name="chat_control_message_6">%1$s запрещено %2$s</string>
+    <string name="chat_control_message_7">&lt; %1$s&gt;</string>
+    <string name="chat_control_message_8">%1$s изменил название группы на %2$s</string>
+    <string name="chat_control_message_9">%1$s изменил иконку группы</string>
+    <string name="chat_control_message_10">чат удален</string>
+    <string name="chat_control_message_11">чат создан</string>
+
+    <string name="chat_group_add_members">Добавить участники</string>
+    <string name="chat_group_invite_user_error">Не удалось пригласить: %1$s</string>
+    <string name="chat_group_invite_user_success">%1$s приглашен!</string>
+    <string name="chat_role_with_last_seen_date">%1$s \ nlast увидел %2$s %3$s назад</string>
+    <string name="chat_last_seen_date">Последний раз видели %1$s %2$s назад</string>
+    <string name="chat_role_with_online">%1$s \ Online</string>
+    <string name="chat_online">В сети</string>
+    <string name="chat_role_owner">владелец</string>
+    <string name="chat_role_moderator">Модератор</string>
+    <string name="chat_role_member">член</string>
+    <string name="chat_role_invited">приглашен</string>
+    <string name="chat_role_kicked">ударил</string>
+    <string name="chat_role_banned">запрещен</string>
+    <string name="chat_role_left">левый</string>
+    <string name="chat_info_user_option_kick">Пинать</string>
+    <string name="chat_info_user_option_kick_error">Не удалось ударить: %1$s</string>
+    <string name="chat_info_user_option_kick_success">Ударил %1$s</string>
+    <string name="chat_info_user_option_ban">Запрет</string>
+    <string name="chat_info_user_option_ban_error">Не удалось запретить: %1$s</string>
+    <string name="chat_info_user_option_ban_success">Запрещено %1$s</string>
+    <string name="chat_info_user_option_unban">Бормотать</string>
+    <string name="chat_info_user_option_unban_error">Не удалось сдать: %1$s</string>
+    <string name="chat_info_user_option_unban_success">Недован %1$s</string>
+
+    <string name="chat_open_error_banned">Вы были запрещены в этом чате.</string>
+    <string name="chat_open_error_kicked">Вы были выбиты из этого чата.</string>
+    <string name="chat_open_error_deleted">Этот чат больше не существует.</string>
+    <string name="chat_open_invited">Вас пригласили присоединиться к %1$s. \ N \ naccept Invite?</string>
+    <string name="leave">Оставлять</string>
+    <string name="join">Присоединиться</string>
+    <string name="decline">Отклонить</string>
+    <string name="chat_open_joining">Присоединяюсь к чату…</string>
+    <string name="chat_open_join_error">Не удалось присоединиться: %1$s</string>
+    <string name="chat_leave_error">Не удалось уйти: %1$s</string>
+    <string name="chat_edit_description_hint">Информация / описание группы</string>
+    <string name="chat_edit_name_hint">Имя группы</string>
+    <string name="chat_edit_icon_read_error">Не удалось прочитать файл: %1$s</string>
+    <string name="chat_edit_error">Не удалось отредактировать: %1$s</string>
+    <string name="chat_edit_success">Чат отредактирован!</string>
+
+    <string name="notification_delete_message">Удалить это уведомление?</string>
+    <string name="notification_delete_error">Не удалось удалить: %1$s</string>
+
+    <string name="post_comments_disabled">Комментарии были отключены для этого поста</string>
+
+    <string name="profile_content_manage_fursonas">Управляйте своими фурсонами</string>
+    <string name="cleanup_old_installations">Удалить старые установки</string>
+    <string name="discover_users_title">Просмотрите пользователей</string>
+    <string name="discover_users_member_for">Присоединился %1$s %2$s назад</string>
+    <string name="discover_users_order_followers_item">%1$d подписчиков</string>
+    <string name="discover_users_order_likes_item">%1$d лайки</string>
+    <string name="discover_users_order_posts_item">%1$d посты</string>
+    <string name="discover_users_order_level_item">Уровень %1$d</string>
+    <string name="discover_users_menu_order_by">Заказывать пользователей</string>
+    <string name="discover_users_menu_order_by_newest">Новички вперед</string>
+    <string name="discover_users_menu_order_by_oldest">Сначала старые</string>
+    <string name="discover_users_menu_order_by_followers">Большинство последователей</string>
+    <string name="discover_users_menu_order_by_likes">Большинство лайков получили</string>
+    <string name="discover_users_menu_order_by_posts">Большинство сообщений сделано</string>
+    <string name="discover_users_menu_order_by_level">Высший уровень</string>
+    <string name="discover_users_search_sub_hint">Имена пользователей нечувствительны к случаям.Имена чувствительны к случаям.</string>
+    <string name="discover_users_search_user_clicked_view_profile">Просмотреть профиль</string>
+    <string name="discover_users_search_user_clicked_select">Выберите пользователя</string>
+    <string name="discover_users_list_empty">Пользователи не найдены</string>
+    <string name="discover_users_search_empty">Пользователи не найдены с именем или именем пользователя, начиная с \"%1$s \"</string>
+    <string name="discover_users_search_error">Пользователи не найдены с именем или именем пользователя, начиная с \"%1$s \". \ N \ nerror: %2$s</string>
 </resources>
