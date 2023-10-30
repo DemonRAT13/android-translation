@@ -6,6 +6,7 @@ The source (English) file is located at [app/src/main/res/values/strings.xml](ap
 
 ### Translate into a new language
 Create a folder in `app/src/main/res/` named `values-XX`, where `XX` is the two-letter ISO 639-1 country code for the target language. E.g. for French the folder would be named `values-fr`.
+
 Inside this folder create a file `strings.xml` (so the full path would be `app/src/main/res/values-fr/strings.xml`) with the following content:
 
 ```
@@ -14,6 +15,8 @@ Inside this folder create a file `strings.xml` (so the full path would be `app/s
 ```
 
 A Github Action will be started that automatically translates the source file into the target language. Check the progress in the [Actions]([app/src/main/res/values/strings.xml](https://github.com/eFurry/android-translation/actions)https://github.com/eFurry/android-translation/actions) tab.
+
+Alternatively, copy lines from the source file and translate one at a time manually.
 
 ### Update an existing translation
 Locate the language you want to translate in the [app/src/main/res/](app/src/main/res/) directory. E.g. for Spanish it is the file `values-es/strings.xml`.
