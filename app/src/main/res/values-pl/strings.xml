@@ -1,6 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
 <resources>
-    <string name="nav_switch_sfw_mode">Tryb SFW (bezpieczny)</string>
     <string name="action_log_out">Wyloguj się</string>
     <string name="action_log_in">Zaloguj się</string>
     <string name="action_settings">Ustawienia</string>
@@ -561,11 +560,6 @@ Obserwujących: %7$d</string>
     <string name="settings_consent_title">Zgody</string>
     <string name="settings_language_title">Lokalizacja</string>
     <string name="settings_language_edit_title">Zmień język aplikacji</string>
-    <string name="setting_language_item_en">English (Angielski)</string>
-    <string name="setting_language_item_es">Español (Hiszpański)</string>
-    <string name="setting_language_item_pl">Polski (Polski)</string>
-    <string name="setting_language_item_pt">Português (Portugalski)</string>
-    <string name="setting_language_item_ru">Pусский (Rosyjski)</string>
     <string name="content_filter_title">Filtr treści</string>
     <string name="content_filter_rating_title">Maksymalna klasyfikacja treści</string>
     <string name="content_filter_mod_show_hidden_title">Pokaż ukryte posty w sekcji Nowe</string>
@@ -1089,4 +1083,10 @@ Obserwujących: %7$d</string>
 <string name="action_clear_history">Czysta historia</string>
     <string name="chat_info_user_option_ban">Zakaz</string>
     <string name="posts_comic">%1$s</string>
+    <string name="nav_switch_ad_mode">Przełącz po ciemności (reklama)</string>
+
+    <string name="chat_control_message_12">%1$s zmieniło informacje o grupie na %2$s</string>
+
+    <string name="chat_error_removed_from_chat">Zostałeś usunięty z tego czatu</string>
+
     </resources>

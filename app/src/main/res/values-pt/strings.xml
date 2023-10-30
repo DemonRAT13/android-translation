@@ -1,6 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
 <resources>
-    <string name="nav_switch_sfw_mode">Modo SFW</string>
     <string name="action_log_out">"Log out
 "</string>
     <string name="action_log_in">Log in</string>
@@ -996,12 +995,6 @@ Deixe um comentário e faça alguém feliz!</string>
 
     <string name="settings_language_title">Localização</string>
     <string name="settings_language_edit_title">Alterar a linguagem do aplicativo</string>
-    <string name="setting_language_item_en">Inglês inglês)</string>
-    <string name="setting_language_item_es">Español (espanhol)</string>
-    <string name="setting_language_item_pl">Polonês (Polly)</string>
-    <string name="setting_language_item_pt">Português (português)</string>
-    <string name="setting_language_item_ru">Pusiano (russo)</string>
-
     <string name="content_filter_block_tags_title">Tags de bloco</string>
     <string name="content_filter_block_tags_summary">Gerencie minhas tags bloqueadas</string>
     <string name="content_filter_block_content_title">Preferências de conteúdo</string>
@@ -1063,4 +1056,10 @@ Deixe um comentário e faça alguém feliz!</string>
     <string name="discover_users_search_empty">Nenhum usuário encontrou com um nome ou nome de usuário começando com \"%1$s \"</string>
     <string name="discover_users_search_error">Nenhum usuário encontrou com um nome ou nome de usuário começando com \"%1$s \". \ N \ Nerror: %2$s</string>
 <string name="fursona_view_title">Furson</string>
+    <string name="nav_switch_ad_mode">Alternar depois do escuro (anúncio)</string>
+
+    <string name="chat_control_message_12">%1$s alterou as informações do grupo para %2$s</string>
+
+    <string name="chat_error_removed_from_chat">Você foi removido deste bate -papo</string>
+
     </resources>
