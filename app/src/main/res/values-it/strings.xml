@@ -1050,4 +1050,22 @@
     <string name="discover_users_search_empty">Nessun utente trovato con un nome o un nome utente a partire da \"%1$s \"</string>
     <string name="discover_users_search_error">Nessun utente trovato con un nome o un nome utente a partire da \"%1$s \". \ N \ nerror: %2$s</string>
     
-</resources>
+<string name="my_comics_create_hint">Nome del fumetto</string>
+    <string name="chat_create_group_created">Gruppo creato!</string>
+
+    <string name="chat_control_message_3">%1$s unito</string>
+    <string name="settings_danger_change_email_hint">Nuovo Indirizzo Email</string>
+    <string name="settings_danger_change_email_no_match">l\'Email non corrisponde</string>
+    <string name="settings_danger_change_email_saving">Cambiare la tua email…</string>
+    <string name="delete_account_subtitle">Qui puoi eliminare il tuo account e tutti i suoi dati. \ In \ questa azione è irreversibile.</string>
+    <string name="delete_account_account_info">Nome utente: %1$s \ nemail: %2$s</string>
+    <string name="following_posts_clear_all_message_done">Creabed %1$d post</string>
+
+    <string name="cleanup_old_following_posts">Elimina i vecchi post seguenti</string>
+    <string name="cleanup_old_like_notifications">Elimina le notifiche di Old Liked</string>
+    <string name="discover_users_order_followers_item">%1$d follower</string>
+    <string name="discover_users_order_likes_item">%1$d Mi piace ricevuto</string>
+    <string name="discover_users_order_posts_item">%1$d post</string>
+    <string name="discover_users_search_user_clicked_select">Seleziona l\'utente</string>
+    <string name="discover_users_list_empty">Nessun utente trovato</string>
+    </resources>

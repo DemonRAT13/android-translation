@@ -1090,4 +1090,7 @@
     <string name="discover_users_search_empty">Žádní uživatelé nenalezli se jménem nebo uživatelským jménem počínaje \"%1$s \"</string>
     <string name="discover_users_search_error">Žádní uživatelé nenalezli se jménem nebo uživatelským jménem počínaje \"%1$s \". \ N \ Nerror: %2$s</string>
     
-</resources>
+<string name="action_leave_chat">Nechte chat</string>
+
+    <string name="fursona_view_title">Furson</string>
+    </resources>

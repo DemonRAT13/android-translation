@@ -1087,4 +1087,8 @@
     <string name="discover_users_search_empty">Keine Benutzer mit einem Namen oder Benutzernamen gefunden, beginnend mit \"%1$s \"</string>
     <string name="discover_users_search_error">Keine Benutzer mit einem Namen oder Benutzernamen gefunden, beginnend mit \"%1$s \". \ N \ nError: %2$s</string>
     
-</resources>
+<string name="report_reason_other">Andere</string>
+    <string name="setting_language_item_ru">Pusian (Russisch)</string>
+
+    <string name="picker_camera_permissions_hint">Kameraerlaubnis erforderlich</string>
+    </resources>

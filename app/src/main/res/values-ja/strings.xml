@@ -1079,4 +1079,18 @@
     <string name="discover_users_search_empty">\"%1$s \"で始まる名前またはユーザー名で見つかったユーザーはありません</string>
     <string name="discover_users_search_error">\"%1$s \"。\ n \ nerror：%2$sで始まる名前またはユーザー名でユーザーは見つかりません</string>
     
-</resources>
+<string name="reset_password_dialog_message">これにより、パスワードリセットメールが\"%1$s \"に送信されます。\ nclick in relink in in ecamer \ n \ ndo続行したいですか？</string>
+    <string name="report_reason_harassment">嫌がらせ</string>
+    <string name="post_unknown_title">不明な投稿タイプ</string>
+    <string name="post_info_tag_blocked">タグ%1$sブロック</string>
+    <string name="profile_content_following">すべての%1$dを表示します</string>
+    <string name="profile_mod_icon_mod">このユーザーはモデレーターです</string>
+    <string name="profile_tab_about_stats_data2">%1$d投稿作成
+        \ n%2$dコメントが書かれています
+        \ n%3$dコメントを受け取った
+        \ n%4$d投稿投稿
+        \ n%5$d wirpを受信します
+        \ n%6$dユーザーが続きました
+        \ n%7$dフォロワー</string>
+    <string name="delete_account_posts_failed">投稿の削除に失敗しました：%1$s</string>
+    </resources>
