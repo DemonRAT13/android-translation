@@ -6,7 +6,7 @@ The source (English) file is located at [app/src/main/res/values/strings.xml](ap
 
 ### Translate into a new language
 Create a folder in `app/src/main/res/` named `values-XX`, where `XX` is the two-letter ISO 639-1 country code for the target language. E.g. for French the folder would be named `values-fr`.
-Inside this folder create a file `strings.xml` with the following content:
+Inside this folder create a file `strings.xml` (so the full path would be `app/src/main/res/values-fr/strings.xml`) with the following content:
 
 ```
 <resources>
