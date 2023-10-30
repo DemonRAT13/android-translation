@@ -1086,4 +1086,7 @@ Obserwujących: %7$d</string>
     <string name="discover_users_list_empty">Nie znaleziono użytkowników</string>
     <string name="discover_users_search_empty">Żadnych użytkowników o nazwie lub nazwie użytkownika zaczynającej się od \"%1$s \"</string>
     <string name="discover_users_search_error">Żadnych użytkowników o nazwie lub nazwie użytkownika zaczynającej się od \"%1$s \". \ N \ nerror: %2$s</string>
-</resources>
+<string name="action_clear_history">Czysta historia</string>
+    <string name="chat_info_user_option_ban">Zakaz</string>
+    <string name="posts_comic">%1$s</string>
+    </resources>

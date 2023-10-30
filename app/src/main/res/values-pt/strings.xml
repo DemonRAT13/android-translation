@@ -1062,4 +1062,5 @@ Deixe um comentário e faça alguém feliz!</string>
     <string name="discover_users_list_empty">Usuários não encontrados</string>
     <string name="discover_users_search_empty">Nenhum usuário encontrou com um nome ou nome de usuário começando com \"%1$s \"</string>
     <string name="discover_users_search_error">Nenhum usuário encontrou com um nome ou nome de usuário começando com \"%1$s \". \ N \ Nerror: %2$s</string>
-</resources>
+<string name="fursona_view_title">Furson</string>
+    </resources>
