@@ -1,8 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <resources>
-<string name="nav_switch_sfw_mode">SFW -Modus</string>
-
-    <string name="action_log_out">Ausloggen</string>
+<string name="action_log_out">Ausloggen</string>
     <string name="action_log_in">Anmeldung</string>
     <string name="action_settings">Einstellungen</string>
     <string name="action_create">Erstellen</string>
@@ -957,10 +955,6 @@
 
     <string name="settings_language_title">Lokalisierung</string>
     <string name="settings_language_edit_title">App -Sprache ändern</string>
-    <string name="setting_language_item_en">Englisch Englisch)</string>
-    <string name="setting_language_item_es">Español (Spanisch)</string>
-    <string name="setting_language_item_pl">Polnisch (Polly)</string>
-    <string name="setting_language_item_pt">Português (Portugiesisch)</string>
     <string name="content_filter_title">Inhaltsfilter</string>
     <string name="content_filter_rating_title">MAX -Inhaltsbewertung</string>
     <string name="content_filter_block_tags_title">Block -Tags</string>
@@ -1088,7 +1082,11 @@
     <string name="discover_users_search_error">Keine Benutzer mit einem Namen oder Benutzernamen gefunden, beginnend mit \"%1$s \". \ N \ nError: %2$s</string>
     
 <string name="report_reason_other">Andere</string>
-    <string name="setting_language_item_ru">Pusian (Russisch)</string>
-
     <string name="picker_camera_permissions_hint">Kameraerlaubnis erforderlich</string>
+    <string name="nav_switch_ad_mode">Nach Einbruch der Dunkelheit umschalten (Anzeige)</string>
+
+    <string name="chat_control_message_12">%1$s hat die Gruppeninformationen auf %2$s geändert</string>
+
+    <string name="chat_error_removed_from_chat">Sie wurden aus diesem Chat entfernt</string>
+
     </resources>

@@ -1,8 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <resources>
-<string name="nav_switch_sfw_mode">SFWモード</string>
-
-    <string name="action_log_out">ログアウト</string>
+<string name="action_log_out">ログアウト</string>
     <string name="action_log_in">ログイン</string>
     <string name="action_settings">設定</string>
     <string name="action_create">作成する</string>
@@ -947,12 +945,6 @@
 
     <string name="settings_language_title">ローカリゼーション</string>
     <string name="settings_language_edit_title">アプリ言語を変更します</string>
-    <string name="setting_language_item_en">英語（英語）</string>
-    <string name="setting_language_item_es">español（スペイン語）</string>
-    <string name="setting_language_item_pl">ポリッシュ（ポリー）</string>
-    <string name="setting_language_item_pt">ポルトガル（ポルトガル人）</string>
-    <string name="setting_language_item_ru">プシアン（ロシア）</string>
-
     <string name="content_filter_title">コンテンツフィルター</string>
     <string name="content_filter_rating_title">最大コンテンツ評価</string>
     <string name="content_filter_block_tags_title">ブロックタグ</string>
@@ -1093,4 +1085,10 @@
         \ n%6$dユーザーが続きました
         \ n%7$dフォロワー</string>
     <string name="delete_account_posts_failed">投稿の削除に失敗しました：%1$s</string>
+    <string name="nav_switch_ad_mode">ダークアフターアフター（AD）のトグル</string>
+
+    <string name="chat_control_message_12">%1$sグループ情報を%2$sに変更しました</string>
+
+    <string name="chat_error_removed_from_chat">このチャットから削除されました</string>
+
     </resources>

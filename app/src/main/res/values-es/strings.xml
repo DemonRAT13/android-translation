@@ -1,6 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
 <resources>
-    <string name="nav_switch_sfw_mode">Modo seguro para el trabajo</string>
     <string name="action_log_out">Cerrar sesión</string>
     <string name="action_log_in">Iniciar sesión</string>
     <string name="action_settings">Ajustes</string>
@@ -548,11 +547,6 @@
     <string name="settings_consent_title">Consentir</string>
     <string name="settings_language_title">Localización</string>
     <string name="settings_language_edit_title">Cambiar el idioma de la aplicación</string>
-    <string name="setting_language_item_en">English (Inglés)</string>
-    <string name="setting_language_item_es">Español (Español)</string>
-    <string name="setting_language_item_pl">Polski (Polaco)</string>
-    <string name="setting_language_item_pt">Português (Portugués)</string>
-    <string name="setting_language_item_ru">Pусский (Ruso)</string>
     <string name="content_filter_title">Filtro de contenido</string>
     <string name="content_filter_rating_title">Máxima clasificación de contenido</string>
     <string name="content_filter_mod_show_hidden_title">Mostrar las publicaciones ocultadas en Nuevo</string>
@@ -1060,4 +1054,10 @@
     <string name="discover_users_list_empty">No se encontraron usuarios</string>
     <string name="discover_users_search_empty">No se encuentran usuarios con un nombre o nombre de usuario que comienza con \"%1$s \"</string>
     <string name="discover_users_search_error">No se encuentran usuarios con un nombre o nombre de usuario que comienza con \"%1$s \". \ N \ nerror: %2$s</string>
-</resources>
+<string name="nav_switch_ad_mode">Alternar después del anochecer (anuncio)</string>
+
+    <string name="chat_control_message_12">%1$s cambió la información del grupo a %2$s</string>
+
+    <string name="chat_error_removed_from_chat">Te han eliminado de este chat</string>
+
+    </resources>

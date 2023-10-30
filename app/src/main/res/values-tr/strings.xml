@@ -1,8 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <resources>
-<string name="nav_switch_sfw_mode">SFW modu</string>
-
-    <string name="action_log_out">Çıkış Yap</string>
+<string name="action_log_out">Çıkış Yap</string>
     <string name="action_log_in">Giriş yapmak</string>
     <string name="action_settings">Ayarlar</string>
     <string name="action_create">Yaratmak</string>
@@ -960,12 +958,6 @@
 
     <string name="settings_language_title">Yerelleştirme</string>
     <string name="settings_language_edit_title">Uygulama dilini değiştir</string>
-    <string name="setting_language_item_en">İngilizce ingilizce)</string>
-    <string name="setting_language_item_es">Español (İspanyolca)</string>
-    <string name="setting_language_item_pl">Lehçe (Polly)</string>
-    <string name="setting_language_item_pt">Português (Portekizce)</string>
-    <string name="setting_language_item_ru">PUSIAN (Rusça)</string>
-
     <string name="content_filter_title">İçerik filtresi</string>
     <string name="content_filter_rating_title">Maksimum İçerik Derecesi</string>
     <string name="content_filter_block_tags_title">Blok Etiketler</string>
@@ -1093,4 +1085,10 @@
     <string name="discover_users_search_empty">\"%1$s \"ile başlayan bir ad veya kullanıcı adı ile hiçbir kullanıcı bulunamadı</string>
     <string name="discover_users_search_error">\"%1$s \"ile başlayarak bir ad veya kullanıcı adı ile bulunamadı. \ N \ nerror: %2$s</string>
     
-</resources>
+<string name="nav_switch_ad_mode">Karanlıktan sonra geçiş yapın (reklam)</string>
+
+    <string name="chat_control_message_12">%1$s Grup bilgilerini %2$s olarak değiştirdi</string>
+
+    <string name="chat_error_removed_from_chat">Bu sohbetten kaldırıldın</string>
+
+    </resources>

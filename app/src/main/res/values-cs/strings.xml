@@ -1,8 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <resources>
-<string name="nav_switch_sfw_mode">Režim SFW</string>
-
-    <string name="action_log_out">Odhlásit se</string>
+<string name="action_log_out">Odhlásit se</string>
     <string name="action_log_in">Přihlásit se</string>
     <string name="action_settings">Nastavení</string>
     <string name="action_create">Vytvořit</string>
@@ -957,12 +955,6 @@
 
     <string name="settings_language_title">Lokalizace</string>
     <string name="settings_language_edit_title">Změnit jazyk aplikace</string>
-    <string name="setting_language_item_en">Angličtina (angličtina)</string>
-    <string name="setting_language_item_es">Español (španělština)</string>
-    <string name="setting_language_item_pl">Polish (Polly)</string>
-    <string name="setting_language_item_pt">Portugukle (Portugalština)</string>
-    <string name="setting_language_item_ru">Pusian (Russ)</string>
-
     <string name="content_filter_title">Filtr obsahu</string>
     <string name="content_filter_rating_title">Max hodnocení obsahu</string>
     <string name="content_filter_block_tags_title">Blokové značky</string>
@@ -1093,4 +1085,10 @@
 <string name="action_leave_chat">Nechte chat</string>
 
     <string name="fursona_view_title">Furson</string>
+    <string name="nav_switch_ad_mode">Přepněte po setmění (reklama)</string>
+
+    <string name="chat_control_message_12">%1$s změnilo informace o skupině na %2$s</string>
+
+    <string name="chat_error_removed_from_chat">Z tohoto chatu jste byli odstraněni</string>
+
     </resources>

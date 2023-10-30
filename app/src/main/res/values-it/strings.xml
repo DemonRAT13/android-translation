@@ -1,8 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <resources>
-<string name="nav_switch_sfw_mode">Modalità SFW</string>
-
-    <string name="action_log_out">Disconnettersi</string>
+<string name="action_log_out">Disconnettersi</string>
     <string name="action_log_in">Login</string>
     <string name="action_settings">Impostazioni</string>
     <string name="action_create">Creare</string>
@@ -933,12 +931,6 @@
 
     <string name="settings_language_title">Localizzazione</string>
     <string name="settings_language_edit_title">Cambia la lingua dell\'app</string>
-    <string name="setting_language_item_en">Inglese inglese)</string>
-    <string name="setting_language_item_es">Español (spagnolo)</string>
-    <string name="setting_language_item_pl">Polish (Polly)</string>
-    <string name="setting_language_item_pt">Português (portoghese)</string>
-    <string name="setting_language_item_ru">Pusian (russo)</string>
-
     <string name="content_filter_title">Filtro del contenuto</string>
     <string name="content_filter_rating_title">Punteggio di contenuti massimi</string>
     <string name="content_filter_block_tags_title">Tag di blocco</string>
@@ -1068,4 +1060,10 @@
     <string name="discover_users_order_posts_item">%1$d post</string>
     <string name="discover_users_search_user_clicked_select">Seleziona l\'utente</string>
     <string name="discover_users_list_empty">Nessun utente trovato</string>
+    <string name="nav_switch_ad_mode">Attiva il buio (annuncio)</string>
+
+    <string name="chat_control_message_12">%1$s ha cambiato le informazioni del gruppo in %2$s</string>
+
+    <string name="chat_error_removed_from_chat">Sei stato rimosso da questa chat</string>
+
     </resources>
