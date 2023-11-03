@@ -355,7 +355,6 @@
     <string name="reported_posts">報告された投稿</string>
     <string name="reported_comments">報告されたコメント</string>
     <string name="reported_users">報告されたユーザー</string>
-    <string name="reported_conversations">報告された会話</string>
     <string name="recent_comments">最近のコメント</string>
     <string name="recent_messages">最近のメッセージ</string>
     <string name="mod_logs">モデレートログ</string>
@@ -363,7 +362,6 @@
     <string name="download">ダウンロード</string>
     <string name="share">共有…</string>
     <string name="arrow_right"> - &gt;</string>
-    <string name="messages">メッセージ（古い）</string>
     <string name="chats">チャット</string>
     <string name="message">メッセージ</string>
     <string name="edit">編集</string>
@@ -410,7 +408,6 @@
     <string name="conversation_delete_deleted_success">会話が削除されました</string>
 
     <string name="chats_no_messages">メッセージはまだありません</string>
-    <string name="chats_unread_many">%1$d+</string>
     <string name="chats_no_chats">チャットに参加すると、ここに表示されます。</string>
 
     <string name="chat_toolbar_loading">ロードチャット…</string>
@@ -468,7 +465,6 @@
     <string name="chat_open_error_banned">あなたはこのチャットから禁止されています。</string>
     <string name="chat_open_error_kicked">あなたはこのチャットから蹴られました。</string>
     <string name="chat_open_error_deleted">このチャットはもう存在しません。</string>
-    <string name="chat_open_invited">あなたは%1$s。\ n \ naccept Inviteに参加するように招待されていますか？</string>
     <string name="leave">離れる</string>
     <string name="join">参加する</string>
     <string name="decline">衰退</string>
@@ -550,10 +546,7 @@
     <string name="contributions_general">貢献する場合は、@dogにメッセージを送信してください！</string>
     <string name="translate_general">アプリを別の言語に翻訳するのを手伝うことができます！</string>
     <string name="support_general">管理者に連絡する必要がありますか、それともアプリのヘルプが必要ですか？support@efurry.netにメールを送信するか、下のボタンをクリックしてアプリに直接メッセージを送信します</string>
-    <string name="support_admin_contact">サポートリクエスト</string>
     <string name="support_social">不一致チャンネルと電報グループがあります！他のユーザーやモデレーターとチャットして、何でも支援を受けてください。</string>
-    <string name="support_open_source">オープンソース</string>
-    <string name="support_open_source_text">アプリ全体がオープンソースです - コードを確認し、Githubで開発するのに役立ちます！</string>
     <string name="support_social_not_logged_in">最初にアカウントを登録します</string>
     <string name="discord">不和</string>
     <string name="telegram">電報</string>
@@ -773,13 +766,11 @@
     <string name="post_content_blocked_body">ブロックされたコンテンツ：%1$s</string>
     <string name="post_tag_and_content_blocked_body">ブロックされたコンテンツ：%1$s、\ nblockedタグ：%2$s</string>
     <string name="post_tag_blocked_view">投稿を表示します</string>
-    <string name="post_date_posted_categories">%1$s%2$s</string>
     <string name="follow">フォローする</string>
 
     <string name="post_poll_votes">%$ 1票</string>
     <string name="post_poll_no_votes">投票しないでください</string>
     <string name="post_poll_vote">投票する</string>
-    <string name="post_poll_option_percentage">%1$d %%</string>
     <string name="post_poll_option_click_votes">%$ 1票</string>
     <string name="post_poll_option_click_vote">%1$d投票</string>
     <string name="post_poll_error_title">投票の取得に失敗しました：%1$s。もう一度やり直してください</string>
@@ -879,7 +870,6 @@
     <string name="posts_category_search">%1$sの投稿</string>
     <string name="posts_single_post_title">%1$s \ \'の投稿</string>
     <string name="post">役職</string>
-    <string name="posts_comic">%1$s</string>
     <string name="post_is_nsfw">この投稿はNSFWです！</string>
 
     <string name="edit_profile_title">プロフィールを編集します</string>
@@ -1042,12 +1032,6 @@
     <string name="blocked_get_error">エラー：%1$s</string>
     <string name="blocked_none">ユーザーをブロックしていません</string>
 
-    <string name="cleanup_old_following_posts">古い投稿を削除します</string>
-    <string name="cleanup_old_messages">古いメッセージを削除します</string>
-    <string name="cleanup_old_like_notifications">古い気に入った通知を削除します</string>
-    <string name="cleanup_old_installations">古いインストールを削除します</string>
-    <string name="cleanup_error">エラー：%1$s</string>
-
     <string name="modmail_empty_text">あなたはまだモッドメールを持っていません！</string>
 
     <string name="discover_users_title">ユーザーを閲覧します</string>
@@ -1077,18 +1061,61 @@
     <string name="post_info_tag_blocked">タグ%1$sブロック</string>
     <string name="profile_content_following">すべての%1$dを表示します</string>
     <string name="profile_mod_icon_mod">このユーザーはモデレーターです</string>
-    <string name="profile_tab_about_stats_data2">%1$d投稿作成
-        \ n%2$dコメントが書かれています
-        \ n%3$dコメントを受け取った
-        \ n%4$d投稿投稿
-        \ n%5$d wirpを受信します
-        \ n%6$dユーザーが続きました
-        \ n%7$dフォロワー</string>
     <string name="delete_account_posts_failed">投稿の削除に失敗しました：%1$s</string>
-    <string name="nav_switch_ad_mode">ダークアフターアフター（AD）のトグル</string>
-
     <string name="chat_control_message_12">%1$sグループ情報を%2$sに変更しました</string>
 
     <string name="chat_error_removed_from_chat">このチャットから削除されました</string>
 
+    <string name="action_mute">ミュート</string>
+    <string name="action_unmute">雲霧て</string>
+
+    <string name="moderators">モデレーター</string>
+    <string name="reported_chats">報告されたチャット</string>
+    <string name="chat_media_message">メディアメッセージ</string>
+    <string name="chat_media_message_with_text">メディアメッセージ：%1$s</string>
+
+    <string name="chat_role_admin">管理者</string>
+    <string name="chat_admin_join">管理者として参加します</string>
+    <string name="chat_joined_with_role">役割%1$dと結合</string>
+
+    <string name="chat_error_does_not_exist">このチャットは削除されました</string>
+
+    <string name="chat_open_invited_single">%1$s（%2$s）あなたとチャットしたい。\ n \ naccept Invite？</string>
+    <string name="chat_open_invited_group">あなたはグループチャットに参加するように招待されました\"%1$s \"。\ n \ naccept Invite？</string>
+    <string name="chat_delete_error">削除に失敗しました：%1$s</string>
+    <string name="chat_clear_history_title">履歴をクリア</string>
+    <string name="chat_clear_history_message">すべてのメッセージとメディアを削除しますか？\ nnこれは、すべてのメンバーのこのチャットのすべてを削除します。</string>
+    <string name="chat_clear_history_positive">すべてを削除します</string>
+    <string name="chat_clear_history_error">履歴をクリアできなかった：%1$s</string>
+    <string name="chat_clear_history_success">チャット履歴がクリアされました！</string>
+    <string name="chat_leave_chat_title">チャットを残します</string>
+    <string name="chat_leave_chat_message">このチャットを残してください？\ n \ nyouは招待なしで再び参加できないかもしれません。</string>
+    <string name="chat_leave_chat_positive">チャットを残します</string>
+    <string name="chat_leave_chat_error">出発に失敗しました：%1$s</string>
+    <string name="chat_leave_chat_success">チャットを去りました</string>
+    <string name="chat_delete_chat_title">チャットを削除します</string>
+    <string name="chat_delete_chat_message">このチャットを削除しますか？\ n \ nallメッセージとメディアは削除され、すべてのメンバーがキックされます。</string>
+    <string name="chat_delete_chat_positive">チャットを削除します</string>
+    <string name="chat_delete_chat_error">削除に失敗しました：%1$s</string>
+    <string name="chat_delete_chat_success">チャットが削除されました！</string>
+    <string name="chat_mute_chat_title">ミュートチャット</string>
+    <string name="chat_mute_chat_message">このチャットをミュートしますか？\ n \ nyouは、新しいメッセージのプッシュ通知を受け取りません。</string>
+    <string name="chat_mute_chat_positive">ミュート</string>
+    <string name="chat_mute_chat_error">ミュートに失敗しました：%1$s</string>
+    <string name="chat_mute_chat_success">チャットミュート！</string>
+    <string name="chat_unmute_chat_title">ミュートチャットを解除します</string>
+    <string name="chat_unmute_chat_message">このチャットを解除する？\ n \ nyouは、新しいメッセージのプッシュ通知を受け取ります。</string>
+    <string name="chat_unmute_chat_positive">雲霧て</string>
+    <string name="chat_unmute_chat_error">ミュートを解除できなかった：%1$s</string>
+    <string name="chat_unmute_chat_success">ミッチされていないチャット！</string>
+
+    <string name="mod_log_chat">チャット%1$sに移動します</string>
+    <string name="post_info_file_dimensions">ファイル寸法：%1$dx%2$d</string>
+    <string name="profile_stats_data_liked_posts">%1$dが投稿されました</string>
+    <string name="profile_stats_data_likes_received">%1$dの受信</string>
+    <string name="profile_stats_data_comments_written">%1$dコメントが書かれています</string>
+    <string name="profile_stats_data_comments_received">%1$dコメントを受け取った</string>
+    <string name="profile_stats_data_premium_months">%1$dのプレミアム購入</string>
+    <string name="profile_stats_data_levels">%1$dアカウントレベル購入</string>
+    <string name="profile_stats_data_messages_sent">%1$dメッセージが送信されます</string>
     </resources>

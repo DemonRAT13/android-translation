@@ -356,7 +356,6 @@
     <string name="reported_posts">Bildirilen gönderiler</string>
     <string name="reported_comments">Bildirilen yorumlar</string>
     <string name="reported_users">Bildirilen kullanıcılar</string>
-    <string name="reported_conversations">Bildirilen konuşmalar</string>
     <string name="recent_comments">Son Yorumlar</string>
     <string name="recent_messages">Son Mesajlar</string>
     <string name="mod_logs">Ilımlı günlükler</string>
@@ -364,7 +363,6 @@
     <string name="download">İndirmek</string>
     <string name="share">Paylaşmak…</string>
     <string name="arrow_right">-&gt;</string>
-    <string name="messages">Mesajlar (eski)</string>
     <string name="chats">Sohbetler</string>
     <string name="message">İleti</string>
     <string name="edit">Düzenlemek</string>
@@ -411,7 +409,6 @@
     <string name="conversation_delete_deleted_success">Konuşma silindi</string>
 
     <string name="chats_no_messages">Henüz mesaj yok</string>
-    <string name="chats_unread_many">%1$d+</string>
     <string name="chats_no_chats">Bir sohbete katıldıktan sonra burada görünecektir. \ N \ nstart sağ üst köşede bir sohbet!</string>
 
     <string name="chat_toolbar_loading">Yükleme sohbeti…</string>
@@ -469,7 +466,6 @@
     <string name="chat_open_error_banned">Bu sohbetten yasaklandınız.</string>
     <string name="chat_open_error_kicked">Bu sohbetten atıldın.</string>
     <string name="chat_open_error_deleted">Bu sohbet artık mevcut değil.</string>
-    <string name="chat_open_invited">%1$s. \ N \ naccept Invite\'a katılmaya davet edildiniz mi?</string>
     <string name="leave">Ayrılmak</string>
     <string name="join">Katılmak</string>
     <string name="decline">Reddetmek</string>
@@ -552,10 +548,7 @@
     <string name="contributions_general">Katkıda bulunursanız, @dog\'a bir mesaj gönderin!</string>
     <string name="translate_general">Uygulamayı başka bir dile çevirmenize yardımcı olabilirsiniz!</string>
     <string name="support_general">Bir yöneticiyle iletişime geçmeniz veya uygulama konusunda yardım istemeniz mi gerekiyor?Destek@efurry.net adresine bir e -posta gönderin veya doğrudan uygulamaya bir mesaj göndermek için aşağıdaki düğmeyi tıklayın</string>
-    <string name="support_admin_contact">Destek talebi</string>
     <string name="support_social">Bir anlaşmazlık kanalımız ve bir telgraf grubumuz var!Diğer kullanıcılar ve moderatörlerle sohbet etmek ve her şeyden yardım almak için katılın.</string>
-    <string name="support_open_source">Açık kaynak</string>
-    <string name="support_open_source_text">Tüm uygulama açık kaynak - kodu kontrol edin ve GitHub\'da geliştirmeye yardımcı olun!</string>
     <string name="support_social_not_logged_in">Önce bir hesap kaydet</string>
     <string name="discord">Anlaşmazlık</string>
     <string name="telegram">Telgraf</string>
@@ -776,13 +769,11 @@
     <string name="post_content_blocked_body">Engellenen içerik: %1$s</string>
     <string name="post_tag_and_content_blocked_body">Engellenen İçerik: %1$s, \ nblocked Etiketler: %2$s</string>
     <string name="post_tag_blocked_view">Gösteri Postası</string>
-    <string name="post_date_posted_categories">%1$s%2$s</string>
     <string name="follow">Takip etmek</string>
 
     <string name="post_poll_votes">%1 oy</string>
     <string name="post_poll_no_votes">Oy vermeyin</string>
     <string name="post_poll_vote">Oy</string>
-    <string name="post_poll_option_percentage">%1$d %%</string>
     <string name="post_poll_option_click_votes">%1 oy</string>
     <string name="post_poll_option_click_vote">%1$d oyu</string>
     <string name="post_poll_error_title">Oy alamadı: %1$s.Lütfen tekrar deneyin</string>
@@ -868,13 +859,6 @@
     <string name="profile_tab_about_presentation">Sunum</string>
     <string name="profile_tab_about_links">Sosyal Bağlantılar</string>
     <string name="profile_tab_about_stats">İstatistikler</string>
-    <string name="profile_tab_about_stats_data2">%1$d Gönderiler Oluşturulur
-        \ n%2$d Yorumlar yazılmış
-        \ n%3$d Yorumlar Alındı
-        \ n%4$d Beğenilen Mesajlar
-        \ n%5$d Alınan beğeniler
-        \ n%6$d kullanıcıları takip etti
-        \ n%7$d takipçileri</string>
     <string name="profile_tab_gallery">Galeri</string>
     <string name="profile_tab_favs">Favoriler</string>
     <string name="profile_tab_comments">Yorumlar</string>
@@ -892,7 +876,6 @@
     <string name="posts_category_search">%1$s\'deki gönderiler</string>
     <string name="posts_single_post_title">%1$s \ \'</string>
     <string name="post">Postalamak</string>
-    <string name="posts_comic">%1$s</string>
     <string name="post_is_nsfw">Bu yazı NSFW!</string>
 
     <string name="edit_profile_title">Profilinizi düzenleyin</string>
@@ -1056,12 +1039,6 @@
     <string name="blocked_get_error">Hata: %1$s</string>
     <string name="blocked_none">Hiçbir kullanıcıyı engellemediniz</string>
 
-    <string name="cleanup_old_following_posts">Aşağıdaki eski gönderileri sil</string>
-    <string name="cleanup_old_messages">Eski mesajları sil</string>
-    <string name="cleanup_old_like_notifications">Eski beğenilen bildirimleri sil</string>
-    <string name="cleanup_old_installations">Eski kurulumları sil</string>
-    <string name="cleanup_error">Hata: %1$s</string>
-
     <string name="modmail_empty_text">Henüz modmail\'iniz yok!</string>
 
     <string name="discover_users_title">Kullanıcılara göz atın</string>
@@ -1085,10 +1062,60 @@
     <string name="discover_users_search_empty">\"%1$s \"ile başlayan bir ad veya kullanıcı adı ile hiçbir kullanıcı bulunamadı</string>
     <string name="discover_users_search_error">\"%1$s \"ile başlayarak bir ad veya kullanıcı adı ile bulunamadı. \ N \ nerror: %2$s</string>
     
-<string name="nav_switch_ad_mode">Karanlıktan sonra geçiş yapın (reklam)</string>
-
-    <string name="chat_control_message_12">%1$s Grup bilgilerini %2$s olarak değiştirdi</string>
+<string name="chat_control_message_12">%1$s Grup bilgilerini %2$s olarak değiştirdi</string>
 
     <string name="chat_error_removed_from_chat">Bu sohbetten kaldırıldın</string>
 
+    <string name="action_mute">Sesini kapatmak</string>
+    <string name="action_unmute">Mogi</string>
+
+    <string name="moderators">Moderatörler</string>
+    <string name="reported_chats">Bildirilen sohbetler</string>
+    <string name="chat_media_message">Medya mesajı</string>
+    <string name="chat_media_message_with_text">Medya mesajı: %1$s</string>
+
+    <string name="chat_role_admin">Yönetici</string>
+    <string name="chat_admin_join">Yönetici olarak katılın</string>
+    <string name="chat_joined_with_role">%1$d rolü ile birleştirildi</string>
+
+    <string name="chat_error_does_not_exist">Bu sohbet silindi</string>
+
+    <string name="chat_open_invited_single">%1$s (%2$s) sizinle sohbet etmek istiyor. \ N \ naccept davet mi?</string>
+    <string name="chat_open_invited_group">CHAT \"%1$s \". \ N \ naccept Invite grubuna katılmaya davet edildiniz mi?</string>
+    <string name="chat_delete_error">Silinemedi: %1$s</string>
+    <string name="chat_clear_history_title">Açık tarih</string>
+    <string name="chat_clear_history_message">Tüm mesajları ve medyayı silin? \ Nn Bu, tüm üyeler için bu sohbetteki her şeyi silecektir. \ Nn \ Bu eylem geri döndürülemez ve tamamlanması birkaç dakika sürebilir.</string>
+    <string name="chat_clear_history_positive">Hepsini sil</string>
+    <string name="chat_clear_history_error">Tarihi temizlemedi: %1$s</string>
+    <string name="chat_clear_history_success">Sohbet geçmişi temizlendi!</string>
+    <string name="chat_leave_chat_title">Sohbet etmek</string>
+    <string name="chat_leave_chat_message">Bu sohbeti bırakın? \ N \ nyo, davet olmadan tekrar katılamayabilir.</string>
+    <string name="chat_leave_chat_positive">Sohbet etmek</string>
+    <string name="chat_leave_chat_error">Ayrılamadı: %1$s</string>
+    <string name="chat_leave_chat_success">Sohbeti terketti</string>
+    <string name="chat_delete_chat_title">Sohbeti Sil</string>
+    <string name="chat_delete_chat_message">Bu sohbeti silin mi?</string>
+    <string name="chat_delete_chat_positive">Sohbeti Sil</string>
+    <string name="chat_delete_chat_error">Silinemedi: %1$s</string>
+    <string name="chat_delete_chat_success">Sohbet silindi!</string>
+    <string name="chat_mute_chat_title">Sessiz sohbet</string>
+    <string name="chat_mute_chat_message">Bu sohbeti sustur mu?</string>
+    <string name="chat_mute_chat_positive">Sesini kapatmak</string>
+    <string name="chat_mute_chat_error">Sessiz: %1$s</string>
+    <string name="chat_mute_chat_success">Sohbet sessiz!</string>
+    <string name="chat_unmute_chat_title">Sohbet etsiz sohbet</string>
+    <string name="chat_unmute_chat_message">Bu sohbeti açın? \ N \ nyou yeni mesajlar için push bildirimleri alacaktır.</string>
+    <string name="chat_unmute_chat_positive">Mogi</string>
+    <string name="chat_unmute_chat_error">Sesi açılamadı: %1$s</string>
+    <string name="chat_unmute_chat_success">Sohbet edilmez!</string>
+
+    <string name="mod_log_chat">%1$s sohbete git</string>
+    <string name="post_info_file_dimensions">Dosya Boyutları: %1$dX %2$d</string>
+    <string name="profile_stats_data_liked_posts">%1$d Beğenilen Mesajlar</string>
+    <string name="profile_stats_data_likes_received">%1$d alınan beğeniler</string>
+    <string name="profile_stats_data_comments_written">%1$d YAZLI YAPILDI</string>
+    <string name="profile_stats_data_comments_received">%1$d Yorumlar alındı</string>
+    <string name="profile_stats_data_premium_months">%1$d aylık premium satın alındı</string>
+    <string name="profile_stats_data_levels">%1$d Hesap seviyeleri satın alındı</string>
+    <string name="profile_stats_data_messages_sent">%1$d Gönderilen Mesajlar</string>
     </resources>

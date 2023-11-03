@@ -353,7 +353,6 @@
     <string name="reported_posts">Hlášené příspěvky</string>
     <string name="reported_comments">Hlášené komentáře</string>
     <string name="reported_users">Hlášené uživatelé</string>
-    <string name="reported_conversations">Hlášené konverzace</string>
     <string name="recent_comments">Nedávné Komentáře</string>
     <string name="recent_messages">Nedávné zprávy</string>
     <string name="mod_logs">Protokoly moderování</string>
@@ -361,7 +360,6 @@
     <string name="download">Stažení</string>
     <string name="share">Podíl…</string>
     <string name="arrow_right">-&gt;</string>
-    <string name="messages">Zprávy (staré)</string>
     <string name="chats">Chats</string>
     <string name="message">Zpráva</string>
     <string name="edit">Upravit</string>
@@ -408,7 +406,6 @@
     <string name="conversation_delete_deleted_success">Smazaná konverzace</string>
 
     <string name="chats_no_messages">Zatím žádné zprávy</string>
-    <string name="chats_unread_many">%1$d+</string>
     <string name="chats_no_chats">Jakmile se připojíte k chatu, objeví se zde. \ N \ nStart chat v pravém horním rohu!</string>
 
     <string name="chat_toolbar_loading">Načítání chat…</string>
@@ -466,7 +463,6 @@
     <string name="chat_open_error_banned">Z tohoto chatu jste byli zakázáni.</string>
     <string name="chat_open_error_kicked">Z tohoto chatu jste byli vykopnut.</string>
     <string name="chat_open_error_deleted">Tento chat již neexistuje.</string>
-    <string name="chat_open_invited">Byli jste vyzváni, abyste se připojili k %1$s. \ N \ naccept Invite?</string>
     <string name="leave">Odejít</string>
     <string name="join">Připojit</string>
     <string name="decline">Pokles</string>
@@ -549,10 +545,7 @@
     <string name="contributions_general">Pokud přispějete, pošlete @dog a zprávu!</string>
     <string name="translate_general">Můžete pomoci přeložit aplikaci do jiného jazyka!</string>
     <string name="support_general">Potřebujete kontaktovat správce nebo chcete pomoci s aplikací?Pošlete e -mail na adresu support@efurry.net nebo kliknutím na tlačítko níže odešlete zprávu přímo v aplikaci</string>
-    <string name="support_admin_contact">Žádost o podporu</string>
     <string name="support_social">Máme kanál Discord a telegramovou skupinu!Připojte se k chatu s ostatními uživateli a moderátory a získejte pomoc s čímkoli.</string>
-    <string name="support_open_source">Open Source</string>
-    <string name="support_open_source_text">Celá aplikace je open source - zkontrolujte kód a pomozte jej rozvíjet na GitHubu!</string>
     <string name="support_social_not_logged_in">Nejprve zaregistrujte účet</string>
     <string name="discord">Svár</string>
     <string name="telegram">Telegram</string>
@@ -773,13 +766,11 @@
     <string name="post_content_blocked_body">Blokovaný obsah: %1$s</string>
     <string name="post_tag_and_content_blocked_body">Blokovaný obsah: %1$s, \ nblocked Tags: %2$s</string>
     <string name="post_tag_blocked_view">Zobrazit příspěvek</string>
-    <string name="post_date_posted_categories">%1$s%2$s</string>
     <string name="follow">Následovat</string>
 
     <string name="post_poll_votes">%$ 1 hlasy</string>
     <string name="post_poll_no_votes">Nehlasujte</string>
     <string name="post_poll_vote">Hlasování</string>
-    <string name="post_poll_option_percentage">%1$d %%</string>
     <string name="post_poll_option_click_votes">%$ 1 hlasy</string>
     <string name="post_poll_option_click_vote">%1$d Hlasujte</string>
     <string name="post_poll_error_title">Nepodařilo se získat hlasování: %1$s.Prosím zkuste to znovu</string>
@@ -865,13 +856,6 @@
     <string name="profile_tab_about_presentation">Prezentace</string>
     <string name="profile_tab_about_links">Sociální odkazy</string>
     <string name="profile_tab_about_stats">Statistiky</string>
-    <string name="profile_tab_about_stats_data2">%1$d vytvořené příspěvky
-        \ n%2$d Komentáře Napsané
-        \ n%3$d Přijato komentáře
-        \ n%4$d Líbily se příspěvky
-        \ n%5$d Líbí se přijato
-        \ n%6$d následovali uživatelé
-        \ n%7$d sledující</string>
     <string name="profile_tab_gallery">Galerie</string>
     <string name="profile_tab_favs">Oblíbené</string>
     <string name="profile_tab_comments">Komentáře</string>
@@ -889,7 +873,6 @@
     <string name="posts_category_search">Příspěvky v %1$s</string>
     <string name="posts_single_post_title">%1$s \'s Post</string>
     <string name="post">Pošta</string>
-    <string name="posts_comic">%1$s</string>
     <string name="post_is_nsfw">Tento příspěvek je NSFW!</string>
 
     <string name="edit_profile_title">upravit profil</string>
@@ -1053,12 +1036,6 @@
     <string name="blocked_get_error">Chyba: %1$s</string>
     <string name="blocked_none">Nezaznamenali jste žádné uživatele</string>
 
-    <string name="cleanup_old_following_posts">Smazat staré následující příspěvky</string>
-    <string name="cleanup_old_messages">Odstranit staré zprávy</string>
-    <string name="cleanup_old_like_notifications">Smazat Old Líbí se oznámení</string>
-    <string name="cleanup_old_installations">Odstranit staré instalace</string>
-    <string name="cleanup_error">Chyba: %1$s</string>
-
     <string name="modmail_empty_text">Zatím nemáte žádný Modmail!</string>
 
     <string name="discover_users_title">Procházejte uživatele</string>
@@ -1085,10 +1062,60 @@
 <string name="action_leave_chat">Nechte chat</string>
 
     <string name="fursona_view_title">Furson</string>
-    <string name="nav_switch_ad_mode">Přepněte po setmění (reklama)</string>
-
     <string name="chat_control_message_12">%1$s změnilo informace o skupině na %2$s</string>
 
     <string name="chat_error_removed_from_chat">Z tohoto chatu jste byli odstraněni</string>
 
+    <string name="action_mute">Ztlumit</string>
+    <string name="action_unmute">Mogi</string>
+
+    <string name="moderators">Moderátoři</string>
+    <string name="reported_chats">Hlášené chaty</string>
+    <string name="chat_media_message">Mediální zpráva</string>
+    <string name="chat_media_message_with_text">Mediální zpráva: %1$s</string>
+
+    <string name="chat_role_admin">Admin</string>
+    <string name="chat_admin_join">Připojte se jako admin</string>
+    <string name="chat_joined_with_role">Spojeno s rolí %1$d</string>
+
+    <string name="chat_error_does_not_exist">Tento chat byl smazán</string>
+
+    <string name="chat_open_invited_single">%1$s (%2$s) chce s vámi chatovat. \ N \ Naccept Invite?</string>
+    <string name="chat_open_invited_group">Byli jste vyzváni, abyste se připojili ke skupinovému chatu \"%1$s \". \ N \ Naccept Invite?</string>
+    <string name="chat_delete_error">Nepodařilo se smazat: %1$s</string>
+    <string name="chat_clear_history_title">Smazat historii</string>
+    <string name="chat_clear_history_message">Odstraňte všechny zprávy a média? \ Nn To odstraní vše v tomto chatu pro všechny členy. \ Nn \ Tato akce je nevratná a může trvat několik minut.</string>
+    <string name="chat_clear_history_positive">Smazat vše</string>
+    <string name="chat_clear_history_error">Nepodařilo se vyčistit historii: %1$s</string>
+    <string name="chat_clear_history_success">Historie chatu vymazala!</string>
+    <string name="chat_leave_chat_title">Nechte chat</string>
+    <string name="chat_leave_chat_message">Nechte tento chat? \ N \ nyou by se nemohl znovu připojit bez pozvání.</string>
+    <string name="chat_leave_chat_positive">Nechte chat</string>
+    <string name="chat_leave_chat_error">Nepodařilo se odejít: %1$s</string>
+    <string name="chat_leave_chat_success">Opustil chat</string>
+    <string name="chat_delete_chat_title">Odstranit chat</string>
+    <string name="chat_delete_chat_message">Odstraňte tento chat? \ N \ nall zprávy a média budou odstraněny a všichni členové budou kopnut.</string>
+    <string name="chat_delete_chat_positive">Odstranit chat</string>
+    <string name="chat_delete_chat_error">Nepodařilo se smazat: %1$s</string>
+    <string name="chat_delete_chat_success">Chat smazán!</string>
+    <string name="chat_mute_chat_title">Ztlumený chat</string>
+    <string name="chat_mute_chat_message">Ztlumí tento chat?</string>
+    <string name="chat_mute_chat_positive">Ztlumit</string>
+    <string name="chat_mute_chat_error">Nepodařilo se ztlumit: %1$s</string>
+    <string name="chat_mute_chat_success">Chat Mutred!</string>
+    <string name="chat_unmute_chat_title">Nepomocí chat</string>
+    <string name="chat_unmute_chat_message">Imnotujte tento chat? \ N \ nyou obdrží oznámení push pro nové zprávy.</string>
+    <string name="chat_unmute_chat_positive">Mogi</string>
+    <string name="chat_unmute_chat_error">Nepodařilo se upojit: %1$s</string>
+    <string name="chat_unmute_chat_success">Chat Neomnamed!</string>
+
+    <string name="mod_log_chat">Přejít na chat %1$s</string>
+    <string name="post_info_file_dimensions">Rozměry souboru: %1$dx %2$d</string>
+    <string name="profile_stats_data_liked_posts">%1$d se líbily příspěvky</string>
+    <string name="profile_stats_data_likes_received">%1$d Líbí se přijato</string>
+    <string name="profile_stats_data_comments_written">%1$d Komentáře Napsané</string>
+    <string name="profile_stats_data_comments_received">%1$d Přijato komentáře</string>
+    <string name="profile_stats_data_premium_months">%1$d měsíce zakoupené prémie</string>
+    <string name="profile_stats_data_levels">%1$d nakoupené úrovně účtu</string>
+    <string name="profile_stats_data_messages_sent">%1$d Zprávy odeslány</string>
     </resources>

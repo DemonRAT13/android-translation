@@ -206,7 +206,6 @@
     <string name="reported_posts">Publicaciones reportadas</string>
     <string name="reported_comments">Comentarios reportados</string>
     <string name="reported_users">Usuarios reportados</string>
-    <string name="reported_conversations">Conversaciones reportadas</string>
     <string name="recent_comments">Comentarios recientes</string>
     <string name="mod_logs">Registros de moderación</string>
     <string name="download">Descargar</string>
@@ -307,10 +306,7 @@
     <string name="contributions_general">¡Si contribuye, envíe a @Dog un mensaje!</string>
     <string name="translate_general">¡Puede ayudar a traducir la aplicación a otros idiomas!</string>
     <string name="support_general">¿Necesita contactar a un administrador o necesita ayuda con la aplicación? Envíe un correo a support@efurry.net o haga clic en el botón de abajo para enviar un mensaje directo en la aplicación</string>
-    <string name="support_admin_contact">Soicitud de soporte</string>
     <string name="support_social">¡Tenemos un canal de Discord y un grupo de Telegram! Únase para conversar con otros usuarios y moderadores y obtener asistencia en lo que necesite.</string>
-    <string name="support_open_source">Código Abierto</string>
-    <string name="support_open_source_text">Toda la aplicación es Código Abierto - ¡Revise el código y ayude a desarrollarlo en GitHub!</string>
     <string name="support_social_not_logged_in">Primero registre una cuenta</string>
     <string name="discord">Discord</string>
     <string name="telegram">Telegram</string>
@@ -431,12 +427,10 @@
     <string name="post_text_read_less">Mostrar menos</string>
     <string name="post_unknown_title">Tipo desconocido de publicación</string>
     <string name="post_unknown_body">¡Actualice la aplicación para ver esta publicación!</string>
-    <string name="post_date_posted_categories">%1$s%2$s</string>
     <string name="follow">Seguir</string>
     <string name="post_poll_votes">%1$d votos</string>
     <string name="post_poll_no_votes">Sin votos</string>
     <string name="post_poll_vote">Votar</string>
-    <string name="post_poll_option_percentage">%1$d%%</string>
     <string name="post_poll_option_click_votes">%1$d votos</string>
     <string name="post_poll_option_click_vote">%1$d voto</string>
     <string name="post_poll_error_title">Fallo al obtener votos: %1$s. Por favor intente nuevamente</string>
@@ -482,13 +476,6 @@
     <string name="profile_tab_about_presentation">Presentación</string>
     <string name="profile_tab_about_links">Enlaces sociales</string>
     <string name="profile_tab_about_stats">Estadísticas</string>
-    <string name="profile_tab_about_stats_data2">%1$d publicaciones creadas
-\n%2$d comentarios escritos
-\n%3$d comentarios recibidos
-\n%4$d publicaciones favoritas
-\n%5$d favoritos recibidos
-\n%6$d usuarios seguidos
-\n%7$d seguidores</string>
     <string name="profile_tab_gallery">Galería</string>
     <string name="profile_tab_favs">Favoritos</string>
     <string name="profile_tab_comments">Comentarios</string>
@@ -758,7 +745,6 @@
     <string name="cleanup">Limpiar</string>
     <string name="recent_messages">Mensajes recientes</string>
     <string name="mod_logs_user">Registros de mod para %1$s</string>
-    <string name="messages">Mensajes (antiguos)</string>
     <string name="deleted_account">Cuenta eliminada</string>
     <string name="help">Ayuda</string>
     <string name="and">y</string>
@@ -773,7 +759,6 @@
     <string name="message_last_seen_online">en línea</string>
     <string name="message_send_media">Enviar medios</string>
     <string name="chats_no_messages">No hay mensajes todavía</string>
-    <string name="chats_unread_many">%1$d+</string>
     <string name="chats_no_chats">Una vez que te unas a un chat, aparecerá aquí.</string>
 
     <string name="chat_toolbar_loading">Cargando chat…</string>
@@ -826,7 +811,6 @@
     <string name="chat_open_error_banned">Te han prohibido este chat.</string>
     <string name="chat_open_error_kicked">Te han echado de esta chat.</string>
     <string name="chat_open_error_deleted">Este chat ya no existe.</string>
-    <string name="chat_open_invited">¿Te han invitado a unir %1$s. \ N \ naccept Invite?</string>
     <string name="leave">Dejar</string>
     <string name="join">Unirse</string>
     <string name="decline">Rechazar</string>
@@ -980,7 +964,6 @@
     <string name="profile_followers_unfollow_deleted_message">¿Quieres dejar de seguir esta cuenta eliminada?</string>
 
     <string name="post">Correo</string>
-    <string name="posts_comic">%1$s</string>
     <string name="edit_profile_name_hint">Nombre</string>
     <string name="edit_profile_name_info">¡Elige un buen nombre!</string>
     <string name="edit_profile_username_info">Otros usuarios pueden mencionarlo con @Your_username. \ Nallowed personajes: A-Z A-Z _-.y 0–9</string>
@@ -1027,12 +1010,6 @@
     <string name="settings_danger_change_email_saving">Cambiar su correo electrónico…</string>
     <string name="settings_danger_change_email_saving_error">No se pudo cambiar el correo electrónico: %1$s</string>
     <string name="settings_danger_change_email_saving_success">¡Éxito!Correo electrónico cambiado a %1$s</string>
-    <string name="cleanup_old_following_posts">Eliminar las viejas publicaciones siguientes</string>
-    <string name="cleanup_old_messages">Eliminar mensajes antiguos</string>
-    <string name="cleanup_old_like_notifications">Eliminar las viejas notificaciones me gustó</string>
-    <string name="cleanup_old_installations">Eliminar instalaciones antiguas</string>
-    <string name="cleanup_error">Error: %1$s</string>
-
     <string name="modmail_empty_text">¡Todavía no tienes modmail!</string>
 
     <string name="discover_users_title">Examinar a los usuarios</string>
@@ -1054,10 +1031,59 @@
     <string name="discover_users_list_empty">No se encontraron usuarios</string>
     <string name="discover_users_search_empty">No se encuentran usuarios con un nombre o nombre de usuario que comienza con \"%1$s \"</string>
     <string name="discover_users_search_error">No se encuentran usuarios con un nombre o nombre de usuario que comienza con \"%1$s \". \ N \ nerror: %2$s</string>
-<string name="nav_switch_ad_mode">Alternar después del anochecer (anuncio)</string>
-
-    <string name="chat_control_message_12">%1$s cambió la información del grupo a %2$s</string>
+<string name="chat_control_message_12">%1$s cambió la información del grupo a %2$s</string>
 
     <string name="chat_error_removed_from_chat">Te han eliminado de este chat</string>
 
+    <string name="action_mute">Silenciar</string>
+    <string name="action_unmute">Mogi</string>
+
+    <string name="reported_chats">Chats reportados</string>
+    <string name="chat_media_message">Mensaje de medios</string>
+    <string name="chat_media_message_with_text">Mensaje de medios: %1$s</string>
+
+    <string name="chat_role_admin">ADMINISTRACIÓN</string>
+    <string name="chat_admin_join">Únete como administrador</string>
+    <string name="chat_joined_with_role">Unido con el rol %1$d</string>
+
+    <string name="chat_error_does_not_exist">Este chat ha sido eliminado</string>
+
+    <string name="chat_open_invited_single">%1$s (%2$s) quiere chatear con usted.</string>
+    <string name="chat_open_invited_group">¿Te han invitado a unirte al chat grupal \"%1$s \". \ N \ naccept invitación?</string>
+    <string name="chat_delete_error">No se pudo eliminar: %1$s</string>
+    <string name="chat_clear_history_title">Historia clara</string>
+    <string name="chat_clear_history_message">Elimine todos los mensajes y medios de comunicación. Esto eliminará todo en este chat para todos los miembros. \ Nn \ Esta acción es irreversible y puede tardar unos minutos en completarse.</string>
+    <string name="chat_clear_history_positive">Elimina todo</string>
+    <string name="chat_clear_history_error">No se pudo limpiar el historial: %1$s</string>
+    <string name="chat_clear_history_success">¡Historia de chat despejada!</string>
+    <string name="chat_leave_chat_title">Deja el chat</string>
+    <string name="chat_leave_chat_message">Deje este chat? \ N \ nyou podría no poder unirse nuevamente sin una invitación.</string>
+    <string name="chat_leave_chat_positive">Deja el chat</string>
+    <string name="chat_leave_chat_error">No se pudo dejar: %1$s</string>
+    <string name="chat_leave_chat_success">Dejó la conversación</string>
+    <string name="chat_delete_chat_title">Eliminar chat</string>
+    <string name="chat_delete_chat_message">Elimine este chat?</string>
+    <string name="chat_delete_chat_positive">Eliminar chat</string>
+    <string name="chat_delete_chat_error">No se pudo eliminar: %1$s</string>
+    <string name="chat_delete_chat_success">Chat eliminado!</string>
+    <string name="chat_mute_chat_title">Chat mute</string>
+    <string name="chat_mute_chat_message">MUTE ESTE CHAT? \ N \ NYOU ya no recibirá notificaciones push para nuevos mensajes.</string>
+    <string name="chat_mute_chat_positive">Silenciar</string>
+    <string name="chat_mute_chat_error">No se quedó mudo: %1$s</string>
+    <string name="chat_mute_chat_success">¡Chat apagado!</string>
+    <string name="chat_unmute_chat_title">Chat inmovilizado</string>
+    <string name="chat_unmute_chat_message">Informe este chat? \ N \ nyou recibirá notificaciones push para nuevos mensajes.</string>
+    <string name="chat_unmute_chat_positive">Mogi</string>
+    <string name="chat_unmute_chat_error">No se hundió: %1$s</string>
+    <string name="chat_unmute_chat_success">¡Chat sin morir!</string>
+
+    <string name="mod_log_chat">Ir a chat %1$s</string>
+    <string name="post_info_file_dimensions">Dimensiones del archivo: %1$dx %2$d</string>
+    <string name="profile_stats_data_liked_posts">%1$d Las publicaciones me gustó</string>
+    <string name="profile_stats_data_likes_received">%1$d me gusta recibido</string>
+    <string name="profile_stats_data_comments_written">%1$d comentarios escritos</string>
+    <string name="profile_stats_data_comments_received">%1$d Comentarios recibidos</string>
+    <string name="profile_stats_data_premium_months">%1$d meses de premium comprado</string>
+    <string name="profile_stats_data_levels">%1$d niveles de cuenta comprados</string>
+    <string name="profile_stats_data_messages_sent">%1$d Mensajes enviados</string>
     </resources>
