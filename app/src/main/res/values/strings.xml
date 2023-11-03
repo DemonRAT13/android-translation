@@ -1024,10 +1024,15 @@
     <string name="settings_language_title">Localisation</string>
     <string name="settings_language_edit_title">Change app language</string>
     <string name="setting_language_item_en" translatable="false">English (English)</string>
+    <string name="setting_language_item_cs" translatable="false">český (Czech)</string>
+    <string name="setting_language_item_de" translatable="false">deutsche (German)</string>
     <string name="setting_language_item_es" translatable="false">Español (Spanish)</string>
+    <string name="setting_language_item_it" translatable="false">italiana (Italian)</string>
+    <string name="setting_language_item_ja" translatable="false">日本語 (Japanese)</string>
     <string name="setting_language_item_pl" translatable="false">polski (Polish)</string>
     <string name="setting_language_item_pt" translatable="false">Português (Portuguese)</string>
     <string name="setting_language_item_ru" translatable="false">Pусский (Russian)</string>
+    <string name="setting_language_item_tr" translatable="false">Türk Dili (Turkish)</string>
 
     <string name="content_filter_title">Content filter</string>
     <string name="content_filter_rating_title">Max content rating</string>
