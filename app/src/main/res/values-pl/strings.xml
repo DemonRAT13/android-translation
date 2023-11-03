@@ -207,7 +207,6 @@ Zamiast tego zarejestruj się</string>
     <string name="reported_posts">Zgłoszone posty</string>
     <string name="reported_comments">Zgłoszone komentarze</string>
     <string name="reported_users">Zgłoszeni użytkownicy</string>
-    <string name="reported_conversations">Zgłoszone konwersacje</string>
     <string name="recent_comments">Najnowsze komentarze</string>
     <string name="mod_logs">Logi moderacji</string>
     <string name="download">Pobierz</string>
@@ -318,11 +317,8 @@ Oceń aplikację w Sklepie Google Play, wyślij e-mail na adres feedback@efurry.
     <string name="translate_general">Możesz pomóc w tłumaczeniu aplikacji na inne języki!</string>
     <string name="support_general">Potrzebujesz skontaktować się z administracją lub szukasz pomocy w obsłudze aplikacji?
 Wyślij e-mail na adres support@efurry.net lub kliknij przycisk poniżej, aby wysłać wiadomość bezpośrednio z poziomu aplikacji.</string>
-    <string name="support_admin_contact">Zgłoszenie pomocy</string>
     <string name="support_social">Mamy serwer na Discordzie i grupę na Telegramie!
 Dołącz do rozmów z innymi użytkownikami oraz moderatorami i uzyskaj pomoc w każdej sprawie.</string>
-    <string name="support_open_source">Otwarte oprogramowanie</string>
-    <string name="support_open_source_text">Cała aplikacja to otwarte oprogramowanie - sprawdź kod i pomóż go rozwinąć na GitHubie!</string>
     <string name="support_social_not_logged_in">Najpierw załóż konto</string>
     <string name="discord">Discord</string>
     <string name="telegram">Telegram</string>
@@ -444,12 +440,10 @@ Zostaw komentarz i spraw komuś radość!</string>
     <string name="post_text_read_less">Pokaż mniej</string>
     <string name="post_unknown_title">Nieznany rodzaj posta</string>
     <string name="post_unknown_body">Zaktualizuj aplikację, aby zobaczyć tego posta!</string>
-    <string name="post_date_posted_categories">%1$s%2$s</string>
     <string name="follow">Obserwuj</string>
     <string name="post_poll_votes">%1$d głosów</string>
     <string name="post_poll_no_votes">Brak głosów</string>
     <string name="post_poll_vote">Głosuj</string>
-    <string name="post_poll_option_percentage">%1$d%%</string>
     <string name="post_poll_option_click_votes">%1$d głosów</string>
     <string name="post_poll_option_click_vote">%1$d głos</string>
     <string name="post_poll_error_title">Nie udało się uzyskać głosu: %1$s. Spróbuj ponownie</string>
@@ -495,13 +489,6 @@ Zostaw komentarz i spraw komuś radość!</string>
     <string name="profile_tab_about_presentation">O mnie</string>
     <string name="profile_tab_about_links">Linki społecznościowe</string>
     <string name="profile_tab_about_stats">Statystyki</string>
-    <string name="profile_tab_about_stats_data2">Utworzonych postów: %1$d
-Napisanych komentarzy: %2$d
-Otrzymanych komentarzy: %3$d
-Polubionych postów: %4$d
-Otrzymanych polubień: %5$d
-Obserwowanych użytkowników: %6$d
-Obserwujących: %7$d</string>
     <string name="profile_tab_gallery">Galeria</string>
     <string name="profile_tab_favs">Polubione</string>
     <string name="profile_tab_comments">Komentarze</string>
@@ -776,7 +763,6 @@ Obserwujących: %7$d</string>
     <string name="cleanup">Posprzątać</string>
     <string name="recent_messages">Najnowsze wiadomości</string>
     <string name="mod_logs_user">Dzienniki modowe dla %1$s</string>
-    <string name="messages">Wiadomości (stare)</string>
     <string name="chats">Rozmowy</string>
     <string name="deleted_account">Usunięte konto</string>
     <string name="unknown_account">Nieznany</string>
@@ -795,7 +781,6 @@ Obserwujących: %7$d</string>
     <string name="message_last_seen_online">online</string>
     <string name="message_send_media">Wyślij media</string>
     <string name="chats_no_messages">Nie ma jeszcze wiadomości</string>
-    <string name="chats_unread_many">%1$d+</string>
     <string name="chats_no_chats">Po dołączeniu do czatu pojawi się tutaj. \ N \ nstart czat w prawym górnym rogu!</string>
 
     <string name="chat_toolbar_loading">Ładowanie czatu…</string>
@@ -852,7 +837,6 @@ Obserwujących: %7$d</string>
     <string name="chat_open_error_banned">Zostałeś zakazany w tym czacie.</string>
     <string name="chat_open_error_kicked">Zostałeś wyrzucony z tego czatu.</string>
     <string name="chat_open_error_deleted">Ten czat już nie istnieje.</string>
-    <string name="chat_open_invited">Zostałeś zaproszony do przyłączenia się do %1$s. \ N \ naccept zaproszenie?</string>
     <string name="leave">Wyjechać</string>
     <string name="join">Dołączyć</string>
     <string name="decline">Spadek</string>
@@ -1053,12 +1037,6 @@ Obserwujących: %7$d</string>
     <string name="settings_danger_change_email_saving">Zmiana e -maila…</string>
     <string name="settings_danger_change_email_saving_error">Nie udało się zmienić e -maila: %1$s</string>
     <string name="settings_danger_change_email_saving_success">Powodzenie!E -mail zmienił się na %1$s</string>
-    <string name="cleanup_old_following_posts">Usuń stare następujące posty</string>
-    <string name="cleanup_old_messages">Usuń stare wiadomości</string>
-    <string name="cleanup_old_like_notifications">Usuń stare powiadomienia</string>
-    <string name="cleanup_old_installations">Usuń stare instalacje</string>
-    <string name="cleanup_error">Błąd: %1$s</string>
-
     <string name="modmail_empty_text">Nie masz jeszcze modmailu!</string>
 
     <string name="discover_users_title">Przeglądaj użytkowników</string>
@@ -1082,11 +1060,60 @@ Obserwujących: %7$d</string>
     <string name="discover_users_search_error">Żadnych użytkowników o nazwie lub nazwie użytkownika zaczynającej się od \"%1$s \". \ N \ nerror: %2$s</string>
 <string name="action_clear_history">Czysta historia</string>
     <string name="chat_info_user_option_ban">Zakaz</string>
-    <string name="posts_comic">%1$s</string>
-    <string name="nav_switch_ad_mode">Przełącz po ciemności (reklama)</string>
-
     <string name="chat_control_message_12">%1$s zmieniło informacje o grupie na %2$s</string>
 
     <string name="chat_error_removed_from_chat">Zostałeś usunięty z tego czatu</string>
 
+    <string name="action_mute">Niemy</string>
+    <string name="action_unmute">Mogi</string>
+
+    <string name="moderators">Moderatorzy</string>
+    <string name="reported_chats">Zgłoszone rozmowy</string>
+    <string name="chat_media_message">Wiadomość medialna</string>
+    <string name="chat_media_message_with_text">Wiadomość medialna: %1$s</string>
+
+    <string name="chat_role_admin">ADMIN</string>
+    <string name="chat_admin_join">Dołącz jako admin</string>
+    <string name="chat_joined_with_role">Połączone z rolą %1$d</string>
+
+    <string name="chat_error_does_not_exist">Ten czat został usunięty</string>
+
+    <string name="chat_open_invited_single">%1$s (%2$s) chce z tobą porozmawiać. \ N \ naccept Zaproszenie?</string>
+    <string name="chat_open_invited_group">Zostałeś zaproszony do dołączenia do czatu grupy \"%1$s \". \ N \ NACcept Invite?</string>
+    <string name="chat_delete_error">Nie udało się usunąć: %1$s</string>
+    <string name="chat_clear_history_title">Czysta historia</string>
+    <string name="chat_clear_history_message">Usuń wszystkie wiadomości i multimedia? \ Nn To usunie wszystko na tym czacie dla wszystkich członków. \ Nn \ Ta akcja jest nieodwracalna i może zająć kilka minut.</string>
+    <string name="chat_clear_history_positive">Usuń wszystko</string>
+    <string name="chat_clear_history_error">Nie udało się wyczyścić historii: %1$s</string>
+    <string name="chat_clear_history_success">Historia czatu została oczyszczona!</string>
+    <string name="chat_leave_chat_title">Zostaw czat</string>
+    <string name="chat_leave_chat_message">Zostaw ten czat? \ N \ nyou może nie być w stanie przyłączyć się ponownie bez zaproszenia.</string>
+    <string name="chat_leave_chat_positive">Zostaw czat</string>
+    <string name="chat_leave_chat_error">Nie udało się opuścić: %1$s</string>
+    <string name="chat_leave_chat_success">Opuścił czat</string>
+    <string name="chat_delete_chat_title">Usuń czat</string>
+    <string name="chat_delete_chat_message">Usuń ten czat? \ N \ Nall wiadomości i media zostaną usunięte, a wszyscy członkowie zostaną wyrzuceni.</string>
+    <string name="chat_delete_chat_positive">Usuń czat</string>
+    <string name="chat_delete_chat_error">Nie udało się usunąć: %1$s</string>
+    <string name="chat_delete_chat_success">Czat usunięty!</string>
+    <string name="chat_mute_chat_title">Niemy czatu</string>
+    <string name="chat_mute_chat_message">Wycisz ten czat? \ N \ nyou nie będzie już otrzymywać powiadomień pushowych nowych wiadomości.</string>
+    <string name="chat_mute_chat_positive">Niemy</string>
+    <string name="chat_mute_chat_error">Nie udało się wyciszić: %1$s</string>
+    <string name="chat_mute_chat_success">Czat wyciszony!</string>
+    <string name="chat_unmute_chat_title">Niezasowe czat</string>
+    <string name="chat_unmute_chat_message">Wyjdź z powodu tego czatu? \ N \ nyou otrzyma powiadomienia o nowych wiadomościach.</string>
+    <string name="chat_unmute_chat_positive">Mogi</string>
+    <string name="chat_unmute_chat_error">Nie udało się wycofać: %1$s</string>
+    <string name="chat_unmute_chat_success">Czat Niesprodzony!</string>
+
+    <string name="mod_log_chat">Przejdź do czatu %1$s</string>
+    <string name="post_info_file_dimensions">Wymiary pliku: %1$dX %2$d</string>
+    <string name="profile_stats_data_liked_posts">%1$d lubisz posty</string>
+    <string name="profile_stats_data_likes_received">%1$d polubienia otrzymane</string>
+    <string name="profile_stats_data_comments_written">%1$d Komentarze Pisane</string>
+    <string name="profile_stats_data_comments_received">Otrzymane komentarze %1$d</string>
+    <string name="profile_stats_data_premium_months">%1$d MIESIĄC PREMIUM Zakup</string>
+    <string name="profile_stats_data_levels">%1$d KONTALNE poziomy rachunków</string>
+    <string name="profile_stats_data_messages_sent">%1$d Wysłane wiadomości</string>
     </resources>

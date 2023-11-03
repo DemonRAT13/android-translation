@@ -324,7 +324,6 @@
     <string name="reported_posts">Жалоба на пост</string>
     <string name="reported_comments">Жалобы на комментарии</string>
     <string name="reported_users">Жалобы на пользователей</string>
-    <string name="reported_conversations">Жалобы на беседы</string>
     <string name="recent_comments">Недавние комментарии</string>
     <string name="recent_messages">Последние сообщения</string>
     <string name="mod_logs">Журнал модерации</string>
@@ -454,10 +453,7 @@
     <string name="contributions_general">Если вы внесли свой вклад, отправьте @Dog сообщение!</string>
     <string name="translate_general">Вы можете помочь перевести приложение на другой язык!</string>
     <string name="support_general">Нужно связаться с администратором или нужна помощь с приложением? Отправьте электронное письмо по адресу support@efurry.net или нажмите кнопку ниже, чтобы отправить сообщение прямо в приложении.</string>
-    <string name="support_admin_contact">Запросить поддержку</string>
     <string name="support_social">У нас есть Discord-сервер и группа в Telegram! Присоединяйся, чтобы общаться с другими пользователями и модераторами и получать помощь по любому вопросу.</string>
-    <string name="support_open_source">Открытый исходный код</string>
-    <string name="support_open_source_text">Приложение полностью с открытым исходным кодом — проверяйте код и помогайте его разрабатывать на GitHub!</string>
     <string name="support_social_not_logged_in">Сначала зарегистрируйте аккаунт</string>
     <string name="discord">Discord</string>
     <string name="telegram">Telegram</string>
@@ -665,12 +661,10 @@
     <string name="post_content_blocked_body">Заблокированный контент: %1$s</string>
     <string name="post_tag_and_content_blocked_body">Заблокированный контент: %1$s,\nЗаблокированные теги: %2$s</string>
     <string name="post_tag_blocked_view">Показать пост</string>
-    <string name="post_date_posted_categories">%1$s%2$s</string>
     <string name="follow">Подписаться</string>
     <string name="post_poll_votes">%1$d голосов</string>
     <string name="post_poll_no_votes">Нет голосов</string>
     <string name="post_poll_vote">Голосование</string>
-    <string name="post_poll_option_percentage">%1$d%%</string>
     <string name="post_poll_option_click_votes">%1$d голосов</string>
     <string name="post_poll_option_click_vote">%1$d голос</string>
     <string name="post_poll_error_title">Не удалось проголосовать: %1$s. Пожалуйста, попробуйте еще раз</string>
@@ -747,14 +741,6 @@
     <string name="profile_tab_about_presentation">Биография</string>
     <string name="profile_tab_about_links">Социальные сети</string>
     <string name="profile_tab_about_stats">Статистика</string>
-    <string name="profile_tab_about_stats_data2">%1$d созданных постов
-        \n%2$d написанных комментариев
-        \n%3$d полученных комментариев
-        \n%4$d понравившихся постов
-        \n%5$d полученных лайков
-        \n%6$d подписок на пользователей
-        \n%7$d подписчиков
-    </string>
     <string name="profile_tab_gallery">Галерея</string>
     <string name="profile_tab_favs">Избранное</string>
     <string name="profile_tab_comments">Комментарии</string>
@@ -770,7 +756,6 @@
     <string name="posts_category_search">Посты в %1$s</string>
     <string name="posts_single_post_title">Пост %1$s</string>
     <string name="post">Пост</string>
-    <string name="posts_comic">%1$s</string>
     <string name="post_is_nsfw">Этот пост - NSFW!</string>
     <string name="edit_profile_title">Редактировать профиль</string>
     <string name="edit_profile_name_hint">Имя</string>
@@ -933,10 +918,6 @@
     <string name="blocked_item_for">Заблокировано %1$s %2$s назад</string>
     <string name="blocked_get_error">Ошибка: %1$s</string>
     <string name="blocked_none">Вы не заблокировали ни одного пользователя</string>
-    <string name="cleanup_old_following_posts">Удалить старые сообщения отслеживаемых постов</string>
-    <string name="cleanup_old_messages">Удалить старые сообщения</string>
-    <string name="cleanup_old_like_notifications">Удалить старые уведомления лайков</string>
-    <string name="cleanup_error">Ошибка: %1$s</string>
     <string name="modmail_empty_text">У вас еще нет Modmail!</string>
 <string name="action_start_chat">Начать чат</string>
     <string name="action_create_1_1_chat">Начните чат 1: 1</string>
@@ -952,7 +933,6 @@
     <string name="discover_users_start_chat_with">Выберите пользователя, чтобы общаться с</string>
     <string name="discover_users_invite">Выберите пользователя, чтобы пригласить</string>
     <string name="discover_users_send_gift_to">Выберите пользователя, чтобы подарить</string>
-    <string name="messages">Сообщения (старые)</string>
     <string name="chats">Чаты</string>
     <string name="unknown_account">Неизвестный</string>
     <string name="and">и</string>
@@ -961,7 +941,6 @@
     <string name="message_last_seen_online">В сети</string>
     <string name="message_send_media">Отправить СМИ</string>
     <string name="chats_no_messages">Пока нет сообщений</string>
-    <string name="chats_unread_many">%1$d+</string>
     <string name="chats_no_chats">Как только вы присоединитесь к чату, он появится здесь. \ N \ nstart в чате в правом верхнем углу!</string>
 
     <string name="chat_toolbar_loading">Загрузка чата…</string>
@@ -1019,7 +998,6 @@
     <string name="chat_open_error_banned">Вы были запрещены в этом чате.</string>
     <string name="chat_open_error_kicked">Вы были выбиты из этого чата.</string>
     <string name="chat_open_error_deleted">Этот чат больше не существует.</string>
-    <string name="chat_open_invited">Вас пригласили присоединиться к %1$s. \ N \ naccept Invite?</string>
     <string name="leave">Оставлять</string>
     <string name="join">Присоединиться</string>
     <string name="decline">Отклонить</string>
@@ -1038,7 +1016,6 @@
     <string name="post_comments_disabled">Комментарии были отключены для этого поста</string>
 
     <string name="profile_content_manage_fursonas">Управляйте своими фурсонами</string>
-    <string name="cleanup_old_installations">Удалить старые установки</string>
     <string name="discover_users_title">Просмотрите пользователей</string>
     <string name="discover_users_member_for">Присоединился %1$s %2$s назад</string>
     <string name="discover_users_order_followers_item">%1$d подписчиков</string>
@@ -1058,10 +1035,60 @@
     <string name="discover_users_list_empty">Пользователи не найдены</string>
     <string name="discover_users_search_empty">Пользователи не найдены с именем или именем пользователя, начиная с \"%1$s \"</string>
     <string name="discover_users_search_error">Пользователи не найдены с именем или именем пользователя, начиная с \"%1$s \". \ N \ nerror: %2$s</string>
-<string name="nav_switch_ad_mode">Переключить после наступления темноты (AD)</string>
-
-    <string name="chat_control_message_12">%1$s изменил информацию группы на %2$s</string>
+<string name="chat_control_message_12">%1$s изменил информацию группы на %2$s</string>
 
     <string name="chat_error_removed_from_chat">Вы были удалены из этого чата</string>
 
+    <string name="action_mute">Немой</string>
+    <string name="action_unmute">Моги</string>
+
+    <string name="moderators">Модераторы</string>
+    <string name="reported_chats">Сообщалось в чатах</string>
+    <string name="chat_media_message">СМИ сообщение</string>
+    <string name="chat_media_message_with_text">Сообщение СМИ: %1$s</string>
+
+    <string name="chat_role_admin">Администратор</string>
+    <string name="chat_admin_join">Присоединяйтесь как администратор</string>
+    <string name="chat_joined_with_role">Присоединился к роле %1$d</string>
+
+    <string name="chat_error_does_not_exist">Этот чат был удален</string>
+
+    <string name="chat_open_invited_single">%1$s (%2$s) хочет поговорить с вами. \ N \ Naccept Invite?</string>
+    <string name="chat_open_invited_group">Вам было предложено присоединиться к групповому чату \"%1$s \". \ N \ naccept Invite?</string>
+    <string name="chat_delete_error">Не удалось удалить: %1$s</string>
+    <string name="chat_clear_history_title">Чистая история</string>
+    <string name="chat_clear_history_message">Удалить все сообщения и носители? \ NN Это удалит все в этом чате для всех участников.</string>
+    <string name="chat_clear_history_positive">Удалить все</string>
+    <string name="chat_clear_history_error">Не удалось очистить историю: %1$s</string>
+    <string name="chat_clear_history_success">История чата очистилась!</string>
+    <string name="chat_leave_chat_title">Оставить чат</string>
+    <string name="chat_leave_chat_message">Оставьте этот чат?</string>
+    <string name="chat_leave_chat_positive">Оставить чат</string>
+    <string name="chat_leave_chat_error">Не удалось уйти: %1$s</string>
+    <string name="chat_leave_chat_success">Покинул чат</string>
+    <string name="chat_delete_chat_title">Удалить чат</string>
+    <string name="chat_delete_chat_message">Удалите этот чат?</string>
+    <string name="chat_delete_chat_positive">Удалить чат</string>
+    <string name="chat_delete_chat_error">Не удалось удалить: %1$s</string>
+    <string name="chat_delete_chat_success">Чат удален!</string>
+    <string name="chat_mute_chat_title">Мореат чат</string>
+    <string name="chat_mute_chat_message">Совместите этот чат?</string>
+    <string name="chat_mute_chat_positive">Немой</string>
+    <string name="chat_mute_chat_error">Не удалось отключиться: %1$s</string>
+    <string name="chat_mute_chat_success">Чат приглушен!</string>
+    <string name="chat_unmute_chat_title">Нижеречный чат</string>
+    <string name="chat_unmute_chat_message">Значите этот чат? \ N \ Nyou</string>
+    <string name="chat_unmute_chat_positive">Моги</string>
+    <string name="chat_unmute_chat_error">Не удалось включить: %1$s</string>
+    <string name="chat_unmute_chat_success">Потекайте без разговора!</string>
+
+    <string name="mod_log_chat">Зайдите в чат %1$s</string>
+    <string name="post_info_file_dimensions">Файл измерения: %1$dx %2$d</string>
+    <string name="profile_stats_data_liked_posts">%1$d понравились сообщения</string>
+    <string name="profile_stats_data_likes_received">%1$d лайки</string>
+    <string name="profile_stats_data_comments_written">%1$d Комментарии написаны</string>
+    <string name="profile_stats_data_comments_received">%1$d Комментарии</string>
+    <string name="profile_stats_data_premium_months">%1$d МЕСЯЦЕР ПРИ.</string>
+    <string name="profile_stats_data_levels">%1$d Уровни счета куплены</string>
+    <string name="profile_stats_data_messages_sent">%1$d отправлены сообщения</string>
     </resources>
