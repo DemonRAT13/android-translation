@@ -851,14 +851,7 @@
     <string name="profile_banned_until_with_reason">%1$s（%2$s%3$s）\ nReason：%4$sまで禁止</string>
     <string name="profile_tab_about">について</string>
     <string name="profile_tab_about_presentation">プレゼンテーション</string>
-    <string name="profile_tab_about_links">ソーシャルリンク</string>
     <string name="profile_tab_about_stats">統計</string>
-    <string name="profile_tab_gallery">ギャラリー</string>
-    <string name="profile_tab_favs">お気に入り</string>
-    <string name="profile_tab_comments">コメント</string>
-    <string name="profile_tab_following">続く</string>
-    <string name="profile_tab_followers">フォロワー</string>
-
     <string name="profile_followers_item_follower_for">%1$s%2$sのフォロワー</string>
     <string name="profile_followers_item_following_for">%1$s%2$sのフォロー</string>
     <string name="profile_followers_unfollow_deleted_title">フォローしていますか？</string>

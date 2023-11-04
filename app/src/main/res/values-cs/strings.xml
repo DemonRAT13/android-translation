@@ -854,14 +854,7 @@
     <string name="profile_mod_icon_mod">Tento uživatel je moderátorem</string>
     <string name="profile_tab_about">O</string>
     <string name="profile_tab_about_presentation">Prezentace</string>
-    <string name="profile_tab_about_links">Sociální odkazy</string>
     <string name="profile_tab_about_stats">Statistiky</string>
-    <string name="profile_tab_gallery">Galerie</string>
-    <string name="profile_tab_favs">Oblíbené</string>
-    <string name="profile_tab_comments">Komentáře</string>
-    <string name="profile_tab_following">Následující</string>
-    <string name="profile_tab_followers">Sledující</string>
-
     <string name="profile_followers_item_follower_for">Sledovač za %1$s %2$s</string>
     <string name="profile_followers_item_following_for">Následuje %1$s %2$s</string>
     <string name="profile_followers_unfollow_deleted_title">Unfrollow?</string>

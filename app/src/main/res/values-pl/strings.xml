@@ -487,13 +487,7 @@ Zostaw komentarz i spraw komuś radość!</string>
     <string name="profile_mod_icon_mod">Użytkownik jest moderatorem</string>
     <string name="profile_tab_about">O mnie</string>
     <string name="profile_tab_about_presentation">O mnie</string>
-    <string name="profile_tab_about_links">Linki społecznościowe</string>
     <string name="profile_tab_about_stats">Statystyki</string>
-    <string name="profile_tab_gallery">Galeria</string>
-    <string name="profile_tab_favs">Polubione</string>
-    <string name="profile_tab_comments">Komentarze</string>
-    <string name="profile_tab_following">Obserwowani</string>
-    <string name="profile_tab_followers">Obserwujący</string>
     <string name="profile_followers_item_follower_for">Obserwuje od %1$s %2$s</string>
     <string name="profile_followers_item_following_for">Obserwuje od %1$s %2$s</string>
     <string name="posts_gallery_title">Galeria użytkownika %1$s</string>
