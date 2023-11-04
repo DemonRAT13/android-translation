@@ -846,12 +846,6 @@ Zostaw komentarz i spraw komuś radość!</string>
     <string name="report_resolved_report">Raport Resourved %1$s \</string>
     <string name="report_resolve_deleted_comment">Usunięty %1$s \</string>
     <string name="restore">Przywrócić</string>
-    <string name="about_stats_content">Użytkownicy: %1$d
-        \ nposts: %2$d
-        \ ncomments: %3$d
-        \ n \ npremium
-        \ nonths of premium: %4$d
-        \ nlevel UPS: %5$d</string>
     <string name="premium_title">Wspieraj aplikację, kupując Efurry Premium i wyrównaj swoje konto lub podaruj ją innym użytkownikowi!</string>
     <string name="premium">Premia</string>
     <string name="premium_description">Kup Efurry Premium, aby usunąć wszystkie reklamy w aplikacji i uzyskać zwiększoną kwotę przesyłania.</string>

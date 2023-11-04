@@ -773,12 +773,6 @@ Deixe um comentário e faça alguém feliz!</string>
     <string name="restore">Restaurar</string>
     <string name="post_is_nsfw_in_sfw_mode">Esta postagem é classificada mais alta que sua classificação máxima!</string>
 
-    <string name="about_stats_content">Usuários: %1$d
-        \ nposts: %2$d
-        \ ncomments: %3$d
-        \ n \ npremium
-        \ nMonths de prêmio: %4$d
-        \ nlevel ups: %5$d</string>
     <string name="contributions_general">Se você contribuir, envie uma mensagem para @Dog!</string>
     <string name="premium_title">Apoie o aplicativo comprando o Efurry Premium e suba sua conta ou presenteie -o a outro usuário!</string>
     <string name="premium">Prêmio</string>

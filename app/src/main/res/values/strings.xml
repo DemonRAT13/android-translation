@@ -132,6 +132,7 @@
     <string name="upload_chooser_invalid_file">Invalid file!</string>
     <string name="upload_chooser_video_copy_failed">Failed to read video: %1$s</string>
     <string name="upload_chooser_video_compress_failed">Failed to compress video: %1$s</string>
+    <string name="upload_chooser_video_thumbnail_generation_failed">Failed to create thumbnail</string>
     <string name="upload_content_desc">The image or GIF to upload</string>
     <string name="upload_file_error">Something went wrong with the selected file</string>
     <string name="upload_progress_0">Compressing&#8230;</string>
@@ -604,16 +605,17 @@
 
     <string name="about_general">Welcome to the eFur project!\n\nA social space to share and enjoy all things furry ~</string>
     <string name="about_stats">Stats</string>
-    <string name="about_stats_content">
+    <string name="about_stats_content" translatable="false">
         Users: %1$d
         \nPosts: %2$d
         \nComments: %3$d
         \nMessages: %4$d
         \nFursonas: %5$d
         \nFiles: %6$d
+        \nBytes stored: %7$d (%8$s GB)
         \n\nPremium
-        \nMonths of premium: %7$d
-        \nLevel ups: %8$d
+        \nMonths of premium: %9$d
+        \nLevel ups: %10$d
     </string>
     <string name="feedback_general">Have feedback or suggestions to improve the app? Leave a rating in the Play store, send an email to feedback@efurry.net, or join the Discord and share your thoughts there!</string>
     <string name="contributions_general">If you contribute, send @Dog a message!</string>
@@ -982,6 +984,13 @@
         <item quantity="many">%1$d messages sent</item>
         <item quantity="other">%1$d messages sent</item>
     </plurals>
+    <plurals name="profile_stats_data_bytes_stored">
+        <item quantity="zero">%1$d bytes stored (%2$s MB)</item>
+        <item quantity="one">%1$d byte stored (%2$s MB)</item>
+        <item quantity="few">%1$d bytes stored (%2$s MB)</item>
+        <item quantity="many">%1$d bytes stored (%2$s MB)</item>
+        <item quantity="other">%1$d bytes stored (%2$s MB)</item>
+    </plurals>
 
     <string name="profile_followers_item_follower_for">Follower for %1$s %2$s</string>
     <string name="profile_followers_item_following_for">Following for %1$s %2$s</string>
@@ -1061,15 +1070,10 @@
     <string name="settings_language_title">Localisation</string>
     <string name="settings_language_edit_title">Change app language</string>
     <string name="setting_language_item_en" translatable="false">English (English)</string>
-    <string name="setting_language_item_cs" translatable="false">český (Czech)</string>
-    <string name="setting_language_item_de" translatable="false">deutsche (German)</string>
     <string name="setting_language_item_es" translatable="false">Español (Spanish)</string>
-    <string name="setting_language_item_it" translatable="false">italiana (Italian)</string>
-    <string name="setting_language_item_ja" translatable="false">日本語 (Japanese)</string>
     <string name="setting_language_item_pl" translatable="false">polski (Polish)</string>
     <string name="setting_language_item_pt" translatable="false">Português (Portuguese)</string>
     <string name="setting_language_item_ru" translatable="false">Pусский (Russian)</string>
-    <string name="setting_language_item_tr" translatable="false">Türk Dili (Turkish)</string>
 
     <string name="content_filter_title">Content filter</string>
     <string name="content_filter_rating_title">Max content rating</string>

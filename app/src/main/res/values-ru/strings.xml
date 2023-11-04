@@ -443,12 +443,6 @@
     <string name="post_is_nsfw_in_sfw_mode">Этот пост оценивается выше, чем ваш максимальный рейтинг!</string>
     <string name="about_general">Добро пожаловать в проект eFur!\n\nСоциальное пространство, где можно делиться и наслаждаться всеми пушистиками ~</string>
     <string name="about_stats">Статистика</string>
-    <string name="about_stats_content">        Пользователей: %1$d
-        \nПостов: %2$d
-        \nКомментариев: %3$d
-        \n\nПремиум
-        \nМесяцы премиума: %4$d
-        \nПовышений уровня: %5$d</string>
     <string name="feedback_general">Есть отзывы или предложения по улучшению приложения? Оставьте оценку в Play Store, отправьте электронное письмо по адресу feedback@efurry.net или присоединитесь к Discord и поделитесь там своими мыслями!</string>
     <string name="contributions_general">Если вы внесли свой вклад, отправьте @Dog сообщение!</string>
     <string name="translate_general">Вы можете помочь перевести приложение на другой язык!</string>

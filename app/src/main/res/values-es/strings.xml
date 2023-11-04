@@ -820,12 +820,6 @@
     <string name="report_resolved_report">Resuelto %1$s \ \'s Informe</string>
     <string name="report_resolve_deleted_comment">El comentario eliminado %1$s \</string>
     <string name="restore">Restaurar</string>
-    <string name="about_stats_content">Usuarios: %1$d
-        \ nposts: %2$d
-        \ ncomments: %3$d
-        \ n \ npremium
-        \ nMonths of Premium: %4$d
-        \ nlevel ups: %5$d</string>
     <string name="premium_title">¡Apoye la aplicación comprando Efurry Premium y nivelar su cuenta o regálela a otro usuario!</string>
     <string name="premium">De primera calidad</string>
     <string name="premium_description">Compre Efurry Premium para eliminar todos los anuncios de la aplicación y obtener una cuota de carga aumentada.</string>
