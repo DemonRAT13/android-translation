@@ -1118,4 +1118,5 @@ Deixe um comentário e faça alguém feliz!</string>
         <item quantity="many">%1$d mensagens enviadas</item>
         <item quantity="other">%1$d mensagens enviadas</item>
     </plurals>
+    <string name="upload_chooser_video_thumbnail_generation_failed">Falhou em criar miniatura</string>
     </resources>
