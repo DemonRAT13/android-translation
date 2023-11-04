@@ -1076,11 +1076,54 @@
 
     <string name="mod_log_chat">Vai a chat %1$s</string>
     <string name="post_info_file_dimensions">Dimensioni del file: %1$dx %2$d</string>
-    <string name="profile_stats_data_liked_posts">%1$d Posta di post</string>
-    <string name="profile_stats_data_likes_received">%1$d Mi piace ricevuto</string>
-    <string name="profile_stats_data_comments_written">%1$d Commenti scritti</string>
-    <string name="profile_stats_data_comments_received">%1$d Commenti ricevuti</string>
-    <string name="profile_stats_data_premium_months">%1$d mesi di premium acquistato</string>
-    <string name="profile_stats_data_levels">%1$d Livelli di conto acquistati</string>
-    <string name="profile_stats_data_messages_sent">%1$d Messaggi inviati</string>
+
+    <plurals name="profile_stats_data_liked_posts">
+        <item quantity="zero">%1$d post piaciuti</item>
+        <item quantity="one">%1$d ha messo mi piace al post</item>
+        <item quantity="few">%1$d post piaciuti</item>
+        <item quantity="many">%1$d post piaciuti</item>
+        <item quantity="other">%1$d post piaciuti</item>
+    </plurals>
+    <plurals name="profile_stats_data_likes_received">
+        <item quantity="zero">%1$d Mi piace ricevuti</item>
+        <item quantity="one">%1$d like ricevuti</item>
+        <item quantity="few">%1$d Mi piace ricevuti</item>
+        <item quantity="many">%1$d Mi piace ricevuti</item>
+        <item quantity="other">%1$d Mi piace ricevuti</item>
+    </plurals>
+    <plurals name="profile_stats_data_comments_written">
+        <item quantity="zero">%1$d commenti scritti</item>
+        <item quantity="one">%1$d commento scritto</item>
+        <item quantity="few">%1$d commenti scritti</item>
+        <item quantity="many">%1$d commenti scritti</item>
+        <item quantity="other">%1$d commenti scritti</item>
+    </plurals>
+    <plurals name="profile_stats_data_comments_received">
+        <item quantity="zero">%1$d commenti ricevuti</item>
+        <item quantity="one">%1$d commento ricevuto</item>
+        <item quantity="few">%1$d commenti ricevuti</item>
+        <item quantity="many">%1$d commenti ricevuti</item>
+        <item quantity="other">%1$d commenti ricevuti</item>
+    </plurals>
+    <plurals name="profile_stats_data_premium_months">
+        <item quantity="zero">%1$d mesi di premio acquistato</item>
+        <item quantity="one">%1$d mese di premio acquistato</item>
+        <item quantity="few">%1$d mesi di premio acquistato</item>
+        <item quantity="many">%1$d mesi di premio acquistato</item>
+        <item quantity="other">%1$d mesi di premio acquistato</item>
+    </plurals>
+    <plurals name="profile_stats_data_levels">
+        <item quantity="zero">%1$d livelli di account acquistati</item>
+        <item quantity="one">%1$d livello di account acquistato</item>
+        <item quantity="few">%1$d livelli di account acquistati</item>
+        <item quantity="many">%1$d livelli di account acquistati</item>
+        <item quantity="other">%1$d livelli di account acquistati</item>
+    </plurals>
+    <plurals name="profile_stats_data_messages_sent">
+        <item quantity="zero">%1$d messaggi inviati</item>
+        <item quantity="one">%1$d messaggio inviato</item>
+        <item quantity="few">%1$d messaggi inviati</item>
+        <item quantity="many">%1$d messaggi inviati</item>
+        <item quantity="other">%1$d messaggi inviati</item>
+    </plurals>
     </resources>
