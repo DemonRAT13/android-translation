@@ -1101,11 +1101,54 @@
 
     <string name="mod_log_chat">Gehen Sie zu Chat %1$s</string>
     <string name="post_info_file_dimensions">Dateiabmessungen: %1$dX %2$d.</string>
-    <string name="profile_stats_data_liked_posts">%1$d mochte Posts</string>
-    <string name="profile_stats_data_likes_received">%1$d Likes erhalten</string>
-    <string name="profile_stats_data_comments_written">%1$d Kommentare geschrieben</string>
-    <string name="profile_stats_data_comments_received">%1$d Kommentare erhalten</string>
-    <string name="profile_stats_data_premium_months">%1$d Monate Premium gekauft</string>
-    <string name="profile_stats_data_levels">%1$d Konto gekauft gekauft</string>
-    <string name="profile_stats_data_messages_sent">%1$d Nachrichten gesendet</string>
+
+    <plurals name="profile_stats_data_liked_posts">
+        <item quantity="zero">%1$d Beiträge mit Gefällt mir</item>
+        <item quantity="one">%1$d hat den Beitrag mit Gefällt mir markiert</item>
+        <item quantity="few">%1$d hat Beiträge mit Gefällt mir markiert</item>
+        <item quantity="many">%1$d hat Beiträge mit Gefällt mir markiert</item>
+        <item quantity="other">%1$d Beiträge mit Gefällt mir</item>
+    </plurals>
+    <plurals name="profile_stats_data_likes_received">
+        <item quantity="zero">%1$d Likes erhalten</item>
+        <item quantity="one">%1$d gerne erhalten</item>
+        <item quantity="few">%1$d Likes erhalten</item>
+        <item quantity="many">%1$d Likes erhalten</item>
+        <item quantity="other">%1$d Likes erhalten</item>
+    </plurals>
+    <plurals name="profile_stats_data_comments_written">
+        <item quantity="zero">%1$d Kommentare geschrieben</item>
+        <item quantity="one">%1$d Kommentar geschrieben</item>
+        <item quantity="few">%1$d Kommentare geschrieben</item>
+        <item quantity="many">%1$d Kommentare geschrieben</item>
+        <item quantity="other">%1$d Kommentare geschrieben</item>
+    </plurals>
+    <plurals name="profile_stats_data_comments_received">
+        <item quantity="zero">%1$d Kommentare erhalten</item>
+        <item quantity="one">%1$d Kommentar erhalten</item>
+        <item quantity="few">%1$d Kommentare erhalten</item>
+        <item quantity="many">%1$d Kommentare erhalten</item>
+        <item quantity="other">%1$d Kommentare erhalten</item>
+    </plurals>
+    <plurals name="profile_stats_data_premium_months">
+        <item quantity="zero">%1$d Monate Prämie gekauft</item>
+        <item quantity="one">%1$d Monatsprämie gekauft</item>
+        <item quantity="few">%1$d Monate Prämie gekauft</item>
+        <item quantity="many">%1$d Monate Prämie gekauft</item>
+        <item quantity="other">%1$d Monate Prämie gekauft</item>
+    </plurals>
+    <plurals name="profile_stats_data_levels">
+        <item quantity="zero">%1$d Kontoebenen gekauft</item>
+        <item quantity="one">%1$d Kontoebene gekauft</item>
+        <item quantity="few">%1$d Kontoebenen gekauft</item>
+        <item quantity="many">%1$d Kontoebenen gekauft</item>
+        <item quantity="other">%1$d Kontoebenen gekauft</item>
+    </plurals>
+    <plurals name="profile_stats_data_messages_sent">
+        <item quantity="zero">%1$d Nachrichten gesendet</item>
+        <item quantity="one">%1$d Nachricht gesendet</item>
+        <item quantity="few">%1$d Nachrichten gesendet</item>
+        <item quantity="many">%1$d Nachrichten gesendet</item>
+        <item quantity="other">%1$d Nachrichten gesendet</item>
+    </plurals>
     </resources>
