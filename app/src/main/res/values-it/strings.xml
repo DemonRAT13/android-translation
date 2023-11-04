@@ -811,7 +811,7 @@
     <string name="profile_content_posts">Visualizza i post su All %1$d</string>
     <string name="profile_content_favs">Visualizza i post di All %1$d</string>
     <string name="profile_content_favs_private">%1$d POST PIMO PREVITAMENTE</string>
-    <string name="profile_content_comments">Visualizza tutti i commenti di 1 $ d</string>
+    <string name="profile_content_comments">Visualizza tutti i commenti di %1$d</string>
     <string name="profile_content_comments_private">%1$d Commenti privati</string>
     <string name="profile_content_following">Visualizza All %1$d seguendo</string>
     <string name="profile_content_following_private">Privatamente dopo %1$d</string>
