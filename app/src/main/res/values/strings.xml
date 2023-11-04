@@ -934,46 +934,53 @@
     <string name="profile_tab_about_stats">Stats</string>
 
     <plurals name="profile_stats_data_liked_posts">
-        <item quantity="zero">No liked posts</item>
-        <item quantity="one">1 liked post</item>
+        <item quantity="zero">%1$d liked posts</item>
+        <item quantity="one">%1$d liked post</item>
         <item quantity="few">%1$d liked posts</item>
         <item quantity="many">%1$d liked posts</item>
+        <item quantity="other">%1$d liked posts</item>
     </plurals>
     <plurals name="profile_stats_data_likes_received">
-        <item quantity="zero">No likes received</item>
-        <item quantity="one">1 like received</item>
+        <item quantity="zero">%1$d likes received</item>
+        <item quantity="one">%1$d like received</item>
         <item quantity="few">%1$d likes received</item>
         <item quantity="many">%1$d likes received</item>
+        <item quantity="other">%1$d likes received</item>
     </plurals>
     <plurals name="profile_stats_data_comments_written">
-        <item quantity="zero">No comments written</item>
-        <item quantity="one">1 comment written</item>
+        <item quantity="zero">%1$d comments written</item>
+        <item quantity="one">%1$d comment written</item>
         <item quantity="few">%1$d comments written</item>
         <item quantity="many">%1$d comments written</item>
+        <item quantity="other">%1$d comments written</item>
     </plurals>
     <plurals name="profile_stats_data_comments_received">
-        <item quantity="zero">No comments received</item>
-        <item quantity="one">1 comment received</item>
+        <item quantity="zero">%1$d comments received</item>
+        <item quantity="one">%1$d comment received</item>
         <item quantity="few">%1$d comments received</item>
         <item quantity="many">%1$d comments received</item>
+        <item quantity="other">%1$d comments received</item>
     </plurals>
     <plurals name="profile_stats_data_premium_months">
-        <item quantity="zero">No months of premium bought</item>
-        <item quantity="one">1 month of premium bought</item>
+        <item quantity="zero">%1$d months of premium bought</item>
+        <item quantity="one">%1$d month of premium bought</item>
         <item quantity="few">%1$d months of premium bought</item>
         <item quantity="many">%1$d months of premium bought</item>
+        <item quantity="other">%1$d months of premium bought</item>
     </plurals>
     <plurals name="profile_stats_data_levels">
-        <item quantity="zero">No account levels bought</item>
-        <item quantity="one">1 account level bought</item>
+        <item quantity="zero">%1$d account levels bought</item>
+        <item quantity="one">%1$d account level bought</item>
         <item quantity="few">%1$d account levels bought</item>
         <item quantity="many">%1$d account levels bought</item>
+        <item quantity="other">%1$d account levels bought</item>
     </plurals>
     <plurals name="profile_stats_data_messages_sent">
-        <item quantity="zero">No messages sent</item>
-        <item quantity="one">1 message sent</item>
+        <item quantity="zero">%1$d messages sent</item>
+        <item quantity="one">%1$d message sent</item>
         <item quantity="few">%1$d messages sent</item>
         <item quantity="many">%1$d messages sent</item>
+        <item quantity="other">%1$d messages sent</item>
     </plurals>
 
     <string name="profile_followers_item_follower_for">Follower for %1$s %2$s</string>
