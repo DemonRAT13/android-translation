@@ -1123,4 +1123,5 @@
         <item quantity="many">%1$d mensajes enviados</item>
         <item quantity="other">%1$d mensajes enviados</item>
     </plurals>
+    <string name="user">Usuario</string>
     </resources>
