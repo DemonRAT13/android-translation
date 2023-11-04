@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <resources>
-<string name="action_log_out">ログアウト</string>
+    <string name="action_log_out">ログアウト</string>
     <string name="action_log_in">ログイン</string>
     <string name="action_settings">設定</string>
     <string name="action_create">作成する</string>
@@ -1047,8 +1047,8 @@
     <string name="discover_users_list_empty">ユーザが見つかりませんでした</string>
     <string name="discover_users_search_empty">\"%1$s \"で始まる名前またはユーザー名で見つかったユーザーはありません</string>
     <string name="discover_users_search_error">\"%1$s \"。\ n \ nerror：%2$sで始まる名前またはユーザー名でユーザーは見つかりません</string>
-    
-<string name="reset_password_dialog_message">これにより、パスワードリセットメールが\"%1$s \"に送信されます。\ nclick in relink in in ecamer \ n \ ndo続行したいですか？</string>
+
+    <string name="reset_password_dialog_message">これにより、パスワードリセットメールが\"%1$s \"に送信されます。\ nclick in relink in in ecamer \ n \ ndo続行したいですか？</string>
     <string name="report_reason_harassment">嫌がらせ</string>
     <string name="post_unknown_title">不明な投稿タイプ</string>
     <string name="post_info_tag_blocked">タグ%1$sブロック</string>
@@ -1104,11 +1104,54 @@
 
     <string name="mod_log_chat">チャット%1$sに移動します</string>
     <string name="post_info_file_dimensions">ファイル寸法：%1$dx%2$d</string>
-    <string name="profile_stats_data_liked_posts">%1$dが投稿されました</string>
-    <string name="profile_stats_data_likes_received">%1$dの受信</string>
-    <string name="profile_stats_data_comments_written">%1$dコメントが書かれています</string>
-    <string name="profile_stats_data_comments_received">%1$dコメントを受け取った</string>
-    <string name="profile_stats_data_premium_months">%1$dのプレミアム購入</string>
-    <string name="profile_stats_data_levels">%1$dアカウントレベル購入</string>
-    <string name="profile_stats_data_messages_sent">%1$dメッセージが送信されます</string>
-    </resources>
+
+    <plurals name="profile_stats_data_liked_posts">
+        <item quantity="zero">%1$d 個の「いいね！」投稿</item>
+        <item quantity="one">%1$d 件の「いいね！」投稿</item>
+        <item quantity="few">%1$d 個の「いいね！」投稿</item>
+        <item quantity="many">%1$d 個の「いいね！」投稿</item>
+        <item quantity="other">%1$d 個の「いいね！」投稿</item>
+    </plurals>
+    <plurals name="profile_stats_data_likes_received">
+        <item quantity="zero">%1$d 件のいいねを受け取りました</item>
+        <item quantity="one">%1$d 件のいいねを受け取りました</item>
+        <item quantity="few">%1$d 件のいいねを受け取りました</item>
+        <item quantity="many">%1$d 個のいいねを受け取りました</item>
+        <item quantity="other">%1$d 件のいいねを受け取りました</item>
+    </plurals>
+    <plurals name="profile_stats_data_comments_written">
+        <item quantity="zero">%1$d 個のコメントが書き込まれました</item>
+        <item quantity="one">%1$d 件のコメントが書き込まれました</item>
+        <item quantity="few">%1$d 個のコメントが書き込まれました</item>
+        <item quantity="many">%1$d 個のコメントが書き込まれました</item>
+        <item quantity="other">%1$d 個のコメントが書き込まれました</item>
+    </plurals>
+    <plurals name="profile_stats_data_comments_received">
+        <item quantity="zero">%1$d 個のコメントを受け取りました</item>
+        <item quantity="one">%1$d 個のコメントを受け取りました</item>
+        <item quantity="few">%1$d 個のコメントを受け取りました</item>
+        <item quantity="many">%1$d 個のコメントを受け取りました</item>
+        <item quantity="other">%1$d 個のコメントを受け取りました</item>
+    </plurals>
+    <plurals name="profile_stats_data_premium_months">
+        <item quantity="zero">%1$d か月分のプレミアム購入</item>
+        <item quantity="one">%1$d か月分のプレミアム購入</item>
+        <item quantity="few">%1$d か月分のプレミアムを購入</item>
+        <item quantity="many">%1$d か月分のプレミアム購入</item>
+        <item quantity="other">%1$d か月分のプレミアム購入</item>
+    </plurals>
+    <plurals name="profile_stats_data_levels">
+        <item quantity="zero">%1$d アカウント レベルを購入しました</item>
+        <item quantity="one">%1$d アカウント レベルを購入しました</item>
+        <item quantity="few">%1$d アカウント レベルを購入しました</item>
+        <item quantity="many">%1$d アカウント レベルを購入しました</item>
+        <item quantity="other">%1$d アカウント レベルを購入しました</item>
+    </plurals>
+    <plurals name="profile_stats_data_messages_sent">
+        <item quantity="zero">%1$d メッセージを送信しました</item>
+        <item quantity="one">%1$d 個のメッセージを送信しました</item>
+        <item quantity="few">%1$d メッセージを送信しました</item>
+        <item quantity="many">%1$d 個のメッセージが送信されました</item>
+        <item quantity="other">%1$d メッセージが送信されました</item>
+    </plurals>
+</resources>
