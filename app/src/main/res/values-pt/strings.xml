@@ -377,13 +377,7 @@ Deixe um comentário e faça alguém feliz!</string>
     <string name="profile_member_since">Membro por %1$s %2$s</string>
     <string name="profile_tab_about">Sobre</string>
     <string name="profile_tab_about_presentation">"Apresentação "</string>
-    <string name="profile_tab_about_links">Hiperligações sociais</string>
     <string name="profile_tab_about_stats">"Estatísticas "</string>
-    <string name="profile_tab_gallery">Galeria</string>
-    <string name="profile_tab_favs">"Favoritos "</string>
-    <string name="profile_tab_comments">"Comentários "</string>
-    <string name="profile_tab_following">Seguindo</string>
-    <string name="profile_tab_followers">"Seguidores "</string>
     <string name="profile_followers_item_follower_for">Seguidor por %1$s %2$s</string>
     <string name="profile_followers_item_following_for">Seguindo há  %1$s %2$s</string>
     <string name="posts_gallery_title">Galeria de  %1$s</string>

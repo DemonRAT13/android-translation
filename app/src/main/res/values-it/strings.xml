@@ -835,13 +835,7 @@
     <string name="profile_mod_icon_mod">Questo utente è un moderatore</string>
     <string name="profile_tab_about">Di</string>
     <string name="profile_tab_about_presentation">Presentazione</string>
-    <string name="profile_tab_about_links">Collegamenti sociali</string>
     <string name="profile_tab_about_stats">Statistiche</string>
-    <string name="profile_tab_gallery">Galleria</string>
-    <string name="profile_tab_comments">Commenti</string>
-    <string name="profile_tab_following">Seguente</string>
-    <string name="profile_tab_followers">Seguaci</string>
-
     <string name="profile_followers_item_follower_for">Seguace per %1$s %2$s</string>
     <string name="profile_followers_item_following_for">Seguendo per %1$s %2$s</string>
     <string name="profile_followers_unfollow_deleted_title">Non seguire?</string>

@@ -739,13 +739,7 @@
     <string name="profile_mod_icon_mod">Этот пользователь является модератором</string>
     <string name="profile_tab_about">О пользователе</string>
     <string name="profile_tab_about_presentation">Биография</string>
-    <string name="profile_tab_about_links">Социальные сети</string>
     <string name="profile_tab_about_stats">Статистика</string>
-    <string name="profile_tab_gallery">Галерея</string>
-    <string name="profile_tab_favs">Избранное</string>
-    <string name="profile_tab_comments">Комментарии</string>
-    <string name="profile_tab_following">Подписки</string>
-    <string name="profile_tab_followers">Подписчики</string>
     <string name="profile_followers_item_follower_for">Подписчик %1$s %2$s</string>
     <string name="profile_followers_item_following_for">Подписан %1$s %2$s</string>
     <string name="profile_followers_unfollow_deleted_title">Отписаться?</string>

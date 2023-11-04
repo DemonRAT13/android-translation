@@ -855,13 +855,7 @@
     <string name="profile_mod_icon_mod">Dieser Benutzer ist ein Moderator</string>
     <string name="profile_tab_about">Um</string>
     <string name="profile_tab_about_presentation">Präsentation</string>
-    <string name="profile_tab_about_links">Soziale Links</string>
     <string name="profile_tab_about_stats">Statistiken</string>
-    <string name="profile_tab_gallery">Galerie</string>
-    <string name="profile_tab_comments">Kommentare</string>
-    <string name="profile_tab_following">Folgen</string>
-    <string name="profile_tab_followers">Anhänger</string>
-
     <string name="profile_followers_item_follower_for">Anhänger für %1$s %2$s</string>
     <string name="profile_followers_item_following_for">Nach %1$s %2$s</string>
     <string name="profile_followers_unfollow_deleted_title">Nicht folgen?</string>

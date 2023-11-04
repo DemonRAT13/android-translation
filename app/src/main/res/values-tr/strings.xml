@@ -857,14 +857,7 @@
     <string name="profile_mod_icon_mod">Bu kullanıcı bir moderatördür</string>
     <string name="profile_tab_about">Hakkında</string>
     <string name="profile_tab_about_presentation">Sunum</string>
-    <string name="profile_tab_about_links">Sosyal Bağlantılar</string>
     <string name="profile_tab_about_stats">İstatistikler</string>
-    <string name="profile_tab_gallery">Galeri</string>
-    <string name="profile_tab_favs">Favoriler</string>
-    <string name="profile_tab_comments">Yorumlar</string>
-    <string name="profile_tab_following">Takip etme</string>
-    <string name="profile_tab_followers">Takipçiler</string>
-
     <string name="profile_followers_item_follower_for">%1$s %2$s için takipçi</string>
     <string name="profile_followers_item_following_for">%1$s %2$s için takip</string>
     <string name="profile_followers_unfollow_deleted_title">Takipsiz?</string>
