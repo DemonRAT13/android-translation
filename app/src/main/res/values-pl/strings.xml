@@ -1147,4 +1147,5 @@ Zostaw komentarz i spraw komuś radość!</string>
         <item quantity="many">%1$d wiadomości wysłanych</item>
         <item quantity="other">%1$d wiadomości wysłanych</item>
     </plurals>
+    <string name="upload_chooser_video_thumbnail_generation_failed">Nie udało się stworzyć miniatury</string>
     </resources>

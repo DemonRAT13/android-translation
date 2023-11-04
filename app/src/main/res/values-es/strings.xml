@@ -1118,4 +1118,5 @@
         <item quantity="other">%1$d mensajes enviados</item>
     </plurals>
     <string name="user">Usuario</string>
+    <string name="upload_chooser_video_thumbnail_generation_failed">No se pudo crear miniatura</string>
     </resources>

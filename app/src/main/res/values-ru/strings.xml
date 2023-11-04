@@ -1115,4 +1115,5 @@
         <item quantity="many">%1$d Отправленных сообщений</item>
         <item quantity="other">%1$d Отправленных сообщений</item>
     </plurals>
-</resources>
+<string name="upload_chooser_video_thumbnail_generation_failed">Не удалось создать миниатюру</string>
+    </resources>
