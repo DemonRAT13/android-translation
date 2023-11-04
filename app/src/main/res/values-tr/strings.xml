@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <resources>
-<string name="action_log_out">Çıkış Yap</string>
+    <string name="action_log_out">Çıkış Yap</string>
     <string name="action_log_in">Giriş yapmak</string>
     <string name="action_settings">Ayarlar</string>
     <string name="action_create">Yaratmak</string>
@@ -1054,8 +1054,8 @@
     <string name="discover_users_list_empty">Kullanıcı bulunamadı</string>
     <string name="discover_users_search_empty">\"%1$s \"ile başlayan bir ad veya kullanıcı adı ile hiçbir kullanıcı bulunamadı</string>
     <string name="discover_users_search_error">\"%1$s \"ile başlayarak bir ad veya kullanıcı adı ile bulunamadı. \ N \ nerror: %2$s</string>
-    
-<string name="chat_control_message_12">%1$s Grup bilgilerini %2$s olarak değiştirdi</string>
+
+    <string name="chat_control_message_12">%1$s Grup bilgilerini %2$s olarak değiştirdi</string>
 
     <string name="chat_error_removed_from_chat">Bu sohbetten kaldırıldın</string>
 
@@ -1104,11 +1104,54 @@
 
     <string name="mod_log_chat">%1$s sohbete git</string>
     <string name="post_info_file_dimensions">Dosya Boyutları: %1$dX %2$d</string>
-    <string name="profile_stats_data_liked_posts">%1$d Beğenilen Mesajlar</string>
-    <string name="profile_stats_data_likes_received">%1$d alınan beğeniler</string>
-    <string name="profile_stats_data_comments_written">%1$d YAZLI YAPILDI</string>
-    <string name="profile_stats_data_comments_received">%1$d Yorumlar alındı</string>
-    <string name="profile_stats_data_premium_months">%1$d aylık premium satın alındı</string>
-    <string name="profile_stats_data_levels">%1$d Hesap seviyeleri satın alındı</string>
-    <string name="profile_stats_data_messages_sent">%1$d Gönderilen Mesajlar</string>
-    </resources>
+
+    <plurals name="profile_stats_data_liked_posts">
+        <item quantity="zero">%1$d gönderi beğenildi</item>
+        <item quantity="one">%1$d gönderi beğenildi</item>
+        <item quantity="few">%1$d gönderi beğenildi</item>
+        <item quantity="many">%1$d gönderi beğenildi</item>
+        <item quantity="other">%1$d gönderi beğenildi</item>
+    </plurals>
+    <plurals name="profile_stats_data_likes_received">
+        <item quantity="zero">%1$d beğeni alındı</item>
+        <item quantity="one">%1$d beğeni alındı</item>
+        <item quantity="few">%1$d beğeni alındı</item>
+        <item quantity="many">%1$d beğeni alındı</item>
+        <item quantity="other">%1$d beğeni alındı</item>
+    </plurals>
+    <plurals name="profile_stats_data_comments_written">
+        <item quantity="zero">%1$d yorum yazıldı</item>
+        <item quantity="one">%1$d yorum yazıldı</item>
+        <item quantity="few">%1$d yorum yazıldı</item>
+        <item quantity="many">%1$d yorum yazıldı</item>
+        <item quantity="other">%1$d yorum yazıldı</item>
+    </plurals>
+    <plurals name="profile_stats_data_comments_received">
+        <item quantity="zero">%1$d yorum alındı</item>
+        <item quantity="one">%1$d yorum alındı</item>
+        <item quantity="few">%1$d yorum alındı</item>
+        <item quantity="many">%1$d yorum alındı</item>
+        <item quantity="other">%1$d yorum alındı</item>
+    </plurals>
+    <plurals name="profile_stats_data_premium_months">
+        <item quantity="zero">%1$d aylık premium satın alındı</item>
+        <item quantity="one">%1$d aylık premium satın alındı</item>
+        <item quantity="few">%1$d aylık premium satın alındı</item>
+        <item quantity="many">%1$d aylık premium satın alındı</item>
+        <item quantity="other">%1$d aylık premium satın alındı</item>
+    </plurals>
+    <plurals name="profile_stats_data_levels">
+        <item quantity="zero">%1$d hesap düzeyi satın alındı</item>
+        <item quantity="one">%1$d hesap düzeyi satın alındı</item>
+        <item quantity="few">%1$d hesap düzeyi satın alındı</item>
+        <item quantity="many">%1$d hesap düzeyi satın alındı</item>
+        <item quantity="other">%1$d hesap düzeyi satın alındı</item>
+    </plurals>
+    <plurals name="profile_stats_data_messages_sent">
+        <item quantity="zero">%1$d mesaj gönderildi</item>
+        <item quantity="one">%1$d mesaj gönderildi</item>
+        <item quantity="few">%1$d mesaj gönderildi</item>
+        <item quantity="many">%1$d mesaj gönderildi</item>
+        <item quantity="other">%1$d mesaj gönderildi</item>
+    </plurals>
+</resources>

@@ -913,7 +913,7 @@
     <string name="blocked_get_error">Ошибка: %1$s</string>
     <string name="blocked_none">Вы не заблокировали ни одного пользователя</string>
     <string name="modmail_empty_text">У вас еще нет Modmail!</string>
-<string name="action_start_chat">Начать чат</string>
+    <string name="action_start_chat">Начать чат</string>
     <string name="action_create_1_1_chat">Начните чат 1: 1</string>
     <string name="action_create_group_chat">Начать групповой чат</string>
     <string name="action_clear_history">Чистая история</string>
@@ -1029,7 +1029,7 @@
     <string name="discover_users_list_empty">Пользователи не найдены</string>
     <string name="discover_users_search_empty">Пользователи не найдены с именем или именем пользователя, начиная с \"%1$s \"</string>
     <string name="discover_users_search_error">Пользователи не найдены с именем или именем пользователя, начиная с \"%1$s \". \ N \ nerror: %2$s</string>
-<string name="chat_control_message_12">%1$s изменил информацию группы на %2$s</string>
+    <string name="chat_control_message_12">%1$s изменил информацию группы на %2$s</string>
 
     <string name="chat_error_removed_from_chat">Вы были удалены из этого чата</string>
 
@@ -1078,11 +1078,47 @@
 
     <string name="mod_log_chat">Зайдите в чат %1$s</string>
     <string name="post_info_file_dimensions">Файл измерения: %1$dx %2$d</string>
-    <string name="profile_stats_data_liked_posts">%1$d понравились сообщения</string>
-    <string name="profile_stats_data_likes_received">%1$d лайки</string>
-    <string name="profile_stats_data_comments_written">%1$d Комментарии написаны</string>
-    <string name="profile_stats_data_comments_received">%1$d Комментарии</string>
-    <string name="profile_stats_data_premium_months">%1$d МЕСЯЦЕР ПРИ.</string>
-    <string name="profile_stats_data_levels">%1$d Уровни счета куплены</string>
-    <string name="profile_stats_data_messages_sent">%1$d отправлены сообщения</string>
-    </resources>
+
+    <plurals name="profile_stats_data_liked_posts">
+        <item quantity="one">%1$d Понравившийся пост</item>
+        <item quantity="few">%1$d Понравившихся поста</item>
+        <item quantity="many">%1$d Понравившиеся посты</item>
+        <item quantity="other">%1$d Понравившиеся посты</item>
+    </plurals>
+    <plurals name="profile_stats_data_likes_received">
+        <item quantity="one">%1$d Лайки</item>
+        <item quantity="few">%1$d Лайки</item>
+        <item quantity="many">%1$d Лайки</item>
+        <item quantity="other">%1$d Лайки</item>
+    </plurals>
+    <plurals name="profile_stats_data_comments_written">
+        <item quantity="one">%1$d Написанный комментарий</item>
+        <item quantity="few">%1$d Написанных комментариев</item>
+        <item quantity="many">%1$d Написанных комментариев</item>
+        <item quantity="other">%1$d Написанных комментариев</item>
+    </plurals>
+    <plurals name="profile_stats_data_comments_received">
+        <item quantity="one">%1$d Ответ на комментарий</item>
+        <item quantity="few">%1$d Ответов на комментарий</item>
+        <item quantity="many">%1$d Ответов на комментарий</item>
+        <item quantity="other">%1$d Ответов на комментарий</item>
+    </plurals>
+    <plurals name="profile_stats_data_premium_months">
+        <item quantity="one">%1$d Месяц с оплаченным аккаунтом</item>
+        <item quantity="few">%1$d Месяц с оплаченным аккаунтом</item>
+        <item quantity="many">%1$d Месяц с оплаченным аккаунтом</item>
+        <item quantity="other">%1$d Месяц с оплаченным аккаунтом</item>
+    </plurals>
+    <plurals name="profile_stats_data_levels">
+        <item quantity="one">%1$d Оплаченный уровень аккаунта</item>
+        <item quantity="few">%1$d Оплаченный уровень аккаунта</item>
+        <item quantity="many">%1$d Оплаченный уровень аккаунта</item>
+        <item quantity="other">%1$d Оплаченный уровень аккаунта</item>
+    </plurals>
+    <plurals name="profile_stats_data_messages_sent">
+        <item quantity="one">%1$d Отправленное сообщение</item>
+        <item quantity="few">%1$d Отправленных сообщений</item>
+        <item quantity="many">%1$d Отправленных сообщений</item>
+        <item quantity="other">%1$d Отправленных сообщений</item>
+    </plurals>
+</resources>

@@ -920,14 +920,14 @@ Deixe um comentário e faça alguém feliz!</string>
     <string name="profile_posts">Postagens</string>
     <string name="profile_content_error">Falhou em obter perfil.Clique para tentar novamente</string>
     <string name="profile_content_about">Sobre</string>
-    <string name="profile_content_posts">Veja todas as postagens %1 $</string>
+    <string name="profile_content_posts">Veja todas as postagens %1$d</string>
     <string name="profile_content_favs">Ver All %1$d Posts gostei</string>
     <string name="profile_content_favs_private">%1$d Postagens privadas</string>
-    <string name="profile_content_comments">Veja todos os comentários %1 $</string>
+    <string name="profile_content_comments">Veja todos os comentários %1$d</string>
     <string name="profile_content_comments_private">%1$d Comentários particulares</string>
     <string name="profile_content_following">Veja tudo %1$d Seguindo</string>
     <string name="profile_content_following_private">Seguindo em particular %1$d</string>
-    <string name="profile_content_followers">Veja todos os seguidores %1 $</string>
+    <string name="profile_content_followers">Veja todos os seguidores %1$d</string>
     <string name="profile_content_fursonas">Veja todos os fursonas</string>
     <string name="profile_content_manage_fursonas">Gerencie minhas fursonas</string>
     <string name="at_symbol">\@</string>
@@ -1074,11 +1074,54 @@ Deixe um comentário e faça alguém feliz!</string>
 
     <string name="mod_log_chat">Vá para o bate -papo %1$s</string>
     <string name="post_info_file_dimensions">Dimensões do arquivo: %1$dx %2$d</string>
-    <string name="profile_stats_data_liked_posts">%1$d gostou de postagens</string>
-    <string name="profile_stats_data_likes_received">%1 $ curtidas recebidas</string>
-    <string name="profile_stats_data_comments_written">%1$d Comentários escritos</string>
-    <string name="profile_stats_data_comments_received">%1$d Comentários recebidos</string>
-    <string name="profile_stats_data_premium_months">%1$d meses de prêmio comprado</string>
-    <string name="profile_stats_data_levels">%1$d Níveis de conta comprados</string>
-    <string name="profile_stats_data_messages_sent">%1$d Mensagens enviadas</string>
+
+    <plurals name="profile_stats_data_liked_posts">
+        <item quantity="zero">%1$d postagens curtidas</item>
+        <item quantity="one">%1$d curtiu postagem</item>
+        <item quantity="few">%1$d postagens curtidas</item>
+        <item quantity="many">%1$d postagens curtidas</item>
+        <item quantity="other">%1$d postagens curtidas</item>
+    </plurals>
+    <plurals name="profile_stats_data_likes_received">
+        <item quantity="zero">%1$d curtidas recebidas</item>
+        <item quantity="one">%1$d likes recebidos</item>
+        <item quantity="few">%1$d curtidas recebidas</item>
+        <item quantity="many">%1$d curtidas recebidas</item>
+        <item quantity="other">%1$d curtidas recebidas</item>
+    </plurals>
+    <plurals name="profile_stats_data_comments_written">
+        <item quantity="zero">%1$d comentários escritos</item>
+        <item quantity="one">%1$d comentário escrito</item>
+        <item quantity="few">%1$d comentários escritos</item>
+        <item quantity="many">%1$d comentários escritos</item>
+        <item quantity="other">%1$d comentários escritos</item>
+    </plurals>
+    <plurals name="profile_stats_data_comments_received">
+        <item quantity="zero">%1$d comentários recebidos</item>
+        <item quantity="one">%1$d comentário recebido</item>
+        <item quantity="few">%1$d comentários recebidos</item>
+        <item quantity="many">%1$d comentários recebidos</item>
+        <item quantity="other">%1$d comentários recebidos</item>
+    </plurals>
+    <plurals name="profile_stats_data_premium_months">
+        <item quantity="zero">%1$d meses de premium comprados</item>
+        <item quantity="one">%1$d mês de prêmio comprado</item>
+        <item quantity="few">%1$d meses de premium comprados</item>
+        <item quantity="many">%1$d meses de premium comprados</item>
+        <item quantity="other">%1$d meses de premium comprados</item>
+    </plurals>
+    <plurals name="profile_stats_data_levels">
+        <item quantity="zero">%1$d níveis de conta comprados</item>
+        <item quantity="one">%1$d nível de conta comprada</item>
+        <item quantity="few">%1$d níveis de conta comprados</item>
+        <item quantity="many">%1$d níveis de conta comprados</item>
+        <item quantity="other">%1$d níveis de conta comprados</item>
+    </plurals>
+    <plurals name="profile_stats_data_messages_sent">
+        <item quantity="zero">%1$d mensagens enviadas</item>
+        <item quantity="one">%1$d mensagem enviada</item>
+        <item quantity="few">%1$d mensagens enviadas</item>
+        <item quantity="many">%1$d mensagens enviadas</item>
+        <item quantity="other">%1$d mensagens enviadas</item>
+    </plurals>
     </resources>

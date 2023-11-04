@@ -1104,11 +1104,54 @@
 
     <string name="mod_log_chat">Přejít na chat %1$s</string>
     <string name="post_info_file_dimensions">Rozměry souboru: %1$dx %2$d</string>
-    <string name="profile_stats_data_liked_posts">%1$d se líbily příspěvky</string>
-    <string name="profile_stats_data_likes_received">%1$d Líbí se přijato</string>
-    <string name="profile_stats_data_comments_written">%1$d Komentáře Napsané</string>
-    <string name="profile_stats_data_comments_received">%1$d Přijato komentáře</string>
-    <string name="profile_stats_data_premium_months">%1$d měsíce zakoupené prémie</string>
-    <string name="profile_stats_data_levels">%1$d nakoupené úrovně účtu</string>
-    <string name="profile_stats_data_messages_sent">%1$d Zprávy odeslány</string>
+
+    <plurals name="profile_stats_data_liked_posts">
+        <item quantity="zero">%1$d oblíbených příspěvků</item>
+        <item quantity="one">%1$d oblíbený příspěvek</item>
+        <item quantity="few">%1$d oblíbených příspěvků</item>
+        <item quantity="many">%1$d oblíbených příspěvků</item>
+        <item quantity="other">%1$d oblíbených příspěvků</item>
+    </plurals>
+    <plurals name="profile_stats_data_likes_received">
+        <item quantity="zero">obdrželo %1$d hodnocení Líbí se</item>
+        <item quantity="one">%1$d přijato</item>
+        <item quantity="few">obdrželo %1$d hodnocení Líbí se</item>
+        <item quantity="many">obdrželo %1$d hodnocení Líbí se</item>
+        <item quantity="other">obdrželo %1$d hodnocení Líbí se</item>
+    </plurals>
+    <plurals name="profile_stats_data_comments_written">
+        <item quantity="zero">%1$d napsáno komentářů</item>
+        <item quantity="one">%1$d komentář napsán</item>
+        <item quantity="few">%1$d napsáno komentářů</item>
+        <item quantity="many">%1$d napsáno komentářů</item>
+        <item quantity="other">%1$d napsaných komentářů</item>
+    </plurals>
+    <plurals name="profile_stats_data_comments_received">
+        <item quantity="zero">%1$d přijatých komentářů</item>
+        <item quantity="one">%1$d komentář přijat</item>
+        <item quantity="few">%1$d přijatých komentářů</item>
+        <item quantity="many">%1$d obdržených komentářů</item>
+        <item quantity="other">%1$d přijatých komentářů</item>
+    </plurals>
+    <plurals name="profile_stats_data_premium_months">
+        <item quantity="zero">%1$d měsíců zakoupeného prémie</item>
+        <item quantity="one">%1$d měsíc zakoupené prémie</item>
+        <item quantity="few">%1$d měsíců zakoupeného prémie</item>
+        <item quantity="many">%1$d koupených měsíců prémie</item>
+        <item quantity="other">%1$d měsíců zakoupené prémie</item>
+    </plurals>
+    <plurals name="profile_stats_data_levels">
+        <item quantity="zero">Kupováno %1$d úrovní účtu</item>
+        <item quantity="one">Koupena %1$d úroveň účtu</item>
+        <item quantity="few">Kupováno %1$d úrovní účtu</item>
+        <item quantity="many">Kupováno %1$d úrovní účtu</item>
+        <item quantity="other">koupeno %1$d úrovní účtu</item>
+    </plurals>
+    <plurals name="profile_stats_data_messages_sent">
+        <item quantity="zero">Bylo odesláno %1$d zpráv</item>
+        <item quantity="one">%1$d zpráva odeslána</item>
+        <item quantity="few">Bylo odesláno %1$d zpráv</item>
+        <item quantity="many">Bylo odesláno %1$d zpráv</item>
+        <item quantity="other">Bylo odesláno %1$d zpráv</item>
+    </plurals>
     </resources>

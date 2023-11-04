@@ -1103,11 +1103,54 @@ Zostaw komentarz i spraw komuś radość!</string>
 
     <string name="mod_log_chat">Przejdź do czatu %1$s</string>
     <string name="post_info_file_dimensions">Wymiary pliku: %1$dX %2$d</string>
-    <string name="profile_stats_data_liked_posts">%1$d lubisz posty</string>
-    <string name="profile_stats_data_likes_received">%1$d polubienia otrzymane</string>
-    <string name="profile_stats_data_comments_written">%1$d Komentarze Pisane</string>
-    <string name="profile_stats_data_comments_received">Otrzymane komentarze %1$d</string>
-    <string name="profile_stats_data_premium_months">%1$d MIESIĄC PREMIUM Zakup</string>
-    <string name="profile_stats_data_levels">%1$d KONTALNE poziomy rachunków</string>
-    <string name="profile_stats_data_messages_sent">%1$d Wysłane wiadomości</string>
+
+    <plurals name="profile_stats_data_liked_posts">
+        <item quantity="zero">%1$d polubionych postów</item>
+        <item quantity="one">%1$d polubił post</item>
+        <item quantity="few">%1$d polubionych postów</item>
+        <item quantity="many">%1$d polubionych postów</item>
+        <item quantity="other">%1$d polubionych postów</item>
+    </plurals>
+    <plurals name="profile_stats_data_likes_received">
+        <item quantity="zero">Otrzymano%1$d polubień</item>
+        <item quantity="one">%1$d polubień</item>
+        <item quantity="few">Otrzymano %1$d polubień</item>
+        <item quantity="many">%1$d polubień</item>
+        <item quantity="other">%1$d polubień</item>
+    </plurals>
+    <plurals name="profile_stats_data_comments_written">
+        <item quantity="zero">%1$d komentarzy napisanych</item>
+        <item quantity="one">%1$d komentarz został napisany</item>
+        <item quantity="few">%1$d komentarzy napisanych</item>
+        <item quantity="many">%1$d komentarzy napisanych</item>
+        <item quantity="other">%1$d komentarzy napisanych</item>
+    </plurals>
+    <plurals name="profile_stats_data_comments_received">
+        <item quantity="zero">Otrzymano%1$d komentarzy</item>
+        <item quantity="one">Otrzymano%1$d komentarz</item>
+        <item quantity="few">Otrzymano%1$d komentarzy</item>
+        <item quantity="many">Otrzymano%1$d komentarzy</item>
+        <item quantity="other">Otrzymano%1$d komentarzy</item>
+    </plurals>
+    <plurals name="profile_stats_data_premium_months">
+        <item quantity="zero">%1$d miesięcy kupionej premii</item>
+        <item quantity="one">%1$d miesiąca wykupionej premii</item>
+        <item quantity="few">Kupiono %1$d miesięcy premium</item>
+        <item quantity="many">Kupiono %1$d miesięcy premium</item>
+        <item quantity="other">%1$d miesięcy kupionej premii</item>
+    </plurals>
+    <plurals name="profile_stats_data_levels">
+        <item quantity="zero">Kupiono %1$d poziomów konta</item>
+        <item quantity="one">Kupiono poziom konta %1$d</item>
+        <item quantity="few">Kupiono %1$d poziomów konta</item>
+        <item quantity="many">Kupiono %1$d poziomów konta</item>
+        <item quantity="other">Kupiono %1$d poziomów konta</item>
+    </plurals>
+    <plurals name="profile_stats_data_messages_sent">
+        <item quantity="zero">%1$d wiadomości wysłanych</item>
+        <item quantity="one">%1$d wiadomość wysłana</item>
+        <item quantity="few">%1$d wiadomości wysłanych</item>
+        <item quantity="many">%1$d wiadomości wysłanych</item>
+        <item quantity="other">%1$d wiadomości wysłanych</item>
+    </plurals>
     </resources>
