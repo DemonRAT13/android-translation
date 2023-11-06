@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+<?xml version='1.0' encoding='utf-8'?>
+<resources xmlns:ns0="http://schemas.android.com/tools" ns0:ignore="MissingTranslation">
     <string name="app_name_main" translatable="false">eFur</string>
     <string name="app_name_debug" translatable="false">eFur dev</string>
-    <string name="app_details" translatable="false">Build version %1$s (%2$d) &#169; eFur 2023 | All Rights Reserved | 27752 SLOC </string>
+    <string name="app_details" translatable="false">Build version %1$s (%2$d) © eFur 2023 | All Rights Reserved | 27752 SLOC </string>
 
     <string name="action_log_out">Log out</string>
     <string name="action_log_in">Log in</string>
@@ -15,7 +15,7 @@
     <string name="action_edit_profile">Modifica il profiloe</string>
     <string name="action_view_blocked">Guarda gli utenti bloccati</string>
     <string name="action_report_user">Riporta utente</string>
-    <string name="action_block_user">Blocca/Sblocca&#8230;</string>
+    <string name="action_block_user">Blocca/Sblocca…</string>
     <string name="action_ban_user">Banna utente</string>
     <string name="action_unban_user">Unbanna utente</string>
     <string name="action_show_logs">Guarda i logs</string>
@@ -124,7 +124,7 @@
     <string name="upload_chooser_title">Crea un post</string>
     <string name="upload_chooser_edit_title">Edita un post</string>
     <string name="upload_chooser_crop_image">Ritaglia immagine</string>
-    <string name="upload_picker_quota_text_loading">Recupero quota&#8230;</string>
+    <string name="upload_picker_quota_text_loading">Recupero quota…</string>
     <string name="upload_picker_quota_text">Quota: %1$d - Verra resettata in %2$d minuti</string>
     <string name="upload_chooser_quota_title">Quota rimanente</string>
     <string name="upload_chooser_quota_restock">La tua quota si rifornisce tra %1$d minuti</string>
@@ -136,11 +136,11 @@
     <string name="upload_chooser_video_thumbnail_generation_failed">Impossibile creare la miniatura</string>
     <string name="upload_content_desc">L\'immagine o la GIF non possono caricae!</string>
     <string name="upload_file_error">Qualcosa è andato male nel caricamento del file</string>
-    <string name="upload_progress_0">Compressione&#8230;</string>
-    <string name="upload_progress_1">Preparazione&#8230;</string>
-    <string name="upload_progress_2">Caricamento&#8230;</string>
-    <string name="upload_progress_3">Creazione&#8230;</string>
-    <string name="upload_progress_edit">Salvataggio&#8230;</string>
+    <string name="upload_progress_0">Compressione…</string>
+    <string name="upload_progress_1">Preparazione…</string>
+    <string name="upload_progress_2">Caricamento…</string>
+    <string name="upload_progress_3">Creazione…</string>
+    <string name="upload_progress_edit">Salvataggio…</string>
     <string name="upload_quota_too_low">Non hai più quota di caricamento, attendi %1$d minuti!</string>
 
     <string name="upload_image">Immagine</string>
@@ -164,7 +164,7 @@
     <string name="upload_settings_post_title">Titolo del post</string>
     <string name="upload_settings_post_description">Descrizione del post</string>
     <string name="upload_settings_artist_name">Creatore/Artista originale?</string>
-    <string name="upload_settings_source">Link risorsa (https://&#8230;)</string>
+    <string name="upload_settings_source">Link risorsa (https://…)</string>
     <string name="upload_settings_rating_title">Questo post è ritenuto:</string>
     <string name="upload_settings_rating_safe">Sicuro</string>
     <string name="upload_settings_rating_suggestive">Provocante</string>
@@ -191,7 +191,7 @@
     <string name="upload_settings_content_sensitive">Contenuto/Tema sensibile (Non obbligatorio)</string>
     <string name="upload_settings_content_sensitive_dialog_title">Seleziona contenuti sensibili</string>
     <string name="upload_settings_content_sensitive_none_selected">Nessun contenuto sensibile selezionato</string>
-    <string name="upload_settings_content_sensitive_none_enabled">Non hai abilitato alcun contenuto sensibile.\n\nAggiorna le tue preferenze in Impostazioni->Preferenze contenuti</string>
+    <string name="upload_settings_content_sensitive_none_enabled">Non hai abilitato alcun contenuto sensibile.\n\nAggiorna le tue preferenze in Impostazioni-&gt;Preferenze contenuti</string>
     <string name="upload_settings_categories_remaining">Puoi selezionare al massimo tre categorie</string>
     <string name="upload_settings_tags">Tag</string>
     <string name="upload_settings_tags_hint">Inserisci tag</string>
@@ -200,7 +200,7 @@
     <string name="upload_settings_poll_question_hint">Fai una domanda</string>
     <string name="upload_settings_poll_answers">Risposta votazione</string>
     <string name="upload_settings_poll_option">Opzione</string>
-    <string name="upload_settings_poll_option_add">Aggiungi una opzione&#8230;</string>
+    <string name="upload_settings_poll_option_add">Aggiungi una opzione…</string>
     <string name="upload_settings_poll_settings">Impostazioni</string>
     <string name="upload_settings_poll_settings_type">Più risposte</string>
     <string name="upload_settings_comic_switch">Questo post è in un album</string>
@@ -273,7 +273,7 @@
     <string name="discover_users_start_chat_with">Seleziona l\'utente con cui chattare</string>
     <string name="discover_users_invite">Seleziona utente da invitare</string>
     <string name="discover_users_send_gift_to">Seleziona utente al quale regalare</string>
-    <string name="discover_users_search_searching">Searching&#8230;</string>
+    <string name="discover_users_search_searching">Searching…</string>
     <string name="discover_users_search_not_found">Utente \"%1$s\" non trovato</string>
     <string name="discover_tags">Tags</string>
     <string name="discover_posts_category">Trova categoria</string>
@@ -370,8 +370,8 @@
     <string name="mod_logs">Logs della moderazione</string>
     <string name="mod_logs_user">Logs della moderazione dell\'utente %1$s</string>
     <string name="download">Scarica</string>
-    <string name="share">Condividi&#8230;</string>
-    <string name="arrow_right">-></string>
+    <string name="share">Condividi…</string>
+    <string name="arrow_right">-&gt;</string>
     <string name="chats">Chats</string>
     <string name="message">Messaggissage</string>
     <string name="edit">Modifica</string>
@@ -438,14 +438,14 @@
     <string name="chats_unread_many" translatable="false">%1$d+</string>
     <string name="chats_no_chats">Una volta che ti unisci a una chat, apparirà qui.\n\nAvvia una chat nell\'angolo in alto a destra!</string>
 
-    <string name="chat_toolbar_loading">Caricamento chat&#8230;</string>
+    <string name="chat_toolbar_loading">Caricamento chat…</string>
     <string name="chat_group_member_count">%1$d membro</string>
     <string name="chat_group_members_count">%1$d membri</string>
     <string name="chat_group_members_count_online">%1$d membri, %2$d online</string>
-    <string name="chat_currently_writing_one">%1$s sta scrivendo&#8230;</string>
-    <string name="chat_currently_writing_two">%1$s e %2$s stanno scrivendo&#8230;</string>
-    <string name="chat_currently_writing_three">%1$s, %2$s e %3$s sta scrivendo&#8230;</string>
-    <string name="chat_currently_writing_four_or_more">%1$s, %2$s e %3$d altri stanno scrivendo&#8230;</string>
+    <string name="chat_currently_writing_one">%1$s sta scrivendo…</string>
+    <string name="chat_currently_writing_two">%1$s e %2$s stanno scrivendo…</string>
+    <string name="chat_currently_writing_three">%1$s, %2$s e %3$s sta scrivendo…</string>
+    <string name="chat_currently_writing_four_or_more">%1$s, %2$s e %3$d altri stanno scrivendo…</string>
     <string name="chat_deleted">Elimina chat</string>
     <string name="chat_deleted_dialog_title">Chat eliminata</string>
     <string name="chat_deleted_dialog_message">Questa chat è stata eliminata.</string>
@@ -453,7 +453,7 @@
     <string name="chat_self_chat">%1$s (messaggio salvato)</string>
     <string name="chat_create_group_dialog_title">Crea una chat di gruppo</string>
     <string name="chat_create_group_dialog_input_hint">Nome del gruppo (Puoi cambiarlo dopo)</string>
-    <string name="chat_create_group_creating">Creazione gruppo&#8230;</string>
+    <string name="chat_create_group_creating">Creazione gruppo…</string>
     <string name="chat_create_group_created">Gruppo creato!</string>
 
     <string name="chat_control_message_3">%1$s si è unito</string>
@@ -509,7 +509,7 @@
     <string name="leave">Esci</string>
     <string name="join">Unisciti</string>
     <string name="decline">Rifiuta</string>
-    <string name="chat_open_joining">Unisciti alla chat&#8230;</string>
+    <string name="chat_open_joining">Unisciti alla chat…</string>
     <string name="chat_open_join_error">Impossibile unirsi: %1$s</string>
     <string name="chat_leave_error">Impossibile uscire: %1$s</string>
     <string name="chat_delete_error">Impossibile eliminare: %1$s</string>
@@ -714,11 +714,11 @@
 
     <string name="post_comment_hint">Scrivi un commento</string>
     <string name="post_comment_thread_hint">Scrivi una replica</string>
-    <string name="post_comment_empty">E\' vuoto qui&#8230;\n\n
+    <string name="post_comment_empty">E\' vuoto qui…\n\n
        Lascia un commento e rendi felice qualcuno :3!</string>
     <string name="comment_time_posted">%1$s %2$s</string>
     <string name="comment_time_edited">%1$s %2$s (modificato %3$s %4$s tempo fa)</string>
-    <string name="comment_separator">&#126;</string>
+    <string name="comment_separator">~</string>
     <string name="comment_deleted_placeholder">Commento eliminato</string>
     <string name="comment_deleted_placeholder_by_author">Commento eliminato</string>
     <string name="comment_deleted_placeholder_by_post_owner">Commento eliminato dal proprietario del post</string>
@@ -767,10 +767,10 @@
     <string name="report">Reporta</string>
     <string name="hide">Nascondi</string>
     <string name="report_sent">Reporto mandato</string>
-    <string name="report_sending">Reportando&#8230;</string>
+    <string name="report_sending">Reportando…</string>
     <string name="report_failed">Reporto fallito: %1$s</string>
-    <string name="edit_edit">Modifica&#8230;</string>
-    <string name="edit_mod">Moderazione&#8230;</string>
+    <string name="edit_edit">Modifica…</string>
+    <string name="edit_mod">Moderazione…</string>
     <string name="edit_rating">Modifica classifica</string>
     <string name="edit_artist">Modifica artista</string>
     <string name="edit_source">Modifica risorsa</string>
@@ -873,7 +873,7 @@
     <string name="post_info_view_comic">Guarda Album</string>
     <string name="post_info_suggestive">Classificato PROVOCANTE</string>
     <string name="post_info_explicit">Classificato ESPLICITO</string>
-    <string name="post_info_hidden">&#128737; Nascosto da Nuovi post</string>
+    <string name="post_info_hidden">🛡 Nascosto da Nuovi post</string>
     <string name="post_info_artist">Artista: %1$s</string>
     <string name="post_info_source">Risorsa: %1$s</string>
     <string name="post_info_file_size">Grandezza file: %1$s MB</string>
@@ -1009,7 +1009,7 @@
     <string name="edit_profile_link_fa_hint">FurAffinity username</string>
     <string name="edit_profile_link_da_hint">DeviantArt username</string>
     <string name="edit_profile_about_hint">Più info</string>
-    <string name="edit_profile_username_info">Gli altri ti potranno menzionare con @username.\nCaratteri utilizzabili: a-z A-Z _-. e 0&#8211;9</string>
+    <string name="edit_profile_username_info">Gli altri ti potranno menzionare con @username.\nCaratteri utilizzabili: a-z A-Z _-. e 0–9</string>
     <string name="edit_profile_username_invalid">Non puoi usare alcuni caratteri</string>
     <string name="edit_profile_edit_failed">Impossibile modificare il profilo</string>
     <string name="edit_profile_edit_username_taken">Errore: questo nome utente esiste già!</string>
@@ -1046,7 +1046,7 @@
     <string name="edit_profile_age_15_younger">13–15 anni</string>
     <string name="edit_profile_age_16_to_17">16–17 anni</string>
     <string name="edit_profile_age_18_above">18 o più anni</string>
-    <string name="uploading_dots">Caricamento&#8230;</string>
+    <string name="uploading_dots">Caricamento…</string>
     <string name="edit_profile_uploading_error">Errore: %1$s</string>
     <string name="edit_profile_edited_profile">Profilo aggiornato!</string>
     <string name="edit_profile_edit_ad">Edit after dark (AD/NSFW) profile</string>
@@ -1056,7 +1056,7 @@
     <string name="toggle_after_dark">Toogli modalità nascosta (AD/NSFW) del profilo</string>
 
     <string name="video_error">Errore di riproduzione: %1$s</string>
-    <string name="downloading">Scaricamento&#8230;</string>
+    <string name="downloading">Scaricamento…</string>
     <string name="download_error_storage_permission_required">Permessi di immagazzinamento richiseti!</string>
 
     <string name="settings_consent_title">Consenti</string>
@@ -1132,7 +1132,7 @@
     <string name="delete_account_posts_success">Eliminati %1$d post</string>
     <string name="delete_account_messages_success">Eliminati %1$d messaggi</string>
     <string name="delete_account_account_success">Accont eliminato</string>
-    <string name="delete_account_deleting">Eliminazione&#8230;</string>
+    <string name="delete_account_deleting">Eliminazione…</string>
     <string name="delete_account_deleted">Eliminato tutto</string>
     <string name="delete_account_final_confirmation_title">Continuare?</string>
     <string name="delete_account_final_confirmation_message">Sei sicuro? Il tuo account verrà perso per sempre.</string>
@@ -1205,4 +1205,6 @@
     <string name="discover_users_list_empty">Utenti non trovati</string>
     <string name="discover_users_search_empty">Nessun utente trovato con un nome o un nome utente che inizia con \"%1$s\"</string>
     <string name="discover_users_search_error">Nessun utente trovato con un nome o un nome utente che inizia con \"%1$s\".\n\nErrore: %2$s</string>
-</resources>
+<string name="profile_stats_data_bytes_stored">%1$d byte immagazzinato (%2$s MB)</string>
+
+    </resources>

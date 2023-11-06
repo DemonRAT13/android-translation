@@ -1119,4 +1119,6 @@
     </plurals>
     <string name="user">Usuario</string>
     <string name="upload_chooser_video_thumbnail_generation_failed">No se pudo crear miniatura</string>
+    <string name="profile_stats_data_bytes_stored">%1$d bytes almacenados (%2$s mb)</string>
+
     </resources>

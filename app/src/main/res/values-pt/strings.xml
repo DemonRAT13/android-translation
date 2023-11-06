@@ -1119,4 +1119,6 @@ Deixe um comentário e faça alguém feliz!</string>
         <item quantity="other">%1$d mensagens enviadas</item>
     </plurals>
     <string name="upload_chooser_video_thumbnail_generation_failed">Falhou em criar miniatura</string>
+    <string name="profile_stats_data_bytes_stored">%1$d bytes armazenados (%2$s MB)</string>
+
     </resources>
