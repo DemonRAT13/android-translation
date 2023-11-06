@@ -1,7 +1,7 @@
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
     <string name="app_name_main" translatable="false">eFur</string>
     <string name="app_name_debug" translatable="false">eFur dev</string>
-    <string name="app_details" translatable="false">Build version %1$s (%2$d) &#169; eFur 2023 | All Rights Reserved | 27752 SLOC </string>
+    <string name="app_details" translatable="false">Build version %1$s (%2$d) &#169; eFur 2023 | All Rights Reserved | 27779 SLOC </string>
 
     <string name="action_log_out">Log out</string>
     <string name="action_log_in">Log in</string>
@@ -984,13 +984,7 @@
         <item quantity="many">%1$d messages sent</item>
         <item quantity="other">%1$d messages sent</item>
     </plurals>
-    <plurals name="profile_stats_data_bytes_stored">
-        <item quantity="zero">%1$d bytes stored (%2$s MB)</item>
-        <item quantity="one">%1$d byte stored (%2$s MB)</item>
-        <item quantity="few">%1$d bytes stored (%2$s MB)</item>
-        <item quantity="many">%1$d bytes stored (%2$s MB)</item>
-        <item quantity="other">%1$d bytes stored (%2$s MB)</item>
-    </plurals>
+    <string name="profile_stats_data_bytes_stored">%1$d bytes stored (%2$s MB)</string>
 
     <string name="profile_followers_item_follower_for">Follower for %1$s %2$s</string>
     <string name="profile_followers_item_following_for">Following for %1$s %2$s</string>
