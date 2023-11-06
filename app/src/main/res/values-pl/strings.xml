@@ -1148,4 +1148,6 @@ Zostaw komentarz i spraw komuś radość!</string>
         <item quantity="other">%1$d wiadomości wysłanych</item>
     </plurals>
     <string name="upload_chooser_video_thumbnail_generation_failed">Nie udało się stworzyć miniatury</string>
+    <string name="profile_stats_data_bytes_stored">Zmawiane bajty%1$d (%2$s MB)</string>
+
     </resources>

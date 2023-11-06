@@ -1116,4 +1116,6 @@
         <item quantity="other">%1$d Отправленных сообщений</item>
     </plurals>
 <string name="upload_chooser_video_thumbnail_generation_failed">Не удалось создать миниатюру</string>
+    <string name="profile_stats_data_bytes_stored">%1$d байты хранятся (%2$s MB)</string>
+
     </resources>
