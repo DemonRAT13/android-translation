@@ -1,7 +1,7 @@
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
     <string name="app_name_main" translatable="false">eFur</string>
     <string name="app_name_debug" translatable="false">eFur dev</string>
-    <string name="app_details" translatable="false">Build version %1$s (%2$d) &#169; eFur 2023 | All Rights Reserved | 27779 SLOC </string>
+    <string name="app_details" translatable="false">Build version %1$s (%2$d) &#169; eFur 2023 | All Rights Reserved | 27946 SLOC </string>
 
     <string name="action_log_out">Log out</string>
     <string name="action_log_in">Log in</string>
@@ -617,18 +617,7 @@
 
     <string name="about_general">Welcome to the eFur project!\n\nA social space to share and enjoy all things furry ~</string>
     <string name="about_stats">Stats</string>
-    <string name="about_stats_content">
-        Users: %1$d
-        \nPosts: %2$d
-        \nComments: %3$d
-        \nMessages: %4$d
-        \nFursonas: %5$d
-        \nFiles: %6$d
-        \nBytes stored: %7$d (%8$s GB)
-        \n\nPremium
-        \nMonths of premium: %9$d
-        \nLevel ups: %10$d
-    </string>
+    <string name="about_stats_content">Users: %1$d\n Posts: %2$d\n Comments: %3$d\n Messages: %4$d\n Fursonas: %5$d\n Files: %6$d\n Bytes stored: %7$d (%8$s GB)\n\n Premium\n Months of premium: %9$d\n Level ups: %10$d</string>
     <string name="feedback_general">Have feedback or suggestions to improve the app? Leave a rating in the Play store, send an email to feedback@efurry.net, or join the Discord and share your thoughts there!</string>
     <string name="contributions_general">If you contribute, send @Dog a message!</string>
     <string name="translate_general">You can help translate the app into another language!</string>
