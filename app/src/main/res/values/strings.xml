@@ -326,6 +326,7 @@
     <string name="copy">Copy</string>
     <string name="search">Search</string>
     <string name="new_">New</string>
+    <string name="trending">Trending</string>
     <string name="following">Following</string>
     <string name="followers">Followers</string>
     <string name="discover">Discover</string>
@@ -402,6 +403,17 @@
     <string name="and">and</string>
     <string name="info">Info</string>
 
+    <string name="verify_account_title">Account verification</string>
+    <string name="verify_account_subtitle">To use all features you need to verify your account.\n\nCheck your inbox at %1$s and enter the code that was sent to you below.</string>
+    <string name="verify_account_code_hint">Enter 6- or 7-digit code</string>
+    <string name="verify_account_resend_code">Resend code</string>
+    <string name="verify_account_resend_text">Did you not receive an email? Click the button below to send a new code</string>
+    <string name="verify_account_resend_code_success">A code has been sent to your email</string>
+    <string name="verify_account_code">Verify code</string>
+    <string name="verify_account_success">Success! Your account has been verified</string>
+
+    <string name="main_verify_email_title">Account verification needed</string>
+    <string name="main_verify_email_message">Press to start the verification process</string>
     <string name="main_update_app_title">App update available!</string>
     <string name="main_update_app_message">Press to update</string>
     <string name="main_update_app_error">Failed: %1$s</string>
@@ -605,7 +617,7 @@
 
     <string name="about_general">Welcome to the eFur project!\n\nA social space to share and enjoy all things furry ~</string>
     <string name="about_stats">Stats</string>
-    <string name="about_stats_content" translatable="false">
+    <string name="about_stats_content">
         Users: %1$d
         \nPosts: %2$d
         \nComments: %3$d
@@ -1068,6 +1080,7 @@
     <string name="setting_language_item_pl" translatable="false">polski (Polish)</string>
     <string name="setting_language_item_pt" translatable="false">Português (Portuguese)</string>
     <string name="setting_language_item_ru" translatable="false">Pусский (Russian)</string>
+    <string name="setting_language_item_it" translatable="false">Italiano (Italian)</string>
 
     <string name="content_filter_title">Content filter</string>
     <string name="content_filter_rating_title">Max content rating</string>
