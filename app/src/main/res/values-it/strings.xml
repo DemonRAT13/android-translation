@@ -1,9 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<resources xmlns:ns0="http://schemas.android.com/tools" ns0:ignore="MissingTranslation">
-    <string name="app_name_main" translatable="false">eFur</string>
-    <string name="app_name_debug" translatable="false">eFur dev</string>
-    <string name="app_details" translatable="false">Build version %1$s (%2$d) © eFur 2023 | All Rights Reserved | 27752 SLOC </string>
-
+<resources>
     <string name="action_log_out">Log out</string>
     <string name="action_log_in">Log in</string>
     <string name="action_settings">Impostazioni</string>
@@ -56,7 +52,7 @@
     <string name="login_password_text">Inserisci la Password</string>
     <string name="login_reset">Resetta password</string>
     <string name="login_new_user">Nuovo utente? Registrati!</string>
-    <string name="legal_notice_launch">Continuando confermi di aver letto e accettato i Termini di servizio e l\\'Informativa sulla privacy:</string>
+    <string name="legal_notice_launch">Continuando confermi di aver letto e accettato i Termini di servizio e l\'Informativa sulla privacy:</string>
     <string name="legal_notice_checkbox">"Accetto i "</string>
     <string name="legal_ad_checkbox">Accetto la pubblicità personalizzata</string>
     <string name="login_invalid_email">E-mail non valida</string>
@@ -81,11 +77,11 @@
     <string name="login_dialog_register_confirm_message">Stai per registrare un account utilizzando %1$s. Verrà inviata una email a questo indirizzo per confermarlo.\n\nContinuare?</string>
     <string name="account_needed">È necessario un account per eseguire questa azione!</string>
     <string name="reset_password_dialog_title">Resetta password</string>
-    <string name="reset_password_dialog_message">Verrà inviata un\'e-mail di reimpostazione della password a \"%1$s\".\nFai clic sul collegamento nell\\'e-mail per reimpostare la password\n\nVuoi continuare?</string>
+    <string name="reset_password_dialog_message">Verrà inviata un\'e-mail di reimpostazione della password a \"%1$s\".\nFai clic sul collegamento nell\'e-mail per reimpostare la password\n\nVuoi continuare?</string>
     <string name="reset_password_error">Errore: %1$s</string>
     <string name="reset_password_sent">È stata inviata un\'e-mail di reimpostazione della password a \"%1$s\"</string>
     <string name="register_success">Account creato, benvenuto su eFur!</string>
-    <string name="login_expired_session">Sessione scaduta, effettua nuovamente l\\'accesso!</string>
+    <string name="login_expired_session">Sessione scaduta, effettua nuovamente l\'accesso!</string>
 
     <string name="logout_dialog_title">Log out?</string>
     <string name="logout_dialog_message">Sei sicuro di voler uscire?</string>
@@ -219,7 +215,7 @@
     <string name="my_comics_add_to_success">Post aggiunto a %1$s</string>
     <string name="comic_list_draft">BOZZA</string>
     <string name="comic_list_pages">Pagina/e: %1$d</string>
-    <string name="comic_list_desc">Aggiornato %1$s %2$s tempo fa, creato %3$s %4$s tempo fa</string>
+    <string name="comic_list_desc">Aggiornato %1$s %2$s fa, creato %3$s %4$s fa</string>
 
     <string name="comic_view_get_error">Impossibile ottenere l\'Album: %1$s</string>
     <string name="comic_view_title">Album</string>
@@ -326,11 +322,11 @@
     <string name="ok">OK</string>
     <string name="copy">Copia</string>
     <string name="search">Cerca</string>
-    <string name="new_">Nuovo</string>
+    <string name="new_">Nuovo Post</string>
     <string name="following">Chi segui</string>
     <string name="followers">I tuoi followers</string>
     <string name="discover">Scopri</string>
-    <string name="news">Nuovi post</string>
+    <string name="news">Novità</string>
     <string name="my_profile">Il mio profilo</string>
     <string name="others">Altri</string>
     <string name="moderation">Moderazione</string>
@@ -395,7 +391,6 @@
     </plurals>
     <string name="description">Descrizione</string>
     <string name="optional">Non obbligatorio</string>
-    <string name="zero" translatable="false">0</string>
     <string name="deleted_account">Account eliminato</string>
     <string name="unknown_account">Sconosciuto</string>
     <string name="help">Aiuto</string>
@@ -435,7 +430,6 @@
     <string name="conversation_delete_deleted_success">Conversazione eliminata</string>
 
     <string name="chats_no_messages">Ancora nessun messaggio</string>
-    <string name="chats_unread_many" translatable="false">%1$d+</string>
     <string name="chats_no_chats">Una volta che ti unisci a una chat, apparirà qui.\n\nAvvia una chat nell\'angolo in alto a destra!</string>
 
     <string name="chat_toolbar_loading">Caricamento chat…</string>
@@ -472,8 +466,8 @@
     <string name="chat_group_add_members">Aggiungi membri</string>
     <string name="chat_group_invite_user_error">Impossibile invitare: %1$s</string>
     <string name="chat_group_invite_user_success">%1$s invitato!</string>
-    <string name="chat_role_with_last_seen_date">%1$s\nUltimo avvistamento %2$s %3$s tempo fa</string>
-    <string name="chat_last_seen_date">ultimo avvistamento %1$s %2$s tempo fa</string>
+    <string name="chat_role_with_last_seen_date">%1$s\nUltimo avvistamento %2$s %3$s fa</string>
+    <string name="chat_last_seen_date">ultimo avvistamento %1$s %2$s fa</string>
     <string name="chat_role_with_online">%1$s\nonline</string>
     <string name="chat_online">online</string>
     <string name="chat_role_owner">Proprietario</string>
@@ -578,17 +572,17 @@
     <string name="block_get_failed">Impossibile ottenere le impostazioni di blocco: %1$s</string>
     <string name="block_save_success">Impostazioni di blocco aggiornate!</string>
 
-    <string name="report_reported_ago">Reportato %1$s %2$s tempo fa</string>
+    <string name="report_reported_ago">Reportato %1$s %2$s fa</string>
     <string name="report_reported_reason">Motivo reporto: %1$s</string>
     <string name="report_reported_by">Reportato da: %1$s (%2$s), %3$s %4$s ago</string>
     <string name="report_resolve_report">Contrassegno risolto</string>
-    <string name="report_resolved_report">Risolto %1$s\\'s reporto</string>
+    <string name="report_resolved_report">Risolto %1$s\'s reporto</string>
     <string name="report_delete_comment">Elimina commento</string>
     <string name="report_resolve_dialog_title">Risolto?</string>
     <string name="report_resolve_dialog_message">Sei sicuro?</string>
     <string name="report_resolve_delete_dialog_title">Elimina?</string>
     <string name="report_resolve_delete_dialog_message">Sei sicuro di voler eliminare questo commento?</string>
-    <string name="report_resolve_deleted_comment">Eliminato %1$s\\'s commento</string>
+    <string name="report_resolve_deleted_comment">Eliminato %1$s\'s commento</string>
     <string name="report_comment_deleted_by_text">%1$s. Ha detto: \n\n%2$s</string>
     <string name="report_linked_button">Clicca per vedere il post</string>
     <string name="report_post_deleted">Questo post è stato eliminato</string>
@@ -606,7 +600,7 @@
 
     <string name="about_general">Benvenuto nel proggetto eFur!\n\nUno spazio sociale per condividere e godersi tutto ciò che è peloso ~</string>
     <string name="about_stats">Stato</string>
-    <string name="about_stats_content" translatable="false">
+    <string name="about_stats_content">
         Utenti: %1$d
         \nPost: %2$d
         \nCommenti: %3$d
@@ -647,7 +641,7 @@
     <string name="premium_purchases_reload">Ricarica gli acquisti</string>
     <string name="premium_purchases_none_found_reload">Nessun acquisto trovato - clicca per ricaricare</string>
     <string name="premium_purchases_error_reload">Impossibile caricare gli acquisti - clicca per riprovare</string>
-    <string name="premium_purchased_item_description">Quantità: %1$d\nAcquistati %2$s %3$s tempo fa</string>
+    <string name="premium_purchased_item_description">Quantità: %1$d\nAcquistati %2$s %3$s fa</string>
     <string name="premium_purchased_item_gifted_to">Regalato a</string>
     <string name="premium_purchased_item_gifted_from">Regalato da</string>
     <string name="premium_purchased_item_activate_dialog_title">Attiva acquisti</string>
@@ -717,7 +711,7 @@
     <string name="post_comment_empty">E\' vuoto qui…\n\n
        Lascia un commento e rendi felice qualcuno :3!</string>
     <string name="comment_time_posted">%1$s %2$s</string>
-    <string name="comment_time_edited">%1$s %2$s (modificato %3$s %4$s tempo fa)</string>
+    <string name="comment_time_edited">%1$s %2$s (modificato %3$s %4$s fa)</string>
     <string name="comment_separator">~</string>
     <string name="comment_deleted_placeholder">Commento eliminato</string>
     <string name="comment_deleted_placeholder_by_author">Commento eliminato</string>
@@ -843,13 +837,11 @@
     <string name="post_content_blocked_body">Contenuti bloccati: %1$s</string>
     <string name="post_tag_and_content_blocked_body">Contenuti bloccati: %1$s,\nTags bloccati: %2$s</string>
     <string name="post_tag_blocked_view">Vedi post</string>
-    <string name="post_date_posted_categories" translatable="false">%1$s%2$s</string>
     <string name="follow">Segui</string>
 
     <string name="post_poll_votes">%1$d voti</string>
     <string name="post_poll_no_votes">Nessun voto</string>
     <string name="post_poll_vote">Vota</string>
-    <string name="post_poll_option_percentage" translatable="false">%1$d%%</string>
     <string name="post_poll_option_click_votes">%1$d voti</string>
     <string name="post_poll_option_click_vote">%1$d votato</string>
     <string name="post_poll_error_title">Impossibile vedere i voti: %1$s. Per favore, riprova</string>
@@ -867,7 +859,7 @@
     <string name="post_info_edited_post_info_error">Impossibile modificarlo: %1$s</string>
     <string name="post_info_title">Informazioni del post</string>
     <string name="post_info_posted_by">Postato da</string>
-    <string name="post_info_time">%1$s %2$s tempo fa</string>
+    <string name="post_info_time">%1$s %2$s fa</string>
     <string name="post_info_in_category2">Categorie:</string>
     <string name="post_info_content">Contenuto/tema:</string>
     <string name="post_info_view_comic">Guarda Album</string>
@@ -888,7 +880,7 @@
     <string name="post_info_tag_blocked">Tag %1$s bloccato</string>
     <string name="post_info_tag_block_error">Impossibile bloccare il tag %1$s: %2$s</string>
 
-    <string name="liked_post_liked_ago">%1$s %2$s tempo fa</string>
+    <string name="liked_post_liked_ago">%1$s %2$s fa</string>
     <string name="liked_post_title">Like da</string>
 
     <string name="post_item_like_desc">Metti like al post</string>
@@ -997,7 +989,6 @@
     <string name="posts_category_search">I post su %1$s</string>
     <string name="posts_single_post_title">%1$s\ post</string>
     <string name="post">Post</string>
-    <string name="posts_comic" translatable="false">%1$s</string>
     <string name="post_is_nsfw">Questo post è classificato NSFW!</string>
 
     <string name="edit_profile_title">Modifica il tuo profilo</string>
@@ -1063,11 +1054,6 @@
 
     <string name="settings_language_title">Localizzazione</string>
     <string name="settings_language_edit_title">Cambia lingua app</string>
-    <string name="setting_language_item_en" translatable="false">English (Inglese)</string>
-    <string name="setting_language_item_es" translatable="false">Español (Spagnolo)</string>
-    <string name="setting_language_item_pl" translatable="false">polski (Polacco)</string>
-    <string name="setting_language_item_pt" translatable="false">Português (Portoghese)</string>
-    <string name="setting_language_item_ru" translatable="false">Pусский (Russo)</string>
 
     <string name="content_filter_title">Filtra contenuti</string>
     <string name="content_filter_rating_title">Valutazione massima dei contenuti</string>
@@ -1172,21 +1158,14 @@
     </plurals>
 
     <string name="blocked_title">Utenti bloccati</string>
-    <string name="blocked_item_for">Bloccato %1$s %2$s tempo fa</string>
+    <string name="blocked_item_for">Bloccato %1$s %2$s fa</string>
     <string name="blocked_get_error">Errore: %1$s</string>
     <string name="blocked_none">Non hai bloccato nessun utente</string>
-
-    <string name="cleanup_old_following_posts" translatable="false">Elimina i vecchi post successivi</string>
-    <string name="cleanup_deleted_messages" translatable="false">Elimina i messaggi eliminati</string>
-    <string name="cleanup_old_control_messages" translatable="false">Elimina i vecchi messaggi di controllo</string>
-    <string name="cleanup_old_like_notifications" translatable="false">Elimina le vecchie notifiche dei like</string>
-    <string name="cleanup_old_installations" translatable="false">Elimina le vecchie installazioni</string>
-    <string name="cleanup_error" translatable="false">Errore: %1$s</string>
 
     <string name="modmail_empty_text">Non hai ancora Modmail!</string>
 
     <string name="discover_users_title">Top utenti</string>
-    <string name="discover_users_member_for">Unito %1$s %2$s tempo fa</string>
+    <string name="discover_users_member_for">Unito %1$s %2$s fa</string>
     <string name="discover_users_order_followers_item">%1$d followers</string>
     <string name="discover_users_order_likes_item">%1$d like ricevuti</string>
     <string name="discover_users_order_posts_item">%1$d post</string>
@@ -1205,6 +1184,6 @@
     <string name="discover_users_list_empty">Utenti non trovati</string>
     <string name="discover_users_search_empty">Nessun utente trovato con un nome o un nome utente che inizia con \"%1$s\"</string>
     <string name="discover_users_search_error">Nessun utente trovato con un nome o un nome utente che inizia con \"%1$s\".\n\nErrore: %2$s</string>
-<string name="profile_stats_data_bytes_stored">%1$d byte immagazzinato (%2$s MB)</string>
+    <string name="profile_stats_data_bytes_stored">%1$d byte immagazzinato (%2$s MB)</string>
 
-    </resources>
+</resources>
