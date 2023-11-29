@@ -1150,4 +1150,38 @@ Zostaw komentarz i spraw komuś radość!</string>
     <string name="upload_chooser_video_thumbnail_generation_failed">Nie udało się stworzyć miniatury</string>
     <string name="profile_stats_data_bytes_stored">Zmawiane bajty %1$d (%2$s MB)</string>
 
+    <string name="trending">Trend</string>
+    <string name="verify_account_title">Weryfikacja konta</string>
+    <string name="verify_account_subtitle">Aby użyć wszystkich funkcji, musisz zweryfikować swoje konto. \ N \ ncheck swoją skrzynkę odbiorczą przy %1$s i wprowadź kod wysłany poniżej.</string>
+    <string name="verify_account_code_hint">Wprowadź kod 6- lub 7-cyfrowy</string>
+    <string name="verify_account_resend_code">Ponowne ponownie</string>
+    <string name="verify_account_resend_text">Czy nie otrzymałeś e -maila?Kliknij przycisk poniżej, aby wysłać nowy kod</string>
+    <string name="verify_account_resend_code_success">Kod został wysłany na adres e -mail</string>
+    <string name="verify_account_code">Sprawdź kod</string>
+    <string name="verify_account_success">Powodzenie! Twoje konto zostało zweryfikowane</string>
+
+    <string name="reset_password_title">Zresetuj hasło</string>
+    <string name="reset_password_subtitle">Zapomniałeś hasła do konta? \ N \ n1.Wprowadź swój e -mail poniżej, aby rozpocząć utworzenie nowego hasła.</string>
+    <string name="reset_password_new_password">2. Wprowadź nowe hasło i kod otrzymany pocztą elektroniczną poniżej.</string>
+    <string name="reset_password_password_hint">Wprowadź nowe hasło</string>
+    <string name="reset_password_email_hint">Wpisz e -mail z konta</string>
+    <string name="reset_password_send_reset">Wyślij kod resetowania hasła</string>
+    <string name="reset_password_code_hint">Wprowadź kod 8- lub 9-cyfrowy</string>
+    <string name="reset_password_resend_code_success">Kod został wysłany na adres e -mail</string>
+    <string name="reset_password_save">Zapisz nowe hasło do konta</string>
+    <string name="reset_password_success">Powodzenie!Twoje hasło do konta zostało zmienione</string>
+
+    <string name="main_verify_email_title">Potrzebna weryfikacja konta</string>
+    <string name="main_verify_email_message">Naciśnij, aby rozpocząć proces weryfikacji</string>
+    <string name="about_stats_users">Użytkownicy: %1$d</string>
+    <string name="about_stats_posts">Posty: %1$d</string>
+    <string name="about_stats_comments">Komentarze: %1$d</string>
+    <string name="about_stats_messages">Wiadomości: %1$d</string>
+    <string name="about_stats_fursonas">Fursonas: %1$d</string>
+    <string name="about_stats_files">Pliki: %1$d</string>
+    <string name="about_stats_bytes">Bajty przechowywane: %1$d (%2$s GB)</string>
+    <string name="about_stats_premium">Premia</string>
+    <string name="about_stats_premium_months">Miesiące premium: %1$d</string>
+    <string name="about_stats_premium_levels">Poziomy: %1$d</string>
+    <string name="settings_danger_reset_password_title">Zmień hasło do konta</string>
     </resources>

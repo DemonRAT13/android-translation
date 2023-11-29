@@ -1121,4 +1121,38 @@ Deixe um comentário e faça alguém feliz!</string>
     <string name="upload_chooser_video_thumbnail_generation_failed">Falhou em criar miniatura</string>
     <string name="profile_stats_data_bytes_stored">%1$d bytes armazenados (%2$s MB)</string>
 
+    <string name="trending">Tendendo</string>
+    <string name="verify_account_title">Verificação de conta</string>
+    <string name="verify_account_subtitle">Para usar todos os recursos necessários para verificar sua conta.</string>
+    <string name="verify_account_code_hint">Digite código de 6 ou 7 dígitos</string>
+    <string name="verify_account_resend_code">Reenviar código</string>
+    <string name="verify_account_resend_text">Você não recebeu um email?Clique no botão abaixo para enviar um novo código</string>
+    <string name="verify_account_resend_code_success">Um código foi enviado para o seu e -mail</string>
+    <string name="verify_account_code">Código de verificação</string>
+    <string name="verify_account_success">Sucesso!sua conta foi verificada</string>
+
+    <string name="reset_password_title">Redefinir senha</string>
+    <string name="reset_password_subtitle">Esqueceu a senha da sua conta? \ N \ n1.Digite seu e -mail abaixo para começar a criar uma nova senha.</string>
+    <string name="reset_password_new_password">2. Digite sua nova senha e o código que você recebeu por e -mail abaixo.</string>
+    <string name="reset_password_password_hint">Insira a nova senha</string>
+    <string name="reset_password_email_hint">Digite o email da conta</string>
+    <string name="reset_password_send_reset">Enviar código de redefinição de senha</string>
+    <string name="reset_password_code_hint">Digite o código de 8 ou 9 dígitos</string>
+    <string name="reset_password_resend_code_success">Um código foi enviado para o seu e -mail</string>
+    <string name="reset_password_save">Salvar nova senha da conta</string>
+    <string name="reset_password_success">Sucesso!A senha da sua conta foi alterada</string>
+
+    <string name="main_verify_email_title">Verificação da conta necessária</string>
+    <string name="main_verify_email_message">Pressione para iniciar o processo de verificação</string>
+    <string name="about_stats_users">Usuários: %1$d</string>
+    <string name="about_stats_posts">Postagens: %1$d</string>
+    <string name="about_stats_comments">Comentários: %1$d</string>
+    <string name="about_stats_messages">Mensagens: %1$d</string>
+    <string name="about_stats_fursonas">Fursonas: %$ 1 D</string>
+    <string name="about_stats_files">Arquivos: %1$d</string>
+    <string name="about_stats_bytes">Bytes armazenados: %1$d (%2$s GB)</string>
+    <string name="about_stats_premium">Prêmio</string>
+    <string name="about_stats_premium_months">Meses de prêmio: %1$d</string>
+    <string name="about_stats_premium_levels">Nível UPS: %1$d</string>
+    <string name="settings_danger_reset_password_title">Modificar senha da conta</string>
     </resources>

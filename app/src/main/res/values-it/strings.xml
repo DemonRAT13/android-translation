@@ -600,18 +600,6 @@
 
     <string name="about_general">Benvenuto nel proggetto eFur!\n\nUno spazio sociale per condividere e godersi tutto ciò che è peloso ~</string>
     <string name="about_stats">Stato</string>
-    <string name="about_stats_content">
-        Utenti: %1$d
-        \nPost: %2$d
-        \nCommenti: %3$d
-        \nMessaggi: %4$d
-        \nFursone: %5$d
-        \nFile: %6$d
-        \nByte immagazzinati: %7$d (%8$s GB)
-        \n\nAccount premium
-        \nMesi di premium: %9$d
-        \nLivello Account: %10$d
-    </string>
     <string name="feedback_general">Hai feedback o suggerimenti per migliorare l\'app? Lascia una valutazione nel Play Store, invia un\'e-mail a feedback@efurry.net o unisciti a Discord e condividi i tuoi pensieri lì!</string>
     <string name="contributions_general">Se contribuisci, invia @Dog un messaggio!</string>
     <string name="translate_general">Puoi aiutarci a tradurre l\'app nella tua lingua! (Come ho fatto io!)</string>
@@ -1186,4 +1174,38 @@
     <string name="discover_users_search_error">Nessun utente trovato con un nome o un nome utente che inizia con \"%1$s\".\n\nErrore: %2$s</string>
     <string name="profile_stats_data_bytes_stored">%1$d byte immagazzinato (%2$s MB)</string>
 
-</resources>
+<string name="trending">Tendenza</string>
+    <string name="verify_account_title">Verifica dell\'account</string>
+    <string name="verify_account_subtitle">Per utilizzare tutte le funzionalità necessarie per verificare il tuo account. \ N \ ncheck la tua casella di posta in %1$s e inserire il codice inviato di seguito.</string>
+    <string name="verify_account_code_hint">Immettere il codice a 6 o 7 cifre</string>
+    <string name="verify_account_resend_code">Codice di rispedizione</string>
+    <string name="verify_account_resend_text">Non hai ricevuto un\'e -mail?Fai clic sul pulsante in basso per inviare un nuovo codice</string>
+    <string name="verify_account_resend_code_success">Un codice è stato inviato alla tua email</string>
+    <string name="verify_account_code">Verificare il codice</string>
+    <string name="verify_account_success">Successo!il tuo account è stato verificato</string>
+
+    <string name="reset_password_title">Resetta la password</string>
+    <string name="reset_password_subtitle">Hai dimenticato la password del tuo account? \ N \ n1.Inserisci la tua e -mail qui sotto per iniziare con la creazione di una nuova password.</string>
+    <string name="reset_password_new_password">2. Immettere la tua nuova password e il codice ricevuto tramite e -mail di seguito.</string>
+    <string name="reset_password_password_hint">Inserire una nuova password</string>
+    <string name="reset_password_email_hint">Inserisci e -mail dell\'account</string>
+    <string name="reset_password_send_reset">Invia codice di reimpostazione della password</string>
+    <string name="reset_password_code_hint">Immettere il codice a 8 o 9 cifre</string>
+    <string name="reset_password_resend_code_success">Un codice è stato inviato alla tua email</string>
+    <string name="reset_password_save">Salva nuova password dell\'account</string>
+    <string name="reset_password_success">Successo!La password del tuo account è stata modificata</string>
+
+    <string name="main_verify_email_title">Verifica del conto necessario</string>
+    <string name="main_verify_email_message">Premere per avviare il processo di verifica</string>
+    <string name="about_stats_users">Utenti: %1$d</string>
+    <string name="about_stats_posts">Post: %1$d</string>
+    <string name="about_stats_comments">Commenti: %1$d</string>
+    <string name="about_stats_messages">Messaggi: %1$d</string>
+    <string name="about_stats_fursonas">FURSONAS: %$ 1 d</string>
+    <string name="about_stats_files">File: %1$d</string>
+    <string name="about_stats_bytes">Byte memorizzati: %1$d (%2$s GB)</string>
+    <string name="about_stats_premium">Premium</string>
+    <string name="about_stats_premium_months">Mesi di premio: %1$d</string>
+    <string name="about_stats_premium_levels">Livelli UPS: %1$d</string>
+    <string name="settings_danger_reset_password_title">Cambia password dell\'account</string>
+    </resources>

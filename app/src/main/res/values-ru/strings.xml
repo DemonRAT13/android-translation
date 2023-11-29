@@ -1118,4 +1118,38 @@
 <string name="upload_chooser_video_thumbnail_generation_failed">Не удалось создать миниатюру</string>
     <string name="profile_stats_data_bytes_stored">%1$d байты хранятся (%2$s MB)</string>
 
+    <string name="trending">Трендование</string>
+    <string name="verify_account_title">Верификация учетной записи</string>
+    <string name="verify_account_subtitle">Чтобы использовать все функции, вам необходимо проверить свою учетную запись. \ N \ ncheck ваш почтовый ящик в %1$s и введите код, который был отправлен вам ниже.</string>
+    <string name="verify_account_code_hint">Введите 6- или 7-значный код</string>
+    <string name="verify_account_resend_code">Отправить код еще раз</string>
+    <string name="verify_account_resend_text">Вы не получили электронное письмо?Нажмите кнопку ниже, чтобы отправить новый код</string>
+    <string name="verify_account_resend_code_success">Код был отправлен на вашу электронную почту</string>
+    <string name="verify_account_code">Проверьте код</string>
+    <string name="verify_account_success">Успех!Ваша учетная запись была подтверждена</string>
+
+    <string name="reset_password_title">Сброс пароля</string>
+    <string name="reset_password_subtitle">Забыли пароль вашей учетной записи? \ N \ n1.Введите свою электронную почту ниже, чтобы начать с создания нового пароля.</string>
+    <string name="reset_password_new_password">2. Введите свой новый пароль и код, который вы получили по электронной почте ниже.</string>
+    <string name="reset_password_password_hint">Введите новый пароль</string>
+    <string name="reset_password_email_hint">Введите электронную почту учетной записи</string>
+    <string name="reset_password_send_reset">Отправить код сброса пароля</string>
+    <string name="reset_password_code_hint">Введите 8- или 9-значный код</string>
+    <string name="reset_password_resend_code_success">Код был отправлен на вашу электронную почту</string>
+    <string name="reset_password_save">Сохранить пароль новой учетной записи</string>
+    <string name="reset_password_success">Успех!Пароль вашей учетной записи был изменен</string>
+
+    <string name="main_verify_email_title">Требуется проверка счета</string>
+    <string name="main_verify_email_message">Нажмите, чтобы начать процесс проверки</string>
+    <string name="about_stats_users">Пользователи: %1$d</string>
+    <string name="about_stats_posts">Сообщения: %1$d</string>
+    <string name="about_stats_comments">Комментарии: %1$d</string>
+    <string name="about_stats_messages">Сообщения: %1$d</string>
+    <string name="about_stats_fursonas">Fursonas: %$ 1 D</string>
+    <string name="about_stats_files">Файлы: %1$d</string>
+    <string name="about_stats_bytes">Байты хранятся: %1$d (%2$s GB)</string>
+    <string name="about_stats_premium">Премиум</string>
+    <string name="about_stats_premium_months">Месяцы премии: %1$d</string>
+    <string name="about_stats_premium_levels">Уровень повышения: %1$d</string>
+    <string name="settings_danger_reset_password_title">Изменить пароль учетной записи</string>
     </resources>

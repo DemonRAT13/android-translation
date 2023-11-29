@@ -1121,4 +1121,38 @@
     <string name="upload_chooser_video_thumbnail_generation_failed">No se pudo crear miniatura</string>
     <string name="profile_stats_data_bytes_stored">%1$d bytes almacenados (%2$s mb)</string>
 
+    <string name="trending">Tendencias</string>
+    <string name="verify_account_title">Verificación de la cuenta</string>
+    <string name="verify_account_subtitle">Para usar todas las funciones, debe verificar su cuenta.</string>
+    <string name="verify_account_code_hint">Ingrese el código de 6 o 7 dígitos</string>
+    <string name="verify_account_resend_code">Reenviar codigo</string>
+    <string name="verify_account_resend_text">¿No recibiste un correo electrónico?Haga clic en el botón de abajo para enviar un nuevo código</string>
+    <string name="verify_account_resend_code_success">Se ha enviado un código a su correo electrónico</string>
+    <string name="verify_account_code">Código de verificación</string>
+    <string name="verify_account_success">¡Éxito!Tu cuenta ha sido verificada</string>
+
+    <string name="reset_password_title">Restablecer la contraseña</string>
+    <string name="reset_password_subtitle">¿Olvidó la contraseña de su cuenta? \ N \ n1.Ingrese su correo electrónico a continuación para comenzar a crear una nueva contraseña.</string>
+    <string name="reset_password_new_password">2. Ingrese su nueva contraseña y el código que recibió por correo electrónico a continuación.</string>
+    <string name="reset_password_password_hint">Ingrese nueva clave</string>
+    <string name="reset_password_email_hint">Ingrese el correo electrónico de la cuenta</string>
+    <string name="reset_password_send_reset">Enviar código de restablecimiento de contraseña</string>
+    <string name="reset_password_code_hint">Ingrese el código de 8 o 9 dígitos</string>
+    <string name="reset_password_resend_code_success">Se ha enviado un código a su correo electrónico</string>
+    <string name="reset_password_save">Guardar contraseña de nueva cuenta</string>
+    <string name="reset_password_success">¡Éxito!La contraseña de su cuenta ha sido cambiada</string>
+
+    <string name="main_verify_email_title">Verificación de la cuenta necesaria</string>
+    <string name="main_verify_email_message">Presione para iniciar el proceso de verificación</string>
+    <string name="about_stats_users">Usuarios: %1$d</string>
+    <string name="about_stats_posts">Publicaciones: %1$d</string>
+    <string name="about_stats_comments">Comentarios: %1$d</string>
+    <string name="about_stats_messages">Mensajes: %1$d</string>
+    <string name="about_stats_fursonas">Fursonas: %$ 1 D</string>
+    <string name="about_stats_files">Archivos: %1$d</string>
+    <string name="about_stats_bytes">Bytes almacenados: %1$d (%2$s GB)</string>
+    <string name="about_stats_premium">De primera calidad</string>
+    <string name="about_stats_premium_months">Meses de prima: %1$d</string>
+    <string name="about_stats_premium_levels">Nivel UPS: %1$d</string>
+    <string name="settings_danger_reset_password_title">Cambie la contraseña de la cuenta</string>
     </resources>
