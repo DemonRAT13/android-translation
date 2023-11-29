@@ -412,6 +412,17 @@
     <string name="verify_account_code">Verify code</string>
     <string name="verify_account_success">Success! Your account has been verified</string>
 
+    <string name="reset_password_title">Reset password</string>
+    <string name="reset_password_subtitle">Forgot your account password?\n\n1. Enter your email below to get started with creating a new password.</string>
+    <string name="reset_password_new_password">2. Enter your new password and the code you received by email below.</string>
+    <string name="reset_password_password_hint">Enter new password</string>
+    <string name="reset_password_email_hint">Enter account email</string>
+    <string name="reset_password_send_reset">Send password reset code</string>
+    <string name="reset_password_code_hint">Enter 8- or 9-digit code</string>
+    <string name="reset_password_resend_code_success">A code has been sent to your email</string>
+    <string name="reset_password_save">Save new account password</string>
+    <string name="reset_password_success">Success! Your account password has been changed</string>
+
     <string name="main_verify_email_title">Account verification needed</string>
     <string name="main_verify_email_message">Press to start the verification process</string>
     <string name="main_update_app_title">App update available!</string>
@@ -617,7 +628,16 @@
 
     <string name="about_general">Welcome to the eFur project!\n\nA social space to share and enjoy all things furry ~</string>
     <string name="about_stats">Stats</string>
-    <string name="about_stats_content">Users: %1$d\n Posts: %2$d\n Comments: %3$d\n Messages: %4$d\n Fursonas: %5$d\n Files: %6$d\n Bytes stored: %7$d (%8$s GB)\n\n Premium\n Months of premium: %9$d\n Level ups: %10$d</string>
+    <string name="about_stats_users">Users: %1$d</string>
+    <string name="about_stats_posts">Posts: %1$d</string>
+    <string name="about_stats_comments">Comments: %1$d</string>
+    <string name="about_stats_messages">Messages: %1$d</string>
+    <string name="about_stats_fursonas">Fursonas: %1$d</string>
+    <string name="about_stats_files">Files: %1$d</string>
+    <string name="about_stats_bytes">Bytes stored: %1$d (%2$s GB)</string>
+    <string name="about_stats_premium">Premium</string>
+    <string name="about_stats_premium_months">Months of premium: %1$d</string>
+    <string name="about_stats_premium_levels">Level ups: %1$d</string>
     <string name="feedback_general">Have feedback or suggestions to improve the app? Leave a rating in the Play store, send an email to feedback@efurry.net, or join the Discord and share your thoughts there!</string>
     <string name="contributions_general">If you contribute, send @Dog a message!</string>
     <string name="translate_general">You can help translate the app into another language!</string>
@@ -1109,6 +1129,7 @@
 
     <string name="settings_danger_title">Danger zone</string>
     <string name="settings_danger_change_email_title">Change account email address</string>
+    <string name="settings_danger_reset_password_title">Change account password</string>
     <string name="settings_danger_change_email_message">If you need to change the email address used to login to your account with you can do so here.\n\nCurrent email: %1$s</string>
     <string name="settings_danger_change_email_confirm_title">Confirm email change</string>
     <string name="settings_danger_change_email_confirm_message">To confirm the email change, please enter the new email again.\n\nCurrent email: %1$s\nNew email: %2$s</string>
